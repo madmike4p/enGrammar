@@ -1,0 +1,49 @@
+Aktywa obrotowe zawierają pieniądze, które firma ma na koncie bankowym, należności i zapasy towarów.
+Wszystkie budynki, maszyny i ziemia należące do firmy są jej środkami trwałymi.
+Aktywa niematerialne zawierają, między innymi, marki, licencje i patenty.
+Są dwa rodzaje pasywów: pasywa bieżące i długoterminowe.
+Pod koniec każdego roku obrotowego, nasz księgowy przygotowuje bilans, który przedstawia wszystkie aktywa i pasywa firmy.
+Przygotowuje też rachunek zysków i strat, który pokazuje ostateczny wynik dla roku.
+Kto jest odpowiedzialny za prowadzenie ksiąg?
+Księgowi wprowadzają dane do systemu.
+Zajmują się należnościami oraz zobowiązaniami.
+Jeśli potrzebują pomocy, zwracają się do starszego księgowego.
+Jeśli kupujesz sprzęt warty więcej niż 1000 euro, musisz go amortyzować przez pewien okres czasu.
+Jak się zużywa, część jego wartości jest dodawana do kosztów.
+Pod koniec tego okresu, umarzamy pozostałą wartość księgową tego sprzętu.
+Jeśli prowadzisz swoją firmę, możesz prowadzić księgi sam lub wynająć biuro rachunkowe.
+Dobrze jest znać prawo podatkowe i wiedzieć, jak wykorzystać wszystkie odliczenia podatkowe.
+Przygotuj wszystkie sprawozdania finansowe na audyt.
+Roczny audyt zweryfikuje, czy księgi, które prowadzimy, są poprawne i dokładne.
+Już wprowadziliśmy wszystkie dane liczbowe do księgi głównej.
+Wykres sprzedaży wskazuje, że powinniśmy wkrótce osiągnąć próg rentowności.
+Jeśli odejmiemy sumę bieżących pasywów od aktywów obrotowych, otrzymamy kapitał obrotowy.
+Jak długo amortyzuje się samochód?
+Powinno się amortyzować samochody służbowe przez okres 3 lat.
+Nasza firma ma pewnych dłużników, którzy nie zapłacą swoich faktur.
+No cóż, to co możemy zrobić, to umorzyć ich długi i zaksięgować je jako koszt.
+
+Current assets include money that a company has in its bank account, receivables and stocks of goods.
+All the company’s buildings, machines and land are its fixed assets.
+Intangible assets include, among others, brands, licences and patents.
+There are two kinds of liabilities: current and long-term liabilities.
+At the end of every financial year, our accountant prepares a balance sheet, which presents all the company’s assets and liabilities.
+He also prepares a profit and loss account, which shows the bottom line for a year.
+Who is in charge of bookkeeping?
+Accountants enter data into the system.
+They handle accounts receivable and accounts payable.
+If they need help, they turn to the senior accountant.
+When you buy equipment that is worth more than 1000 euros, you have to depreciate it over some period of time.
+As it wears out, a part of its value is added to expenses.
+At the end of this period, we write off the remaining book value of the equipment.
+If you run your own company, you can either keep the accounts by yourself or hire an accounting office.
+It’s good to know the tax law and know how to take advantage of all the tax deductions.
+Prepare all the financial statements for the audit.
+The annual audit will verify if the books we keep are correct and accurate.
+We’ve already entered all the figures in the general ledger.
+The sales chart shows that we should reach the break-even point soon.
+If we subtract the sum of current liabilities from the current assets, we’ll get the working capital.
+How long is a car depreciated for?
+You should depreciate company cars over a period of 3 years.
+Our company has some debtors that are not going to pay their invoices.
+Well, what we can do is write their debts off and enter them as an expense.

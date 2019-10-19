@@ -1,0 +1,49 @@
+Możemy obniżyć koszty jednostkowe kupując hurtowo.
+Towary zostaną dostarczone, jak tylko wszystkie zaległe faktury będą uregulowane.
+Musiała nastąpić pomyłka w zamówieniu, stąd to opóźnienie w wysyłce.
+Zgodnie z naszą polityką zwrotów, pełny koszt będzie refundowany, pod warunkiem że towary zostaną zwrócone w idealnym stanie.
+Pracujemy nad wdrożeniem bardziej skutecznego systemu zaopatrzenia.
+Nawyki zakupowe mają wiele wspólnego z siłą nabywczą.
+Początkowe nakłady na reklamę były dwa razy wyższe od kosztów produkcji.
+Koszty ogólne związane z prowadzeniem małej lub średniej firmy są relatywnie wyższe.
+Firma, która wygrała przetarg, zbyt nisko oszacowała koszty projektu i wycofała się.
+Niektóre koszty bieżące mogą być zrekompensowane poprzez cięcia w innych obszarach.
+Wyłożyliśmy 300 000 euro na tę kampanię reklamową. Ciekawe, czy to się opłaci.
+Policzyli sobie dwa razy więcej niż wynosi aktualna stawka za tego rodzaju usługę, ale było warto.
+Dostawa jest niekompletna. Co więcej, dane techniczne nie są zgodne z zamówieniem.
+Czy kupujący musi ponosić cały koszt prowizji? 
+Niestety, musimy ograniczyć wydatki nie tylko na badania i rozwój, ale także wydatki inwestycyjne.
+Wszystkie produkty zostały wyszczególnione na fakturze, wraz z ich kodem kreskowym i ceną zakupu netto.
+Obserwowanie nawyków zakupowych pozwala nam zaoferować klientom usługi i produkty dopasowane do ich potrzeb.
+Koszty bezpośrednie są bezpośrednio związane z produktem, np. materiały, praca i sprzęt.
+Trudno obliczyć średni koszt z tak wielu zmiennych.
+Jako że koszty stałe zostały już ograniczone, możemy spróbować obniżyć koszty zmienne.
+Musieliśmy podnieść ceny, aby zrównoważyć zwiększone koszty produkcji.
+Zamówienie musi zawierać numer i datę zamówienia, nazwę sprzedającego, szczegóły wysyłki, warunki płatności i opis produktu.
+Zawiera też cenę jednostkową, ilość, wartość, opłaty za przewóz, podatek od sprzedaży i łączną kwotę.
+Jeśli chcielibyście wypróbować ten program, możemy go wysłać do państwa na próbę (z prawem zwrotu).
+
+We can reduce unit costs by buying in bulk.
+Goods will be delivered once all the outstanding invoices are settled.
+There must have been a mix-up in the order, hence the delay in dispatch.
+In line with our returns policy, the full cost will be refunded provided that the goods are returned in perfect condition.
+We’re working on implementing a more efficient procurement system.
+Buying habits have a lot to do with purchasing power.
+The initial outlay on advertising was twice as high as the production costs.
+Overheads involved in running a small or medium company are relatively higher.
+The company that won the tender underestimated the cost of the project and withdrew.
+Some of the running costs could be offset by cutbacks in other areas.
+We shelled out 300 000 euros for that advertising campaign. I wonder whether it will pay off.
+They charged us twice the going rate for this kind of service but it was worth it.
+The delivery is incomplete. What’s more, the specifications are not in accordance with the order.
+Does the buyer have to bear the full cost of commission?
+Unfortunately, we have to cut back not only on R&D spending but also capital expenditure.
+All the products have been itemized on the invoice, together with their bar code and net purchase price.
+Observing buying habits lets us offer services and products tailored to our customers’ needs.
+Direct costs are directly attributable to the product, e.g. materials, labour and equipment.
+It’s hard to calculate the average cost with so many variables.
+As overheads have already been cut back, we can try to cut down on variable costs.
+We had to raise the prices in order to offset the increased production costs.
+A purchase order has to include the PO number and date, vendor’s name, shipment details, payment terms and item description.
+It also includes unit price, quantity, amount, freight charges, sales tax and total amount.
+If you’d like to try out the programme, we can send it to you on approval.

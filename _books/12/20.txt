@@ -1,0 +1,49 @@
+Wadliwe elementy musiały wyjść z tej samej partii produkcyjnej.
+Czy mógłby pan podać mi numer partii produkcyjnej?
+Stany magazynowe powinny być ograniczone do minimum.
+Nowa wersja tego modelu ukaże się za kilka tygodni.
+To jest punkt odniesienia, według którego będziemy oceniać jakość produktów.
+Czy wolałbyś używać analizy porównawczej, czy sprawdzonych rozwiązań, żeby poprawić jakość produkcji?
+Łatwiej jest korzystać z metody analizy konstrukcji, niż zaczynać od zera.
+Ten rodzaj przemysłu wymaga ogromnych inwestycji w maszyny i know–how. Co więcej, koszty eksploatacyjne są bardzo wysokie.
+Jakie informacje są wymagane na wczesnych etapach w procesie produkcyjnym?
+Jeśli ktoś wykonywałby za nas naszą działalność dodatkową, moglibyśmy skupić się na naszej podstawowej działalności.
+Jakie trudności napotykacie przy pozbywaniu się odpadów przemysłowych?
+Używamy technik zapoczątkowanych przez francuskich inżynierów, które określają wszystkie etapy w cyklu produkcyjnym.
+Czas przygotowania samej produkcji to około 6 miesięcy, nie mówiąc już o reklamie i dystrybucji.
+Ten gotowy produkt to wynik bardzo prostego pomysłu.
+Jak mierzy się zdolność produkcyjną?
+Robimy wyrywkowe kontrole, żeby upewnić się, że wszystko jest robione zgodnie ze specyfikacją oraz w celu uniknięcia procesu przeróbki.
+Chcemy, by wszystko było zrobione dobrze za pierwszym razem.
+Mamy umowę licencyjną z francuską firmą na produkcję i sprzedaż ich produktów tutaj.
+Z powodu nadprodukcji, rynek jest przesycony/zalany tym towarem.
+Trudno powiedzieć, dlaczego model ten został przyjęty jako sprawdzone/najlepsze rozwiązanie.
+Firma podniosła swoje standardy efektywności i w ten sposób udało im się wypracować/osiągnąć najlepsze rozwiązanie.
+Fabryka pracuje na pełnych obrotach. Nasza całkowita produkcja wzrosła o 10%.
+Aby odnieść sukces, potrzebujemy odpowiedniego produktu w odpowiednim miejscu i w odpowiednim czasie.
+W jakim przemyśle korzyści skali są szczególnie ważne?
+
+The faulty pieces must have come from the same production batch.
+Would you mind giving me the batch number?
+Stock levels should be kept to a minimum.
+The new version of this model will come out in a few weeks.
+This is the benchmark by which we will judge the quality of the products.
+Would you prefer to use benchmarking or best practice to enhance production quality?
+It’s easier to use reverse engineering than start from scratch.
+This kind of industry requires massive investment in machinery and know-how. What’s more, operating costs are very high.
+What kind of information is required at the early stages in the production process?
+If we had our non-core activities done by someone else, we would be able to focus on our core business.
+What difficulties do you encounter while disposing of industrial waste?
+We’re using techniques pioneered by French engineers that define all the stages in a production cycle.
+The lead time for production alone is around 6 months, not to mention advertising and distribution.
+The finished product is the result of a very straightforward idea.
+How is the production capacity measured?
+We do spot checks in order to make sure everything is done to spec and also to avoid the process of reworking.
+We want to have everything done well first time.
+We have a licensing agreement with a French company to produce and market their products here.
+Due to overproduction, there is a glut in the market of this commodity.
+It’s hard to say why this model was adopted as best practice.
+The company raised its standards of efficiency and this way they managed to reach best practice.
+The factory is working at full capacity. Our overall production has risen by 10%.
+In order to succeed, we need the right product in the right place at the right time.
+In what kind of industry are economies of scale particularly important?

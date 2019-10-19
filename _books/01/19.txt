@@ -1,0 +1,61 @@
+Musisz tutaj przyjść.
+Czy musisz iść na spotkanie?
+Nie musisz tutaj być.
+Nie wolno tutaj parkować.
+Czy muszę zmienić hasło?
+Nie wolno palić w tym biurze.
+Musisz to zapamiętać.
+O której musisz wstać?
+On musi mi pomóc.
+Muszą coś powiedzieć.
+Nie wolno tego dotykać.
+Musisz przyjść prosto do domu.
+Muszę przeczytać instrukcję.
+Czy musisz dzisiaj wychodzić?
+Czy oni muszą podpisać ten dokument?
+Musicie już iść?
+Nie wolno im wchodzić do tamtego pokoju.
+Musisz iść do lekarza.
+Czy ona też musi zapłacić?
+Komputer musi być włączony.
+Czy ja muszę jechać?
+Muszę skończyć ten raport na jutro.
+O której musimy wyjść?
+Mamy jeszcze czas. Nie musimy dzwonić po taksówkę. Możemy pojechać metrem.
+O której musimy tam być?
+Musimy być na lotnisku dwie godziny przed odlotem.
+Gdzie mam podpisać?
+Musimy się pośpieszyć.
+Nie muszą tego robić.
+Nie musisz dzwonić do hydraulika. Mogę to zrobić sam.
+
+You have to come here.
+Do you have to go to the meeting?
+You don’t have to be here.
+You mustn’t park here.
+Do I have to change the password?
+You mustn’t smoke in this office.
+You must remember that.
+What time do you have to get up?
+He must help me.
+They have to say something.
+You mustn’t touch that.
+You must come straight home.
+I must read the instructions.
+Do you have to go out today?
+Do they have to sign this document?
+Do you have to go now?
+They mustn’t enter that room.
+You must go to the doctor.
+Does she have to pay too?
+The computer has to be on.
+Do I have to go?
+I must finish this report for tomorrow.
+What time do we have to leave?
+We still have time. We don’t have to call a taxi. We can take the metro.
+What time do we have to be there?
+We have to be at the airport two hours before the departure.
+Where do I have to sign?
+We have to hurry up.
+They don’t have to do that.
+You don’t have to call the plumber. I can do it myself.

@@ -1,0 +1,61 @@
+To jest słownik, a tamto to kalendarz.
+Co to jest?
+To jest telefon.
+To jest nowy telefon.
+Co to jest (tam daleko)?
+To jest budzik.
+Czy to jest niebieski długopis? (ten tutaj)
+Tak, ten jest niebieski, a tamten czarny.
+To jest moje biurko.
+Czy to twoja książka (tam daleko)?
+Oczywiście, że tak.
+Tamta kobieta jest piękna.
+To jest bardzo dobry pomysł.
+To jest mój przyjaciel, Marek.
+To nie jest dobry znak.
+Ta kurtka jest bardzo fajna.
+Tamta jest brzydka.
+Czy to jest jakiś ważny dokument? (ten tutaj)
+Tak.
+Czy tamten to twój parasol?
+To jest Maria, a tam jest Tom.
+Czy to jest twoja siostra? (tam daleko)
+To nie jest dobre rozwiązanie.
+Czy to jest nowa książka? (ta tutaj)
+Tak, ta jest nowa, a tamta stara.
+To świetnie.
+To jest mój szef.
+Tamta książka jest bardzo droga.
+Ten samochód jest czerwony.
+Tamten jest niebieski.
+
+This is a dictionary and that is a calendar.
+What’s this?
+It’s a phone.
+It’s a new phone.
+What’s that?
+It’s an alarm clock.
+Is this a blue pen?
+Yes, this one is blue and that one is black.
+This is my desk.
+Is that your book?
+Of course it is!
+That woman is beautiful.
+This/It is a very good idea.
+This is my friend, Mark.
+This/It is not a good sign.
+This jacket is very nice.
+That one is ugly.
+Is this an important document?
+Yes, it is.
+Is that your umbrella?
+This is Maria and that is Tom.
+Is that your sister?
+It isn’t a good solution.
+Is this a new book?
+Yes, this one is new and that one is old.
+That’s great.
+This is my boss.
+That book is very expensive.
+This car is red.
+That one is blue.

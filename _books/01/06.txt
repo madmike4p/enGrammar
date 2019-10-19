@@ -1,0 +1,61 @@
+Jaki dziś jest dzień?
+Dzisiaj jest poniedziałek.
+Sobota jest zawsze bardzo krótka.
+Jutro jest wtorek.
+Spotkanie jest w środę.
+Czy spotkanie jest w czwartek, czy w piątek?
+Dziś jest niedziela, 21 sierpnia.
+Koncert jest w niedzielę o 9 wieczorem.
+Treningi są w soboty.
+Moje urodziny są w grudniu (6 grudnia).
+Jej urodziny są 22 marca.
+Jego urodziny są 3 lipca.
+Walentynki są 14 lutego.
+Sylwester jest 31 grudnia.
+Boże Narodzenie jest 25 grudnia.
+Zajęcia są rano.
+Mecz jest po południu.
+Spotkanie jest wieczorem.
+Która godzina?
+Jest jedenasta.
+Jest za piętnaście ósma.
+Jest w pół do dwunastej.
+Jest piętnaście po dziesiątej.
+Spotkanie jest o 14.
+Jest za dziesięć jedenasta.
+Jest pięć po szóstej.
+Jest za dziesięć druga (po południu).
+O której godzinie jest spotkanie?
+O której godzinie są zajęcia?
+O w pół do dziewiątej rano.
+
+What day is today?
+Today is Monday.
+Saturday is always very short.
+Tomorrow is Tuesday.
+The meeting is on Wednesday.
+Is the meeting on Thursday or on Friday?
+Today is Sunday, 21st August (the twenty first of August).
+The concert is on Sunday at nine p.m.
+The trainings are on Saturdays.
+My birthday is in December (on the sixth of December).
+Her birthday is on the twenty-second of March.
+His birthday is on the third of July.
+Saint Valentine’s Day is on the fourteenth of February.
+New Year’s Eve is on the thirty-first of December.
+Christmas Day is on the twenty-fifth of December.
+The classes are in the morning.
+The match is in the afternoon.
+The meeting is in the evening.
+What time is it?
+It’s eleven o’clock.
+It’s a quarter to eight.
+It’s half past eleven.
+It’s a quarter past ten.
+The meeting is at two p.m.
+It’s ten (minutes) to eleven.
+It’s five past six.
+It’s ten to two p.m.
+What time is the meeting?
+What time is the class?
+It’s at half past eight in the morning.

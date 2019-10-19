@@ -1,0 +1,61 @@
+Jest list do ciebie.
+Jest problem.
+Jest kilka problemów.
+Jest parę osób w biurze.
+Niedaleko stąd jest stacja kolejowa.
+Czy jest lotnisko w tym mieście?
+Tak, jest.
+Czy jest jakaś książka na stole?
+Nie, nie ma.
+Czy jest jakaś dobra restauracja w tej okolicy?
+Czy są jakieś dokumenty w szufladzie?
+Czy są jakieś pieniądze w domu?
+Dziś wieczorem jest dobry program w telewizji.
+Czy jest tutaj jakiś komputer?
+Jest pięciu uczniów w klasie.
+Nie ma żadnych książek na półkach.
+Nie ma tutaj żadnych pieniędzy.
+Czy są jakieś problemy?
+Jest parę dokumentów w szufladzie.
+Są dwa szpitale w mieście.
+Czy jest jakaś woda w tej butelce?
+Tak, jest trochę.
+Nie, nie ma wcale.
+W centrum miasta nie ma żadnych drzew.
+Czy są jakieś wolne krzesła?
+Czy jest jakieś centrum handlowe niedaleko?
+W kuchni jest lodówka, kuchenka, zmywarka i parę talerzy.
+Czy jest jakiś hotel blisko waszego biura?
+W tym pokoju nie ma klimatyzacji.
+Czy w pokoju jest telewizor?
+
+There is a letter for you.
+There is a problem.
+There are some problems.
+There are some people in the office.
+There is a train station near here.
+Is there an airport in this city?
+Yes, there is.
+Is there a book on the table?
+No, there isn’t.
+Is there a good restaurant in this area?
+Are there any documents in the drawer?
+Is there any money in the house?
+There’s a good program on television tonight.
+Is there a computer here?
+There are five students in the class.
+There aren’t any books on the shelves./There are no books on the shelves.
+There isn’t any money here./There is no money here.
+Are there any problems?
+There are some documents in the drawer.
+There are two hospitals in town.
+Is there any water in this bottle?
+Yes, there is some.
+No, there isn’t any.
+There aren’t any trees in the city centre./There are no trees in the city centre.
+Are there any free chairs?
+Is there a shopping centre near here?
+In the kitchen there is a fridge, a cooker, a dishwasher and some plates.
+Is there a hotel near your office?
+There is no air conditioning in this room.
+Is there a TV set in the room?

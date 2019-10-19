@@ -1,0 +1,61 @@
+Czy wiesz, gdzie jest Maria?
+Nie mam pojęcia, gdzie ona jest.
+Czy możesz mi powiedzieć, jaki jest jej numer telefonu?
+Nie pamiętam, jaki jest jej numer telefonu.
+Czy wiesz, co to jest?
+Czy możesz mi powiedzieć, czyj to jest samochód?
+Chcę wiedzieć, gdzie on mieszka.
+Chcesz wiedzieć, jaki jest jego adres?
+Nie pamiętam, o której godzinie zaczyna się ten koncert.
+Czy wiesz, gdzie to jest?
+Nie wiem, kiedy jest ta konferencja.
+Czy możesz mi powiedzieć, czemu on tutaj jest?
+Czy możesz mi powiedzieć, jaki jest najlepszy sposób, żeby się tam dostać?
+Czy wiesz, kim jest tamten pan?
+Nie wiem, ile on ma lat.
+Nie pamiętam, gdzie to znalazłam.
+Zapytaj ich, o której przychodzą.
+Powiedz nam, o której zaczyna się pokaz.
+Czy oni wiedzą, jaki jest nasz adres?
+Powiedz im, którą linią metra powinni pojechać.
+Nie pamiętam, gdzie on pracuje.
+Wiecie może, czy on potrzebuje jakiejś pomocy?
+Chciałabym wiedzieć, gdzie jest biuro Mary.
+Możesz mi powiedzieć, która jest godzina?
+Nie mam pojęcia, ile on zarabia.
+Pamiętasz, gdzie ją widziałeś?
+Czy wiesz, gdzie jest Reading?
+Czy możesz mi powiedzieć, co znaczy to słowo?
+Nie pamiętam, co ono znaczy.
+Wiesz może, czy on ma samochód?
+
+Do you know where Maria is?
+I have no idea where she is.
+Can you tell me what her phone number is?
+I don’t remember what her phone number is.
+Do you know what this is?
+Can you tell me whose car it is?
+I want to know where he lives.
+Do you want to know what his address is?
+I don’t remember what time the concert starts.
+Do you know where it is?
+I don’t know when the conference is.
+Can you tell me why he is here?
+Can you tell me what the best way to get there is?
+Do you know who that man is?
+I don’t know how old he is.
+I don’t remember where I found it.
+Ask them what time they’re coming.
+Tell us what time the show starts.
+Do they know what our address is?
+Tell them what metro line they should take.
+I don’t remember where he works.
+Do you know if he needs any help?
+I would like to know where Mary’s office is.
+Can you tell me what time it is?
+I have no idea how much he earns.
+Do you remember where you saw her?
+Do you know where Reading is?
+Can you tell me what this word means?
+I don’t remember what it means.
+Do you know if he has a car?

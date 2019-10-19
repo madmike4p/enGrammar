@@ -1,0 +1,49 @@
+Ściągnij załączony plik, zredaguj go w edytorze tekstu i prześlij go na wspólny dysk.
+Niektóre wyszukiwarki zbierają informacje o swoich użytkownikach, po to żeby dostosować do ich potrzeb przyszłe wyszukiwanie.
+W celu wejścia na stronę, musisz wybrać login i hasło.
+Musi ono składać się z co najmniej 8 znaków, zawierających dużą literę, cyfrę i jeden znak specjalny.
+Jak już wprowadzisz dane w arkuszu kalkulacyjnym, możesz je zaprezentować na wykresie.
+Tylko osoby z bardzo dobrą znajomością komputera mogą ubiegać się o tę pracę, jako że wymaga ona zdolności programowania.
+Nie mogłem tego zrobić, ponieważ mój komputer przestał działać/padł.
+Myślałem, że straciłem wszystkie moje dane, ale na szczęście informatyk zdołał je odzyskać.
+Zawsze upewnij się, żeby zrobić kopię zapasową, tak na wszelki wypadek.
+Chcę ustawić formularz kontaktowy na naszej stronie internetowej. Czy są jakieś szablony?
+Mam dużo różnych ikon, plików i skrótów na pulpicie.
+Oto wydruk rachunku zysków i strat za ostatni miesiąc.
+Czy mógłbyś wysłać mi go mailem?
+Spróbuj poszukać w Google nazwy tego dostawcy Internetu, żeby dowiedzieć się o nim coś więcej.
+Przejrzałem twardy dysk w poszukiwaniu jakichś istotnych informacji, ale nie mogłem nic znaleźć.
+Poprzednia wersja tego programu była bardziej przyjazna dla użytkownika i kompatybilna z wszystkimi innymi programami.
+Ten typ dysku może przechowywać aż do 800 gigabajtów danych.
+Możesz użyć albo panelu dotykowego, myszki albo strzałek, żeby przesunąć kursor.
+Nasza strona miała 10 milionów kliknięć w zeszłym roku dzięki zmodernizowaniu naszego sklepu internetowego.
+Za każdym razem, jak oglądam to video i przechodzę na pełny ekran, zaczyna zacinać.
+Czy plik PDF może być przekonwertowany na plik tekstowy?
+Na pewno jest jakiś wirus na tym komputerze.
+Muszę się wylogować, zrestartować go i zalogować się ponownie.
+Upewnij się, że drukarka jest podłączona do prądu i że komputer jest do niej podłączony.
+
+Download the attached file, edit it in the word processor and upload it onto the shared drive.
+Some search engines collect information about their users in order to customize future searching.
+In order to access the website, you have to choose a login and a password.
+It must consist of at least 8 characters containing a capital letter, a number and one special sign.
+Once you enter figures on a spreadsheet, you can present them in a chart.
+Only people who are highly computer literate can apply for this job as it requires programming skills.
+I couldn’t do it because my computer stopped working/crashed.
+I thought I had lost all my data, but luckily the IT specialist managed to retrieve it.
+Always make sure that you make a backup copy just in case.
+I want to set up a contact form on our website. Are there any templates?
+I’ve got plenty of different icons, files and shortcuts on my desktop.
+Here’s the printout of last month’s profit and loss account.
+Would you mind emailing it to me, please?
+Try to google the name of this Internet service provider to find out more about them.
+I’ve browsed the hard drive in search of some relevant information, but I couldn’t find anything.
+The previous version of this program was more user-friendly and compatible with all other programmes.
+This type of drive can store up to 800 gigabytes of data.
+You can either use a touch pad, a mouse or the arrow keys to move the cursor.
+Our website generated 10 million page views last year thanks to updating our online shop/store.
+Every time I watch this video and I switch to full screen, it gets jerky.
+Can a PDF file be turned into/converted into a word file?
+There must be a virus on this computer.
+I have to log off, restart it and log on again.
+Make sure the printer is plugged in and the computer is hooked up to it.

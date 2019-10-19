@@ -1,0 +1,61 @@
+Zimno ci? |Tak.
+Mieszkasz tu blisko? |Nie.
+Czy to twój płaszcz? |Tak.
+Czy konieczne jest, żeby wypełnić wszystkie luki w formularzu? |Tak.
+Czy on zostaje z nami? |Nie.
+Czy jest jakaś dobra restauracja niedaleko? |Tak.
+Czy muszę tam iść? |Tak.
+Czy oni mogą przełożyć spotkanie? |Nie.
+Czy powinnam coś zmienić? |Nie.
+Czy byłeś w domu wczoraj wieczorem? |Tak.
+Czy widziałeś go wczoraj? |Nie.
+Czy chciałbyś zostać dłużej? |Tak.
+Czy wczoraj była pełnia Księżyca? |Nie.
+Czy oni się zgadzają? |Tak.
+Czy zamierzają do nas dołączyć? |Nie.
+Czy on jest na mnie zły? |Nie.
+Czy on do ciebie dzwoni codziennie? |Tak.
+Czy to są twoje buty? |Nie.
+Czy obowiązkowe jest przygotowanie prezentacji? |Nie.
+Czy mogę oddzwonić do ciebie później? |Tak.
+Czy są jacyś ludzie na zewnątrz? |Nie.
+Czy on musi wygłosić przemówienie? |Nie.
+Czy oni jutro przychodzą? |Tak.
+Czy powinniśmy im to powiedzieć? |Nie.
+Czy byłem spóźniony ostatnim razem? |Nie.
+Czy on wczoraj zadzwonił? |Tak.
+Czy chciałbyś pojechać w góry? |Nie.
+Czy były jakieś telefony do mnie, kiedy mnie nie było? |Tak.
+Odwiedzisz nas w przyszłym miesiącu? |Tak.
+Byłeś w pracy wczoraj o dziewiątej? |Nie.
+
+Are you cold? |Yes, I am.
+Do you live near here? |No, I don’t.
+Is this your coat? |Yes, it is.
+Is it necessary to fill in all the gaps in the form? |Yes, it is.
+Is he staying with us? |No, he isn’t.
+Is there a good restaurant near here? |Yes, there is.
+Do I have to go there? |Yes, you do.
+Can they postpone the meeting? |No, they can’t.
+Should I change anything? |No, you shouldn’t.
+Were you at home last night? |Yes, I was.
+Did you see him yesterday? |No, I didn’t.
+Would you like to stay longer? |Yes, I would.
+Was there a full moon yesterday? |No, there wasn’t.
+Do they agree? |Yes, they do.
+Are they going to join us? |No, they aren’t
+Is he angry at me? |No, he isn’t.
+Does he call you every day? |Yes, he does.
+Are these your shoes? |No, they aren’t.
+Is it obligatory to prepare a presentation? |No, it isn’t.
+Can I call you back later? |Yes, you can.
+Are there any people outside? |No, there aren’t.
+Does he have to make a speech? |No, he doesn’t.
+Are they coming tomorrow? |Yes, they are.
+Should we tell them that? |No, we shouldn’t.
+Was I late last time? |No, you weren’t.
+Did he call yesterday? |Yes, he did.
+Would you like to go to the mountains? |No, I wouldn’t.
+Were there any phone calls for me when I was out? |Yes, there were.
+Will you visit us next month? |Yes, I will.
+Were you at work yesterday at nine? |No, I wasn’t.

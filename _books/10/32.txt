@@ -1,0 +1,49 @@
+Jaki jest twój adres e-mail?
+Sprawdź e-maila.
+Wysyłam ci nowy kontrakt.
+Ok, podpiszę i odeślę ci go.
+Szanowni Państwo,
+Piszę do Państwa, aby poinformować, że nasza firma przenosi się do nowego biura.
+Jeśli macie jakieś pytania, proszę dać nam znać.
+Dziękujemy za odpowiedź.
+Jak będę coś wiedział, napiszę ci e-maila.
+Załączam sprawozdanie ze sprzedaży za ostatni rok.
+Zapomniałeś dołączyć pliku.
+Oto on. / Oto ten plik.
+Zignoruj tego e-maila, jeśli nie masz żadnych zaległych/niezapłaconych faktur.
+To jest automatyczna odpowiedź (z poza biura).
+Będę poza biurem do 20 czerwca. W przypadku pilnych kwestii, proszę skontaktować się z Markiem Smith.
+Piszę do ciebie w sprawie naszego ostatniego spotkania.
+Proszę o telefon, jeśli ma pan jakieś wątpliwości.
+Przykro mi, ale nie mogę uczestniczyć w jutrzejszym spotkaniu.
+Przepraszam za niedogodności.
+Proszę potwierdzić.
+Piszę do pana w sprawie konferencji, w której pan uczestniczył.
+Wczoraj otrzymałem twój e-mail.
+Czekam na kontakt.
+Serdeczne pozdrowienia.
+
+What is your e-mail address?
+Check your e-mail.
+I’m sending you the new contract.
+OK, I’ll sign it and send it back to you.
+Dear Sir/Madam,
+I’m writing to you to inform you that our company is moving to a new office.
+If you have any questions, please let us know.
+Thank you for your reply.
+When I know something, I’ll e-mail you.
+You can find the sales report for last year in the attachment. / I’m attaching the sales report for last year.
+You forgot to attach the file.
+Here it is. / Here is the file.
+Ignore this e-mail if you have no unpaid invoices.
+This is an out of office reply.
+I will be out of office until 20th June. For any urgent issues, please contact Mark Smith.
+I’m writing to you regarding our last meeting.
+Please, call me if you have any doubts.
+I’m sorry, but I can’t attend tomorrow’s meeting.
+I’m sorry for the inconvenience.
+Please confirm.
+I’m writing to you concerning the conference that you attended.
+I received your e-mail yesterday.
+I look forward to hearing from you.
+Best/Kind regards.

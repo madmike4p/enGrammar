@@ -1,0 +1,61 @@
+Jego dom jest bardzo duży.
+Jej klucze są na stole.
+Moje pieniądze są w banku.
+Ten komputer jest mój.
+Czy tamte zapiski są nasze?
+To twoja decyzja.
+Rzym jest znany ze swojej historii.
+Paryż jest znany ze swojej sztuki.
+Czy tamta książka jest twoja?
+Tak, to moja książka.
+Tamta książka jest moja.
+To jest moja torebka, nie twoja.
+Tamten portfel jest mój, nie jego.
+To jest twoja książka, nie nasza.
+Tamta książka jest twoja, nie ich.
+To jest jej telefon, nie wasz.
+Ten telefon jest jej.
+Tamten, to jest jego zegarek, nie mój.
+Tamten zegarek jest jego, nie jej.
+To jest nasze biuro, nie wasze.
+To biuro jest nasze, nie ich.
+Czy tamten to twój samochód?
+Czy tamten samochód jest wasz?
+To jest ich słownik, nie jego.
+To jest twój obowiązek, nie mój.
+Czyje to krzesło?
+Moje.
+Czyj to jest samochód?
+Ten jest mój. Tamten jest jego.
+Ten po lewej jest jej, a ten po prawej jest ich.
+
+His house is very big.
+Her keys are on the table.
+My money is in the bank.
+This computer is mine.
+Are those notes ours?
+It’s your decision.
+Rome is famous for its history.
+Paris is famous for its art.
+Is that book yours?
+Yes, it’s my book.
+That book is mine.
+This is my bag, not yours.
+That wallet is mine, not his.
+This is your book, not ours.
+That book is yours, not theirs.
+This is her telephone, not yours.
+This telephone is hers.
+That’s his watch, not mine.
+That watch is his, not hers.
+This is our office, not yours.
+This office is ours, not theirs.
+Is that your car?
+Is that car yours?
+This is their dictionary, not his.
+This is your responsibility, not mine.
+Whose chair is it?
+(It’s) mine.
+Whose car is it?
+This one is mine. That one is his.
+The one on the left is hers and the one on the right is theirs.
