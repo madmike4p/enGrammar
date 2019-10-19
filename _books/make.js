@@ -1,5 +1,3 @@
-console.log(dupa);
-
 const fs = require('fs');
 
 var books = {};
@@ -25,7 +23,6 @@ for (var x = 0; x < booksTable.length; x++) {
   books.length = booksTable.length;
 }
 
-var chapter_id = 0;
 for (var x = 0; x < books.length; x++) {
   var pathName = (x < 9) ? "0" + (x + 1) + "/" : (x + 1) + "/";
 
@@ -64,10 +61,10 @@ for (var x = 0; x < books.length; x++) {
 } // koniec petli books
 
 
-fs.writeFileSync("object.js", "var books = " + JSON.stringify(books) + ";");
-fs.writeFileSync("object_pretty.js", JSON.stringify(books, null, 2));
+fs.writeFileSync("books.js", "var books = " + JSON.stringify(books) + ";");
+fs.writeFileSync("books_pretty.js", JSON.stringify(books, null, 2));
 
-console.log('---');
+console.log('test:');
 console.log(books[1].title);
 console.log(books[1][1].title);
 console.log(books[1][1][1].pl);
