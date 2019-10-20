@@ -14,6 +14,81 @@
 </head>
 <body>
   
+  <div data-role="page" id="bookPage" data-theme="b">
+    <div role="main" style="ui-content">
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <div class="ui-bar" style="">
+            <a href="#chapterPage" data-id="0" class="ui-btn ui-mini ui-icon-edit ui-btn-icon-left navBook">Grammar 1</a>
+            <a href="#chapterPage" data-id="1" class="ui-btn ui-mini ui-icon-edit ui-btn-icon-left navBook">Grammar 2</a>
+            <a href="#chapterPage" data-id="2" class="ui-btn ui-mini ui-icon-edit ui-btn-icon-left navBook">Grammar 3</a>
+            <a href="#chapterPage" data-id="3" class="ui-btn ui-mini ui-icon-edit ui-btn-icon-left navBook">Grammar 4</a>
+            <a href="#chapterPage" data-id="4" class="ui-btn ui-mini ui-icon-edit ui-btn-icon-left navBook">Grammar 5</a>
+            <a href="#chapterPage" data-id="5" class="ui-btn ui-mini ui-icon-edit ui-btn-icon-left navBook">Grammar 6</a>
+          
+          
+    <ul data-role="listview" data-count-theme="a" data-inset="true" class="ui-mini">
+    <li><a href="#">Inbox  <span class="ui-li-count"></span></a></li>
+    <li><a href="#">Outbox <span class="ui-li-count">10.01.2000</span></a></li>
+    <li><a href="#">Drafts <span class="ui-li-count">04.01.2000</span></a></li>
+    <li><a href="#">Sent   <span class="ui-li-count">328</span></a></li>
+    <li><a href="#">Trash  <span class="ui-li-count">62</span></a></li>
+</ul>      
+          
+          
+          </div>
+        </div>
+        <div class="ui-block-b">
+            <div class="ui-bar" style="">
+            <a href="#exercisePage" data-id="6" class="ui-btn ui-mini ui-icon-comment ui-btn-icon-right navBook">Phrasal Verbs 1</a>
+            <a href="#exercisePage" data-id="7" class="ui-btn ui-mini ui-icon-comment ui-btn-icon-right navBook">Phrasal Verbs 2</a>
+            <a href="#exercisePage" data-id="8" class="ui-btn ui-mini ui-icon-comment ui-btn-icon-right navBook">Phrasal Verbs 3</a>
+            <a href="#exercisePage" data-id="9" class="ui-btn ui-mini ui-icon-grid ui-btn-icon-right navBook">Business 1</a>
+            <a href="#exercisePage" data-id="10" class="ui-btn ui-mini ui-icon-grid ui-btn-icon-right navBook">Business 2</a>
+            <a href="#exercisePage" data-id="11" class="ui-btn ui-mini ui-icon-grid ui-btn-icon-right navBook">Business 3</a>  
+            
+            
+            
+            
+            <ul data-role="listview" data-inset="true" class="ui-mini">
+    <li><a href="#">Acura</a></li>
+    <li><a href="#">Audi</a></li>
+    <li><a href="#">BMW</a></li>
+    <li><a href="#">Cadillac</a></li>
+    <li><a href="#">Ferrari</a></li>
+</ul>
+            
+            
+            
+            </div>
+        </div>
+      </div><!-- .ui-grid-a -->
+    </div>
+    <div data-role="footer" data-position="fixed" data-fullscreen="true" data-theme="b"><h4 id="divMsg"></h4></div>    
+  </div> <!-- end page -->
+  
+  <div data-role="page" id="chapterPage" data-theme="b">
+    <div data-role="header">
+      <a href="#bookPage" data-icon="home">Start</a>
+      <h1 id="bookTitle">chapterPage</h1>
+    </div><!-- /header -->
+    <div role="main" style="ui-content">
+      <ul data-role="listview" data-inset="true" id="chapters" class="ui-mini"></ul>
+    </div>
+  </div>
+
+  <div data-role="page" id="exercisePage" data-theme="b">
+    <div data-role="header">
+      <a href="index.html#bookPage" data-icon="home">Start</a>
+      <h1 id="chapterTitle"></h1>
+    </div><!-- /header -->
+    <div role="main" style="ui-content">
+    
+    dupa
+    
+    </div>
+  </div>
+  
   
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/page_db.js"></script>
