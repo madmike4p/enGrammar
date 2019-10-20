@@ -6,10 +6,12 @@ var app = {
 
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
+
+        $(document).on('pagebeforeshow','#chapterPage',  app.prepareBook);
+        $(document).on('pagebeforeshow','#exercisePage',  app.prepareChapter);       
     }, // end bindEvents
     
     onDeviceReady: function() {
-      app.receivedEvent('deviceready');
 
       $(".navBook").on('click', function () {
         app.currentBook.book = parseInt(this.getAttribute("data-id"));
@@ -17,8 +19,6 @@ var app = {
         return false;
       });
 
-      $(document).on('pagebeforeshow','#chapterPage',  app.prepareBook);
-      $(document).on('pagebeforeshow','#exercisePage',  app.prepareChapter);
 
 
     }, // onDeviceReady
@@ -49,6 +49,7 @@ var app = {
         chapters.appendChild(li);
       }
 
+      //TODO: dorobic to w slowkach
       $('#chapters').listview('refresh');
       
       $(".navChapter").on('click', function () {
@@ -67,8 +68,5 @@ var app = {
       book: -1,
       chapter: -1,
       sentence: -1
-    },
-    
-    receivedEvent: function(id) {
-    } // receivedEvent
+    }
 };
