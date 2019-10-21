@@ -83,31 +83,23 @@
       <div class="ui-grid-a">
         <div class="ui-block-a" id="leftPanel" style="width: 66%;">
           <div class="ui-bar">
-            <ul data-role="listview" data-theme="a">
-              <li class="ul-li-icon">
-                <img src="img/pl16.png">
-                  <p id="pl">test</p>
-              </li>
-              <li class="ul-li-icon">
-                <img src="img/gb16.png">
-                <p id="en">test</p>
-              </li>
-            </ul>
+            <div id="pl" class="pl" data-click="0"><p>test</p></div>
+            <div id="gb" class="gb"><p>test</p></div>
           </div>
         </div>
         <div class="ui-block-b" id="rightPanel" style="width: 33%;">
           <div class="ui-bar" style="">
-                <div id="button" class="ui-btn" data-click="0" style="height: 150px;"></div>
+                <button id="button" class="ui-btn" data-click="0" style="display: none;">o</button>
           </div>
         </div>
       </div><!-- .ui-grid-a -->
    
 
- <div class="ui-bar">
+ <div class="ui-bar" id="configPanel">
  
 <form>
     <label for="slider-1">Card Height:</label>
-    <input type="range" name="slider-1" id="slider-1" min="0" max="100" value="50">
+    <input type="range" name="slider-1" id="slider-1" min="30" max="300" value="50">
     
     <label for="slider-2">Font Size:</label>
     <input type="range" name="slider-2" id="slider-2" min="0" max="100" value="50">
@@ -125,9 +117,6 @@
        <a class="ui-btn ui-btn-right ui-btn-icon-left ui-icon-gear" href="#" id="configBtn">Config</a>
     <h3 id="divMsg">Copyright 2011</h3>
     </div>
-
-
-      <!-- end -->    
           
     </div>
   </div>

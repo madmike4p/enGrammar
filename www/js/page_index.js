@@ -11,7 +11,9 @@ var app = {
         
         $(document).on('pagecreate','#exercisePage',  app.createChapter);
         
-        document.getElementById('button').addEventListener('click', this.btnClick, false);
+        document.getElementById('pl').addEventListener('click', this.cardClick, false);
+        document.getElementById('gb').addEventListener('click', this.cardClick, false);
+
         document.getElementById('nextChapter').addEventListener('click', this.nextChapter, false);
         document.getElementById('prevChapter').addEventListener('click', this.prevChapter, false);
         document.getElementById('configBtn').addEventListener('click', this.configuration, false);
@@ -81,40 +83,49 @@ var app = {
     },
 
     showCard: function(state) {
-      var pl = document.getElementById('pl');
-      var en = document.getElementById('en');
+      var pl = document.querySelector('#pl p');
+      var gb = document.querySelector('#gb p');
+
       var btn = document.getElementById('button');
 
       switch (state) {
         case 'showEn':
-          en.style.display = 'block';
+          gb.style.display = 'block';
           break;
         case 'next':
           app._exercise++;
           if (app._exercise >= books[app._book][app._chapter].length) app._exercise = 0;
         case 'show':
-          en.style.display = 'none';
+          gb.style.display = 'none';
           button.setAttribute('data-click', '0');
           pl.innerHTML = books[app._book][app._chapter][app._exercise].pl;
-          en.innerHTML = books[app._book][app._chapter][app._exercise].en;
+          gb.innerHTML = books[app._book][app._chapter][app._exercise].en;
           break;
       }
       
       var footerMsg = (app._exercise + 1) + '/' + books[app._book][app._chapter].length;
       document.getElementById('divMsg').innerHTML = footerMsg;
 
-
-
       var title = books[app._book][app._chapter].title.split('|');
       document.getElementById('chapterTitle').innerHTML = title[0];
-      
-
       
       var subTitle = (!title[1] ? '&nbsp;' : title[1]);
       document.getElementById('chapterSubTitle').innerHTML = subTitle;
     },
 
-    btnClick: function(event) {
+    cardClick: function(event) {
+      var cardPl = document.getElementById('pl');
+
+      if (cardPl.getAttribute('data-click') == '0') {
+        app.showCard('showEn');
+        cardPl.setAttribute('data-click', '1');
+      } else {
+        app.showCard('next');
+        cardPl.setAttribute('data-click', '0');
+      }
+
+
+      /*
       if (this.getAttribute('data-click') == '0') {
         app.showCard('showEn');
         this.setAttribute('data-click', '1');
@@ -122,17 +133,19 @@ var app = {
         app.showCard('next');
         this.setAttribute('data-click', '0');
       }
+      */
     },
     
     createChapter: function(event) {
-        $("#slider-3").on("change", app.confPanelWidth);
+        $("#slider-1").on("change", app.confCardHeight);
         $("#slider-2").on("change", app.confFontSize);
+        $("#slider-3").on("change", app.confPanelWidth);
       
         var cardLeftPanelWidth = document.getElementById('leftPanel');
         var cardRightPanelWidth = document.getElementById('rightPanel');
         
-        var cardTextPl = document.getElementById('pl');
-        var cardTextEn = document.getElementById('en');
+        var cardTextPl = document.querySelector('#pl p');
+        var cardTextEn = document.querySelector('#gb p');
       
         
         if (typeof app.config['panelHeight'] !== 'undefined') {
@@ -143,6 +156,8 @@ var app = {
           var value = parseInt(app.config['leftPanelWidth']);
           cardLeftPanelWidth.style.width = value + '%';
           cardRightPanelWidth.style.width = 99 - value + '%';
+          $('#slider-3').val(value);
+          $('#slider-3').slider('refresh');
         } 
           
         if (typeof app.config['fontSize'] !== 'undefined') {
@@ -159,10 +174,15 @@ var app = {
     },
     
     configuration: function(event) {
+      var configPanel = document.getElementById('configPanel');
 
-      
-      
-  
+      var tmp = document.querySelector('div#pl');
+
+      if (configPanel.style.display == '') {
+        configPanel.style.display = 'block';
+      } else {
+        configPanel.style.display = '';
+      }
     },
     
     confPanelWidth: function(event) {
@@ -177,13 +197,25 @@ var app = {
     },
     
     confFontSize: function(event) {
-      var cardTextPl = document.getElementById('pl');
-      var cardTextEn = document.getElementById('en');
+      var cardTextPl = document.querySelector('#pl p');
+      var cardTextEn = document.querySelector('#gb p');
       
       cardTextPl.style.fontSize = this.value + 'px';
       cardTextEn.style.fontSize = this.value + 'px';
       
       app.config['fontSize'] = this.value;
+    },
+
+    confCardHeight: function(event) {
+      var cardPl = document.getElementById('pl');
+      var cardGb = document.getElementById('gb');
+      var button = document.getElementById('button');
+      
+      cardPl.style.height = this.value + 'px';
+      cardGb.style.height = this.value + 'px';
+      button.style.height = this.value + 'px';
+
+      app.config['cardHeight'] = this.value;
     },
     
     config: window.localStorage,
