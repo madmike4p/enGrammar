@@ -16,7 +16,6 @@ var app = {
     }, // end bindEvents
 
     onDeviceReady: function() {
-      console.log('------------------>');
       app.showCard('show');
     }, 
 
@@ -54,11 +53,14 @@ var app = {
           break;
       }
       document.getElementById('divMsg').innerHTML = (exercise + 1) + '/' + books[book][chapter].length;
-      document.getElementById('chapterSubTitle').innerHTML = '&nbsp';
+      //document.getElementById('chapterSubTitle').innerHTML = '&nbsp';
+
 
       var title = books[book][chapter].title.split('|');
       document.getElementById('chapterTitle').innerHTML = title[0];
-      // document.getElementById('subChapterTitle').innerHTML = title[1] ? title[1] : '&nbsp';
+      
+      var subTitle = (typeof title[1] == undefined ? '&nbsp' : title[1]);
+      document.getElementById('chapterSubTitle').innerHTML = subTitle;
     },
 
     btnClick: function(event) {

@@ -13,3 +13,12 @@ console.log(jsonStr);
 
 var newObj = JSON.parse(jsonStr);
 console.log(newObj['font-size']);
+
+
+
+
+if (typeof dupa === 'undefined') {
+  console.log('undefined');
+} else {
+  console.log("defined");
+}

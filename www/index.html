@@ -41,17 +41,17 @@
       </div><!-- .ui-grid-a -->
 
       <div class="ui-bar" style="">
-        <a href="test.html" class="ui-btn ui-mini ui-icon-grid ui-btn-icon-right">Settings ...</a>  
+        <a href="test.html" data-ajax="false" class="ui-btn ui-mini ui-icon-grid ui-btn-icon-right">Settings ...</a>  
       </div>
 
     </div>
-    <div data-role="footer" data-position="fixed" data-fullscreen="true" data-theme="b"><h4 id="divMsg"></h4></div>    
+    <div data-role="footer" data-position="fixed" data-fullscreen="true" data-theme="b"><h4>&nbsp;</h4></div>    
   </div> <!-- end page -->
   
   <div data-role="page" id="chapterPage" data-theme="b">
     <div data-role="header">
-      <a href="#bookPage" data-icon="home">Start</a>
-      <h1 id="bookTitle">chapterPage</h1>
+      <a href="#bookPage" data-icon="bars">Start</a>
+      <h1 id="bookTitle">&nbsp;</h1>
     </div><!-- /header -->
     <div role="main" style="ui-content">
       <ul data-role="listview" data-inset="true" id="chapters" class="ui-mini"></ul>
@@ -66,23 +66,22 @@
     <div data-role="header">
 
       <div data-role="controllgroup" data-type="horizontal" class="ui-mini ui-btn-left">
-        <a href="#bookPage" class="ui-btn ui-btn-icon-left ui-icon-gear">Books</a>
-        <a href="#chapterPage" class="ui-btn ui-btn-icon-left ui-icon-gear" data-icon="home">Chapters</a>
+        <a href="#chapterPage" class="ui-btn ui-btn-icon-left ui-icon-grid" data-icon="home">Chapters</a>
       </div>
 
       <div data-role="controllgroup" data-type="horizontal" class="ui-mini ui-btn-right">
-        <a href="#" id="" class="ui-btn ui-btn-icon-left ui-icon-gear">Config</a>
-        <a href="#" id="prevChapter" class="ui-btn ui-btn-icon-left ui-icon-gear">Prev</a>
-        <a href="#" id="nextChapter" class="ui-btn ui-btn-icon-right ui-icon-gear">Next</a>
+       
+        <a href="#" id="prevChapter" class="ui-btn ui-btn-icon-left ui-icon-carat-l">Prev</a>
+        <a href="#" id="nextChapter" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Next</a>
       </div>
-      <h1 id="chapterTitle">chapterPage</h1>
-      <h6 id="chapterSubTitle" style="font-weight: normal;">dupa blada</h6>
+      <h1 id="chapterTitle">&nbsp;</h1>
+      <p id="chapterSubTitle" style="text-align: center; font-weight: normal;">&nbsp;</p>
 
     </div><!-- /header -->
 
     <div role="main" style="ui-content">
       <div class="ui-grid-a">
-        <div class="ui-block-a" style="width: 66%;">
+        <div class="ui-block-a" id="leftPanel" style="width: 66%;">
           <div class="ui-bar">
             <ul data-role="listview" data-theme="a">
               <li class="ul-li-icon">
@@ -96,17 +95,35 @@
             </ul>
           </div>
         </div>
-        <div class="ui-block-b" style="width: 33%;">
+        <div class="ui-block-b" id="rightPanel" style="width: 33%;">
           <div class="ui-bar" style="">
                 <div id="button" class="ui-btn" data-click="0" style="height: 150px;"></div>
           </div>
         </div>
       </div><!-- .ui-grid-a -->
-    </div>
+   
+
+ <div class="ui-bar">
+ 
+<form>
+    <label for="slider-1">Card Height:</label>
+    <input type="range" name="slider-1" id="slider-1" min="0" max="100" value="50">
+    
+    <label for="slider-2">Font Size:</label>
+    <input type="range" name="slider-2" id="slider-2" min="0" max="100" value="50">
+    
+    <label for="slider-3">Card Width:</label>
+    <input type="range" name="slider-3" id="slider-3" min="50" max="90" value="66">
+</form>
+</div>
 
 
-    <div data-role="footer" class="ui-bar" data-position="fixed" data-fullscreen="false">
-      <h4 id="divMsg">dupa *</h4>
+   </div>
+
+
+    <div data-role="footer" data-position="fixed" data-fullscreen="false">
+       <a class="ui-btn ui-btn-right ui-btn-icon-left ui-icon-gear" href="#" id="configBtn">Config</a>
+    <h3 id="divMsg">Copyright 2011</h3>
     </div>
 
 
