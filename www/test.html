@@ -19,7 +19,12 @@
   <div data-role="page" id="bookPage" data-theme="b">
     <div data-role="header">
       <a href="#bookPage" data-icon="home">Start</a>
+      <div data-role="controllgroup" data-type="horizontal" class="ui-mini ui-btn-right">
+        <a href="#" id="prevChapter" class="ui-btn ui-btn-icon-left ui-icon-gear">Prev</a>
+        <a href="#" id="nextChapter" class="ui-btn ui-btn-icon-right ui-icon-gear">Next</a>
+      </div>
       <h1 id="chapterTitle">chapterPage</h1>
+      <p style="text-align: center; margin-top: 0; font-weight: normal;">dupa blada</p>
     </div><!-- /header -->
 
     <div role="main" style="ui-content">
@@ -48,8 +53,6 @@
 
 
     <div data-role="footer" class="ui-bar" data-position="fixed" data-fullscreen="false">
-      <a href="#" id="prevChapter">Prev</a>
-      <a href="#" id="nextChapter">Next</a>
       <h4 id="divMsg">dupa *</h4>
     </div>
   </div> <!-- end page -->
