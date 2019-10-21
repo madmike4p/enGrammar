@@ -59,17 +59,58 @@
   </div>
 
   <div data-role="page" id="exercisePage" data-theme="b">
+      <!-- start -->
+
+      
+
     <div data-role="header">
-      <a href="index.html#bookPage" data-icon="home">Start</a>
-      <h1 id="chapterTitle"></h1>
+
+      <div data-role="controllgroup" data-type="horizontal" class="ui-mini ui-btn-left">
+        <a href="#bookPage" class="ui-btn ui-btn-icon-left ui-icon-gear">Books</a>
+        <a href="#chapterPage" class="ui-btn ui-btn-icon-left ui-icon-gear" data-icon="home">Chapters</a>
+      </div>
+
+      <div data-role="controllgroup" data-type="horizontal" class="ui-mini ui-btn-right">
+        <a href="#" id="" class="ui-btn ui-btn-icon-left ui-icon-gear">Config</a>
+        <a href="#" id="prevChapter" class="ui-btn ui-btn-icon-left ui-icon-gear">Prev</a>
+        <a href="#" id="nextChapter" class="ui-btn ui-btn-icon-right ui-icon-gear">Next</a>
+      </div>
+      <h1 id="chapterTitle">chapterPage</h1>
+      <h6 id="chapterSubTitle" style="font-weight: normal;">dupa blada</h6>
+
     </div><!-- /header -->
+
     <div role="main" style="ui-content">
-    
-    dupa
-              <button class="ui-btn ui-btn-inline" style="height: 150px;">Button</button>
-          
-          <button class="ui-btn ui-btn-inline">Button</button>
-          
+      <div class="ui-grid-a">
+        <div class="ui-block-a" style="width: 66%;">
+          <div class="ui-bar">
+            <ul data-role="listview" data-theme="a">
+              <li class="ul-li-icon">
+                <img src="img/pl16.png">
+                  <p id="pl">test</p>
+              </li>
+              <li class="ul-li-icon">
+                <img src="img/gb16.png">
+                <p id="en">test</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="ui-block-b" style="width: 33%;">
+          <div class="ui-bar" style="">
+                <div id="button" class="ui-btn" data-click="0" style="height: 150px;"></div>
+          </div>
+        </div>
+      </div><!-- .ui-grid-a -->
+    </div>
+
+
+    <div data-role="footer" class="ui-bar" data-position="fixed" data-fullscreen="false">
+      <h4 id="divMsg">dupa *</h4>
+    </div>
+
+
+      <!-- end -->    
           
     </div>
   </div>

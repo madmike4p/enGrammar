@@ -16,6 +16,7 @@ var app = {
     }, // end bindEvents
 
     onDeviceReady: function() {
+      console.log('------------------>');
       app.showCard('show');
     }, 
 
@@ -53,7 +54,11 @@ var app = {
           break;
       }
       document.getElementById('divMsg').innerHTML = (exercise + 1) + '/' + books[book][chapter].length;
-      document.getElementById('chapterTitle').innerHTML = books[book][chapter].title;
+      document.getElementById('chapterSubTitle').innerHTML = '&nbsp';
+
+      var title = books[book][chapter].title.split('|');
+      document.getElementById('chapterTitle').innerHTML = title[0];
+      // document.getElementById('subChapterTitle').innerHTML = title[1] ? title[1] : '&nbsp';
     },
 
     btnClick: function(event) {

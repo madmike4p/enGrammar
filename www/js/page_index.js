@@ -1,7 +1,6 @@
 var app = {
-
     initialize: function() {
-        this.bindEvents();
+      this.bindEvents();
     }, // end initialize
 
     bindEvents: function() {
@@ -61,12 +60,25 @@ var app = {
     },
 
     prepareChapter: function(event) {
-      alert(app.currentBook.book + ' ' + app.currentBook.chapter + ' ' + app.currentBook.sentence);
+      // ---------------------------------------
+      
+        
+
+
+
+
+
+
+
+
+      
+      // --------------------------------------
     },
     
     currentBook: {
-      book: -1,
-      chapter: -1,
-      sentence: -1
+      book: 0,
+      chapter: 0,
+      sentence: 0,
+      pass: 0
     }
 };
