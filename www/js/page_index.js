@@ -6,8 +6,9 @@ var app = {
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
 
-        $(document).on('pagebeforeshow','#chapterPage',  app.prepareBook);
-        $(document).on('pagebeforeshow','#exercisePage',  app.prepareChapter);
+        $(document).on('pagebeforeshow', '#chapterPage',  app.prepareBook);
+        $(document).on('pagebeforeshow', '#exercisePage',  app.prepareChapter);
+        $(document).on('pagebeforeshow', '#bookPage', app.beforeShowBooks);
         
         $(document).on('pagecreate','#exercisePage',  app.createChapter);
         
@@ -17,17 +18,42 @@ var app = {
         document.getElementById('nextChapter').addEventListener('click', this.nextChapter, false);
         document.getElementById('prevChapter').addEventListener('click', this.prevChapter, false);
         document.getElementById('configBtn').addEventListener('click', this.configuration, false);
+
+        var booksItems = document.querySelectorAll('ul#books a');
+        for (var x = 0; x < booksItems.length; x++) {
+          booksItems[x] .addEventListener('click', this.selectBook, false);
+        }
     }, // end bindEvents
     
     onDeviceReady: function() {
-
+      /*
       $(".navBook").on('click', function () {
         app._book = parseInt(this.getAttribute("data-id"));
         $.mobile.changePage('#chapterPage');
         return false;
       });
-
+      */
     }, // onDeviceReady
+
+    beforeShowBooks: function() {
+      var badges = document.querySelectorAll('span.ui-li-count');
+      for (var x = 0; x < badges.length; x++) {
+        badges[x].style.display = 'none';
+      }
+
+      if (typeof app.config['last'] !== 'undefined') {
+        var last = app.config['last'];
+        var selector = 'a[data-id="' + last.split('_')[0] + '"] span';
+        var badge = document.querySelector(selector);
+        badge.style.display = 'block';
+      }
+    },
+
+    selectBook: function(even) {
+      app._book = parseInt(this.getAttribute("data-id"));
+      $.mobile.changePage('#chapterPage');
+      return false;
+    },
 
     prepareBook: function (event) {
       var bookId = app._book ;
