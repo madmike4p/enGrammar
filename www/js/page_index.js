@@ -23,16 +23,9 @@ var app = {
         for (var x = 0; x < booksItems.length; x++) {
           booksItems[x] .addEventListener('click', this.selectBook, false);
         }
-    }, // end bindEvents
+    }, // bindEvents
     
     onDeviceReady: function() {
-      /*
-      $(".navBook").on('click', function () {
-        app._book = parseInt(this.getAttribute("data-id"));
-        $.mobile.changePage('#chapterPage');
-        return false;
-      });
-      */
     }, // onDeviceReady
 
     beforeShowBooks: function() {
@@ -47,25 +40,31 @@ var app = {
         var badge = document.querySelector(selector);
         badge.style.display = 'block';
       }
-    },
+    }, // beforeShowBooks
 
     selectBook: function(even) {
       app._book = parseInt(this.getAttribute("data-id"));
       $.mobile.changePage('#chapterPage');
       return false;
-    },
+    }, // selectBook
 
     prepareBook: function (event) {
       var bookId = app._book ;
-      
       document.getElementById("bookTitle").innerHTML = books[bookId].title;
       
       var chapters = document.getElementById('chapters');
       
       while (chapters.firstChild) chapters.removeChild(chapters.firstChild);
      
-      for (var x = 0; x < books[bookId].length; x++) {
+      var last_book = -1;
+      var last_chapter = -1;
       
+      if (typeof app.config['last'] !== 'undefined') {
+          var last_book = parseInt(app.config['last'].split('_')[0]);
+          var last_chapter = parseInt(app.config['last'].split('_')[1]);
+        }
+     
+      for (var x = 0; x < books[bookId].length; x++) {
         var li = document.createElement('li');
         var a = document.createElement('a');
         a.setAttribute('data-id', x);
@@ -77,11 +76,20 @@ var app = {
         var txt = document.createTextNode(title);
         
         a.appendChild(txt);
+
+        if (last_book == app._book && last_chapter == x) {
+          var badge = document.createElement('span');
+          badge.className = 'ui-li-count';
+          
+          var asterisk = document.createTextNode('*');
+          badge.appendChild(asterisk);
+          a.appendChild(badge);
+        }
+        
         li.appendChild(a);
         chapters.appendChild(li);
       }
 
-      //TODO: dorobic to w slowkach
       $('#chapters').listview('refresh');
       
       $(".navChapter").on('click', function () {
@@ -97,14 +105,14 @@ var app = {
       app._exercise = 0;
       document.getElementById('pl').setAttribute('data-click', '0');
       app.showCard('show');
-    },
+    }, // prevChapter
 
     nextChapter: function() {
       if(++app._chapter >= books[app._book].length) app._chapter = 0;
       app._exercise = 0;
       document.getElementById('pl').setAttribute('data-click', '0');
       app.showCard('show');
-    },
+    }, //nextChapter
 
     showCard: function(state) {
       var pl = document.querySelector('#pl p');
@@ -124,12 +132,17 @@ var app = {
           cardPl.setAttribute('data-click', '0');
           pl.innerHTML = books[app._book][app._chapter][app._exercise].pl;
           gb.innerHTML = books[app._book][app._chapter][app._exercise].en;
+          
+          if (app._exercise == 0) {
+            app.config['last'] = app._book + '_' + app._chapter;
+          }
+
           break;
       }
       
       var footerMsg = (app._exercise + 1) + '/' + books[app._book][app._chapter].length;
       document.getElementById('chapterTitle').innerHTML = footerMsg;
-    },
+    }, // showCards
 
     cardClick: function(event) {
       var cardPl = document.getElementById('pl');
@@ -141,7 +154,7 @@ var app = {
         app.showCard('next');
         cardPl.setAttribute('data-click', '0');
       }
-    },
+    }, //cardClick
     
     createChapter: function(event) {
         $("#slider-1").on("change", app.confCardHeight);
@@ -184,7 +197,7 @@ var app = {
     
     prepareChapter: function(event) {
        app.showCard('show'); 
-    },
+    }, // prepareChapter
     
     configuration: function(event) {
       var configPanel = document.getElementById('configPanel');
@@ -196,7 +209,7 @@ var app = {
       } else {
         configPanel.style.display = '';
       }
-    },
+    }, // configuration
     
     confFontSize: function(event) {
       var cardTextPl = document.querySelector('#pl p');
@@ -206,7 +219,7 @@ var app = {
       cardTextEn.style.fontSize = this.value + 'px';
       
       app.config['fontSize'] = this.value;
-    },
+    }, // confCardFondSize
 
     confCardHeight: function(event) {
       var cardPl = document.getElementById('pl');
@@ -216,13 +229,13 @@ var app = {
       cardGb.style.height = this.value + 'px';
 
       app.config['cardHeight'] = this.value;
-    },
+    }, // confCardHeight
     
     confCardRightMargin: function(event) {
       var cardContainer = document.getElementById('cardContainer');
       cardContainer.style.marginRight = this.value + 'px';
       app.config['cardRightMargin'] = this.value;   
-    },
+    }, // confCardRightMargin
     
     config: window.localStorage,
     
