@@ -130,13 +130,15 @@ var app = {
         case 'show':
           gb.style.display = 'none';
           cardPl.setAttribute('data-click', '0');
-          pl.innerHTML = books[app._book][app._chapter][app._exercise].pl;
-          gb.innerHTML = books[app._book][app._chapter][app._exercise].en;
-          
 
+          pl.innerHTML = books[app._book][app._chapter][app._exercise].pl.replace(/\|/g, '<br/>');
+          gb.innerHTML = books[app._book][app._chapter][app._exercise].en.replace(/\|/g, '<br/>');
           
           if (app._exercise == 0) {
             app.config['last'] = app._book + '_' + app._chapter;
+
+
+
             alert('config-last');
           }
 
@@ -149,13 +151,17 @@ var app = {
 
     cardClick: function(event) {
       var cardPl = document.getElementById('pl');
+      var cardState = cardPl.getAttribute('data-click');
 
-      if (cardPl.getAttribute('data-click') == '0') {
-        app.showCard('showEn');
-        cardPl.setAttribute('data-click', '1');
-      } else {
-        app.showCard('next');
-        cardPl.setAttribute('data-click', '0');
+      switch (cardState) {
+        case '0':
+          app.showCard('showEn');
+          cardPl.setAttribute('data-click', '1');
+          break;
+        case '1':
+          app.showCard('next');
+          cardPl.setAttribute('data-click', '0');
+          break;
       }
     }, //cardClick
     
