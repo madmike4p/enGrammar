@@ -1,4 +1,4 @@
-var books = {
+exports.books = {
   "0": {
     "0": {
       "0": {

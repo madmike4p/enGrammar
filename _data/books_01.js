@@ -1,4 +1,4 @@
-var books = {
+exports.books = {
   "0": {
     "0": {
       "0": {
@@ -6878,8 +6878,8 @@ var books = {
         "en": "Do they agree? |Yes, they do."
       },
       "14": {
-        "pl": "Czy zamierzają do nas dołączyć?|Nie.",
-        "en": "Are they going to join us?|No, they aren’t."
+        "pl": "Czy zamierzają do nas dołączyć? |Nie.",
+        "en": "Are they going to join us? |No, they aren’t"
       },
       "15": {
         "pl": "Czy on jest na mnie zły? |Nie.",
@@ -12774,7 +12774,7 @@ var books = {
     },
     "16": {
       "0": {
-        "pl": "Ten samochód jest tak drogi, że niestety, nie możemy sobie na niego pozwolić.",
+        "pl": "możemy sobie na niego pozwolić.",
         "en": "The car is so expensive that unfortunately we can’t afford it."
       },
       "1": {
@@ -13394,7 +13394,7 @@ var books = {
     },
     "21": {
       "0": {
-        "pl": "Musiałem zostawić klucze w samochodzie, skoro ich tutaj nie ma.",
+        "pl": "ich tutaj nie ma.",
         "en": "I must have left the keys in the car since they’re not here."
       },
       "1": {
@@ -13518,7 +13518,7 @@ var books = {
     },
     "22": {
       "0": {
-        "pl": "Wygrałem trzy miliony euro.",
+        "pl": "trzy miliony euro.",
         "en": "I won three million euros."
       },
       "1": {
@@ -21642,7 +21642,7 @@ var books = {
         "en": "I couldn’t fall asleep last night. I was turning over all night."
       },
       "16": {
-        "pl": "Okazało się to być o wiele łatwiejsze, niż myślałem.",
+        "pl": "kazało się to być o wiele łatwiejsze, niż myślałem.",
         "en": "It turned out to be a lot easier than I thought."
       },
       "17": {
@@ -26422,7 +26422,7 @@ var books = {
     },
     "7": {
       "0": {
-        "pl": "Trudno uwierzyć, że on ma już 40 lat, a wciąż jest na utrzymaniu rodziców.",
+        "pl": "rudno uwierzyć, że on ma już 40 lat, a wciąż jest na utrzymaniu rodziców.",
         "en": "It’s hard to believe that he’s 40 and he still lives off his parents."
       },
       "1": {
@@ -27166,7 +27166,7 @@ var books = {
     },
     "13": {
       "0": {
-        "pl": "Ten gatunek wymarł wieki temu.",
+        "pl": "en gatunek wymarł wieki temu.",
         "en": "This species died out ages ago."
       },
       "1": {
@@ -27875,11 +27875,11 @@ var books = {
       },
       "8": {
         "pl": "Na naszym ostatnim spotkaniu dyskutowaliśmy o strategii marketingowej naszej firmy i zdecydowaliśmy się robić interesy za granicą.",
-        "en": "In our last meeting we were discussing the marketing strategy of our company and we decided to do business abroad."
+        "en": "In our last meeting we were discussing the marketing strategy of our company and we"
       },
       "9": {
         "pl": "Przepraszam za spóźnienie. Nie mogłem wyjść wcześniej. O której zaczęło się spotkanie?",
-        "en": "I’m sorry I’m late. I couldn’t leave earlier. What time did the meeting start?"
+        "en": "decided to do business abroad."
       },
       "10": {
         "pl": "Przepraszamy za opóźnienie.",
@@ -28042,7 +28042,7 @@ var books = {
     },
     "5": {
       "0": {
-        "pl": "Jest kilka dokumentów na moim biurku: faktura, rachunek za telefon i kilka formularzy.",
+        "pl": "rachunek za telefon i kilka formularzy.",
         "en": "There are some documents on my desk: an invoice, a telephone bill and some forms."
       },
       "1": {
@@ -29082,7 +29082,7 @@ var books = {
         "en": "What is your marketing strategy?"
       },
       "10": {
-        "pl": "Dobre planowanie jest kluczem do sukcesu.",
+        "pl": "Dobre planowanie jest kluczem do sukcesu",
         "en": "Good planning is the key to success."
       },
       "11": {
@@ -29235,7 +29235,7 @@ var books = {
       },
       "23": {
         "pl": "Wkrótce otrzymasz swoją kartę i numer PIN.",
-        "en": "You will receive your card and PIN number soon."
+        "en": "You will receive your card and PIN number soon"
       },
       "title": "Banking, czyli Bankowość",
       "length": 24
@@ -30134,7 +30134,7 @@ var books = {
         "en": "The flight lasts 2.5 hours (two and a half hours)."
       },
       "23": {
-        "pl": "Czy możesz wysłać mi raport sprzedaży za ostatni kwartał przed końcem tego tygodnia?",
+        "pl": "Czy możesz wysłać mi raport sprzedaży za ostatni kwartał przed końcem tego tygodnia",
         "en": "Can you send me the sales report for the last quarter by the end of this week, please?"
       },
       "title": "Time Expressions, czyli Wyrażenia związane z Czasem",
@@ -31246,7 +31246,7 @@ var books = {
     },
     "2": {
       "0": {
-        "pl": "Wczoraj uczestniczyłem w spotkaniu/naradzie, na której omówiliśmy wszystkie bieżące sprawy.",
+        "pl": "której omówiliśmy wszystkie bieżące sprawy.",
         "en": "I attended a meeting yesterday in which we discussed all the current matters."
       },
       "1": {
@@ -31491,7 +31491,7 @@ var books = {
       },
       "11": {
         "pl": "To niewiarygodne, ilu ludzi jest teraz wmieszanych w oszustwa i pranie brudnych pieniędzy.",
-        "en": "It’s unbelievable how many people are involved in fraud and money laundering now."
+        "en": "fraud and money laundering now."
       },
       "12": {
         "pl": "Jeśli chcesz działać w czyimś imieniu, musisz być do tego upoważniony.",
@@ -31947,7 +31947,7 @@ var books = {
     "9": {
       "0": {
         "pl": "Zostałem upoważniony, aby działać w imieniu mojego szefa podczas jego nieobecności.",
-        "en": "I have been authorized to act on behalf of my boss while he is away."
+        "en": "boss while he is away."
       },
       "1": {
         "pl": "Zarząd musi wyznaczyć nowego kierownika działu księgowości.",
@@ -32238,7 +32238,7 @@ var books = {
         "en": "Adverts targeted at children are usually successful because kids are easily attracted by them."
       },
       "23": {
-        "pl": "Ich reklama przyciągnęła moją uwagę, ale kiedy  zakupiłem produkt, okazało się, że była ona zupełnie myląca.",
+        "pl": "Ich reklama przyciągnęła moją uwagę, ale kiedy  zakupiłem produkt, okazało się, że była ona zupełnie myląca",
         "en": "Their ad drew my attention, but when I bought the product, it turned out that it had been completely misleading."
       },
       "title": "Advertising & Promotion, czyli Reklama i Promocja",
@@ -33439,7 +33439,7 @@ var books = {
       },
       "23": {
         "pl": "Może się skończyć na tym, że stracimy rynki eksportowe i bazę klientów, i będziemy zmuszeni ogłosić upadłość.",
-        "en": "We might end up losing our export markets and customer base and we’ll be forced to declare bankruptcy."
+        "en": "We might end up losing our export markets and customer base and we’ll be forced to declare bankruptcy"
       },
       "title": "Problems at Work, czyli Problemy w Pracy",
       "length": 24
@@ -37167,7 +37167,7 @@ var books = {
     "26": {
       "0": {
         "pl": "Nasza firma dynamicznie się rozwija, a sprzedaż podskoczyła o ponad 40% w porównaniu do ubiegłego roku.",
-        "en": "Our business is booming and sales rocketed up more than 40% compared to last year."
+        "en": "more than 40% compared to last year."
       },
       "1": {
         "pl": "Ze względu na kryzys, ceny nieruchomości spadły na łeb, na szyję.",
@@ -37866,7 +37866,7 @@ var books = {
     },
     "33": {
       "0": {
-        "pl": "Czy mogę pożyczyć twój laptop?",
+        "pl": "mogę pożyczyć twój laptop?",
         "en": "May I borrow your laptop?"
       },
       "1": {
