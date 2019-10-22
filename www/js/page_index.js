@@ -103,14 +103,6 @@ var app = {
       
       var footerMsg = (app._exercise + 1) + '/' + books[app._book][app._chapter].length;
       document.getElementById('chapterTitle').innerHTML = footerMsg;
-
-      /*
-      var title = books[app._book][app._chapter].title.split('|');
-      document.getElementById('chapterTitle').innerHTML = title[0];
-      
-      var subTitle = (!title[1] ? '&nbsp;' : title[1]);
-      document.getElementById('chapterSubTitle').innerHTML = subTitle;
-      */
     },
 
     cardClick: function(event) {
@@ -128,24 +120,40 @@ var app = {
     createChapter: function(event) {
         $("#slider-1").on("change", app.confCardHeight);
         $("#slider-2").on("change", app.confFontSize);
+        $("#slider-3").on("change", app.confCardRightMargin);
+        
         var cardPl = document.getElementById('pl');
         var cardGb = document.getElementById('gb');
         
         var cardTextPl = document.querySelector('#pl p');
         var cardTextEn = document.querySelector('#gb p');
+        
+        var cardContainer = document.getElementById('cardContainer');
       
         
         if (typeof app.config['cardHeight'] !== 'undefined') {
           var value = app.config['cardHeight'];
+          $("#slider-1").val(value);
           cardPl.style.height = value + 'px';
           cardGb.style.height = value + 'px';
         } 
 
         if (typeof app.config['fontSize'] !== 'undefined') {
           var value = app.config['fontSize'];
+          $("#slider-2").val(value);
           cardTextPl.style.fontSize = value + 'px';
           cardTextEn.style.fontSize = value + 'px';  
         }
+        
+        if (typeof app.config['cardRightMargin'] !== 'undefined') {
+          var value = app.config['cardRightMargin'];
+          $("#slider-3").val(value);
+          cardContainer.style.marginRight = value + 'px';
+        }
+        
+        $("#slider-1").slider('refresh');
+        $("#slider-2").slider('refresh');
+        $("#slider-3").slider('refresh');
     },
     
     prepareChapter: function(event) {
@@ -163,8 +171,6 @@ var app = {
         configPanel.style.display = '';
       }
     },
-    
-    
     
     confFontSize: function(event) {
       var cardTextPl = document.querySelector('#pl p');
@@ -184,6 +190,12 @@ var app = {
       cardGb.style.height = this.value + 'px';
 
       app.config['cardHeight'] = this.value;
+    },
+    
+    confCardRightMargin: function(event) {
+      var cardContainer = document.getElementById('cardContainer');
+      cardContainer.style.marginRight = this.value + 'px';
+      app.config['cardRightMargin'] = this.value;   
     },
     
     config: window.localStorage,
