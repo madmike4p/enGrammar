@@ -1,0 +1,540 @@
+VERTICAL:
+2	27	1	Are you cold? |Yes, I am.
+2	27	1	Zimno ci? |Tak.
+2	27	2	Do you live near here? |No, I don’t.
+2	27	2	Mieszkasz tu blisko? |Nie.
+2	27	3	Is this your coat? |Yes, it is.
+2	27	3	Czy to twój płaszcz? |Tak.
+2	27	4	Is it necessary to fill in all the gaps in the form? |Yes, it is.
+2	27	4	Czy konieczne jest, żeby wypełnić wszystkie luki w formularzu? |Tak.
+2	27	5	Is he staying with us? |No, he isn’t.
+2	27	5	Czy on zostaje z nami? |Nie.
+2	27	6	Is there a good restaurant near here? |Yes, there is.
+2	27	6	Czy jest jakaś dobra restauracja niedaleko? |Tak.
+2	27	7	Do I have to go there? |Yes, you do.
+2	27	7	Czy muszę tam iść? |Tak.
+2	27	8	Can they postpone the meeting? |No, they can’t.
+2	27	8	Czy oni mogą przełożyć spotkanie? |Nie.
+2	27	9	Should I change anything? |No, you shouldn’t.
+2	27	9	Czy powinnam coś zmienić? |Nie.
+2	27	10	Were you at home last night? |Yes, I was.
+2	27	10	Czy byłeś w domu wczoraj wieczorem? |Tak.
+2	27	11	Did you see him yesterday? |No, I didn’t.
+2	27	11	Czy widziałeś go wczoraj? |Nie.
+2	27	12	Would you like to stay longer? |Yes, I would.
+2	27	12	Czy chciałbyś zostać dłużej? |Tak.
+2	27	13	Was there a full moon yesterday? |No, there wasn’t.
+2	27	13	Czy wczoraj była pełnia Księżyca? |Nie.
+2	27	14	Do they agree? |Yes, they do.
+2	27	14	Czy oni się zgadzają? |Tak.
+2	27	15	Are they going to join us? |No, they aren’t
+2	27	15	Czy zamierzają do nas dołączyć? |Nie.
+2	27	16	Is he angry at me? |No, he isn’t.
+2	27	16	Czy on jest na mnie zły? |Nie.
+2	27	17	Does he call you every day? |Yes, he does.
+2	27	17	Czy on do ciebie dzwoni codziennie? |Tak.
+2	27	18	Are these your shoes? |No, they aren’t.
+2	27	18	Czy to są twoje buty? |Nie.
+2	27	19	Is it obligatory to prepare a presentation? |No, it isn’t.
+2	27	19	Czy obowiązkowe jest przygotowanie prezentacji? |Nie.
+2	27	20	Can I call you back later? |Yes, you can.
+2	27	20	Czy mogę oddzwonić do ciebie później? |Tak.
+2	27	21	Are there any people outside? |No, there aren’t.
+2	27	21	Czy są jacyś ludzie na zewnątrz? |Nie.
+2	27	22	Does he have to make a speech? |No, he doesn’t.
+2	27	22	Czy on musi wygłosić przemówienie? |Nie.
+2	27	23	Are they coming tomorrow? |Yes, they are.
+2	27	23	Czy oni jutro przychodzą? |Tak.
+2	27	24	Should we tell them that? |No, we shouldn’t.
+2	27	24	Czy powinniśmy im to powiedzieć? |Nie.
+2	27	25	Was I late last time? |No, you weren’t.
+2	27	25	Czy byłem spóźniony ostatnim razem? |Nie.
+2	27	26	Did he call yesterday? |Yes, he did.
+2	27	26	Czy on wczoraj zadzwonił? |Tak.
+2	27	27	Would you like to go to the mountains? |No, I wouldn’t.
+2	27	27	Czy chciałbyś pojechać w góry? |Nie.
+2	27	28	Were there any phone calls for me when I was out? |Yes, there were.
+2	27	28	Czy były jakieś telefony do mnie, kiedy mnie nie było? |Tak.
+2	27	29	Will you visit us next month? |Yes, I will.
+2	27	29	Odwiedzisz nas w przyszłym miesiącu? |Tak.
+2	27	30	Were you at work yesterday at nine? |No, I wasn’t.
+2	27	30	Byłeś w pracy wczoraj o dziewiątej? |Nie.
+4	26	26	More coffee?| No, that will do. Cheers!/Thanks!
+4	26	26	Więcej kawy?| Nie, to wystarczy. Dzięki.
+
+FIRST:
+4	17	1	możemy sobie na niego pozwolić.
+4	22	1	ich tutaj nie ma.
+4	23	1	trzy miliony euro.
+7	1	17	kazało się to być o wiele łatwiejsze, niż myślałem.
+9	8	1	rudno uwierzyć, że on ma już 40 lat, a wciąż jest na utrzymaniu rodziców.
+9	14	1	en gatunek wymarł wieki temu.
+10	4	10	decided to do business abroad.
+10	6	1	rachunek za telefon i kilka formularzy.
+11	3	1	której omówiliśmy wszystkie bieżące sprawy.
+11	5	12	fraud and money laundering now.
+11	10	1	boss while he is away.
+12	27	1	more than 40% compared to last year.
+12	34	1	mogę pożyczyć twój laptop?
+
+LAST:
+2	27	15	Are they going to join us? |No, they aren’t
+10	4	9	In our last meeting we were discussing the marketing strategy of our company and we
+10	16	11	Dobre planowanie jest kluczem do sukcesu
+10	17	24	You will receive your card and PIN number soon
+10	26	24	Czy możesz wysłać mi raport sprzedaży za ostatni kwartał przed końcem tego tygodnia
+10	32	5	Dear Sir/Madam,
+10	32	5	Szanowni Państwo,
+11	12	24	Ich reklama przyciągnęła moją uwagę, ale kiedy  zakupiłem produkt, okazało się, że była ona zupełnie myląca
+11	24	24	We might end up losing our export markets and customer base and we’ll be forced to declare bankruptcy
+11	26	15	This job involves the following administrative duties:
+11	26	15	Ta praca pociąga za sobą następujące obowiązki administracyjne:
+12	18	11	All applicants who claim for damages are requested to provide the following information:
+12	18	11	Wszyscy zgłaszający, którzy domagają się odszkodowania, proszeni są o dostarczenie następujących informacji:
+
+SLASH:
+1	2	13	This/It is a very good idea.
+1	2	15	This/It is not a good sign.
+1	7	9	Whose car is this/it?
+1	7	30	Kto jest tutaj szefem./Kto tu rządzi?
+1	9	16	There aren’t any books on the shelves./There are no books on the shelves.
+1	9	17	There isn’t any money here./There is no money here.
+1	9	24	There aren’t any trees in the city centre./There are no trees in the city centre.
+1	13	12	They rarely/seldom speak to us.
+1	13	27	I rarely/seldom change my car.
+1	14	30	Have fun!/Have a good time!
+1	26	5	Don’t talk to him about this/it.
+1	27	1	Thank you./Thanks for your help.
+1	27	1	Dziękuję./Dzięki za pomoc.
+1	27	4	How are you?/How are you doing?
+1	27	7	Of course./Of course not.
+1	27	7	Oczywiście./Oczywiście, że nie.
+1	27	9	Absolutely./Sure.
+1	27	9	Absolutnie./Pewnie.
+1	27	17	Same to you./You too.
+1	27	18	Bless you!/Cheers!
+1	27	23	Me either./Me neither.
+1	28	17	There aren’t any volunteers./There are no volunteers.
+1	28	34	Whose car is this/it?
+1	28	55	Czy oni są zadowoleni/szczęśliwi?
+2	3	1	I have very little money./I don’t have much money.
+2	3	1	Mam bardzo mało pieniędzy./Nie mam dużo pieniędzy.
+2	3	10	He takes very little luggage/He doesn’t take much luggage when he goes on holidays, usually one or two suitcases.
+2	3	10	On zabiera bardzo mało bagażu/On nie zabiera dużo bagażu, gdy jedzie na wakacje, zwykle jedną lub dwie walizki.
+2	4	6	You have more time than I do/than me.
+2	4	13	He has less baggage than she does/than her.
+2	4	14	I earn less than he does/than him.
+2	4	20	Does he read more than she does/than her?
+2	4	25	You have more ideas than I do/than me.
+2	6	24	He was happy to see you./He was glad to see you.
+2	8	30	He got on the wrong bus./He took the wrong bus.
+2	12	13	Postaram się./Spróbuję.
+2	12	18	No, it’s OK/it’s not necessary.
+2	15	6	I have nothing to tell you./I don’t have anything to tell you.
+2	15	7	We did nothing at the weekend./We didn’t do anything at the weekend.
+2	15	26	He did nothing./He didn’t do anything. He stayed in bed the whole day.
+2	15	28	I know nothing about it./I don’t know anything about it.
+2	21	12	There are no cars over there./There aren’t any cars over there.
+2	22	27	Wczoraj opowiedział mi niezwykłą/zdumiewającą historię.
+2	23	26	It’s complicated/hard/difficult for him to talk about it.
+2	24	1	I talked with/to him about it yesterday, but he didn’t want to listen to me.
+2	26	1	What’s going on?/What’s the matter?
+2	26	9	Nie przejmuj się./Wyluzuj!
+2	26	14	That’s OK/it’s OK/it’s alright.
+2	26	21	Best regards./Kind regards.
+2	26	26	It’s nice to meet you./ It’s nice to see you.
+2	26	26	Miło mi cię poznać./Miło cię zobaczyć.
+2	26	27	Nie obchodzi mnie to./Mam to gdzieś.
+2	26	28	May/Can/Could I speak to Mr Jones?
+2	28	48	We don’t have anything in common./We have nothing in common.
+3	3	15	He drinks as much coffee as I do/as me.
+3	3	26	Nie mam tylu dni wolnych/urlopu, co bym chciał.
+3	3	29	His boss earns more than he does/him.
+3	18	9	Have you made a booking/reservation yet?
+3	20	29	He’ll buy a new car after/when he saves enough money.
+3	22	24	Kiedy polepszy/poprawi się sytuacja ekonomiczna?
+3	22	29	Już się polepsza/poprawia.
+3	27	4	Are they coming today? I think so./I don’t think so.
+3	27	4	Czy oni dziś przychodzą? Myślę, że tak./Nie sądzę.
+3	27	9	Jak to się stało, że wstałeś/jesteś na nogach tak wcześnie?
+3	27	25	I’m sick and tired of this job./I’m fed up with this job.
+4	1	26	He has a new car./He has got a new car.
+4	4	22	There’s a woman on the phone/line. She wants to speak to you.
+4	7	7	Przestań robić sceny i weź się do roboty/rób swoje.
+4	7	9	Możesz wyciągnąć 200km/h tym samochodem.
+4	8	26	Nie widzę żadnej różnicy między ‘mówić’ i ‘powiedzieć’./ Nie mogę odróżnić ‘mówić’ i ‘powiedzieć’.
+4	10	24	I had/made them tidy their desks.
+4	11	9	Chciałabym, żeby pan rozważył moją kandydaturę/podanie.
+4	12	6	Ciekawe, czy są/pojawiły się jakieś nowe oferty pracy.
+4	13	1	That’s the man who/that is our lawyer.
+4	13	2	The man (who/that) we have just seen is a teacher.
+4	13	3	The man who/that is speaking on the phone over there is my brother.
+4	13	4	The man (who/that) Tom is speaking to at the moment is my boss.
+4	13	5	Yesterday I saw the film which/that was made by Woody Allen.
+4	13	6	Yesterday I saw the film (which/that) you recommended to me.
+4	13	7	The report (which/that) I sent you last night is very important.
+4	13	8	This is the report (which/that) we have been working on since June.
+4	13	9	Have you seen the book (which/that) I bought yesterday?
+4	13	10	Do you know anybody who/that speaks Chinese?
+4	13	12	The school (which/that) she goes to is in the city centre.
+4	13	13	The film which/that got the Oscar was great.
+4	13	20	This is the IT expert (who/that) you’ve been waiting for.
+4	13	22	That’s the man (who/that) we spoke about.
+4	13	23	Have you ever seen the pictures (which/that) she took at the party?
+4	13	25	The people (who/that) we met in the last meeting want to work with us.
+4	22	2	I might/may have left them in the car.
+4	22	3	I can’t/couldn’t have left them in the car.
+4	22	7	No. He can’t/couldn’t have painted that. His style is completely different.
+4	22	22	Na pewno padało/Musiało padać. Popatrz na zewnątrz.
+4	22	27	Masz rację. Mogłem iść./Powinienem był iść.
+4	23	9	He made/earned two billion in just a year.
+4	23	16	My son was born in 2005 (twenty oh five/ two thousand and five).
+4	23	17	My daughter was born in 2010 (twenty ten/two thousand and ten).
+4	23	18	I pay 1200 a month (one thousand and two hundred/twelve hundred).
+4	23	22	2/3 (two thirds) of our planet is covered by ocean.
+4	23	22	2/3 naszej planety jest pokryte oceanem.
+4	23	23	How much is 5/8 (five eighths) of an inch?
+4	23	23	Ile to jest 5/8 z cala?
+4	23	24	30 cents is 3/10 (three tenths) of a dollar.
+4	23	24	30 centów to 3/10 dolara.
+4	23	25	Is 1/6 (one sixth) a bigger number than 1/8 (one eighth)?
+4	23	26	10/10 (ten out of ten/ten over 10) answered ‘yes’.
+4	26	13	Speak of the devil… (and he shall/will appear).
+4	26	13	O wilku mowa (a wilk tu/tuż tuż).
+4	26	22	Szczerze, nie mogę się w tym połapać./Nic z tego nie rozumiem.
+4	26	26	More coffee?| No, that will do. Cheers!/Thanks!
+4	26	28	Musimy to rozwiązać/załatwić raz na zawsze.
+4	28	19	Pewnego dnia/Raz zrobiła scenę przed domem. Tego już było za wiele.
+4	28	32	This is the person (who/that) we were talking about yesterday.
+4	28	33	This is the person who/that rents one of my flats.
+5	1	7	I assume/suppose that it was two months ago.
+5	3	24	Zmywanie szybko pójdzie/nie zabierze nam dużo czasu.
+5	5	3	I recall/remember seeing you there.
+5	5	20	Żądam/Chcę zobaczyć się z menedżerem.
+5	5	29	We will continue negotiating/to negotiate until we reach an agreement.
+5	5	30	I started playing/to play the violin at the age of eight.
+5	7	17	Can/Could/May I speak to Ms Fields?
+5	8	30	He spends money like there’s no tomorrow/as if there were no tomorrow.
+5	9	2	So am I./ I’m not.
+5	9	2	Ja też./ Ja nie.
+5	9	4	So do I./ I don’t.
+5	9	4	Ja też./ Ja nie.
+5	9	6	So am I./ I’m not.
+5	9	6	Ja też./ Ja nie.
+5	9	8	Neither was I./ I was.
+5	9	8	Ja też nie./ Ja tak.
+5	9	10	So would I./ I wouldn’t.
+5	9	10	Ja też./ Ja nie.
+5	9	12	Neither can I./ I can.
+5	9	12	Ja też nie./ Ja tak.
+5	9	13	I don’t have anything./ I have nothing to do this afternoon.
+5	9	14	Neither do I./ I do.
+5	9	14	Ja też nie./ Ja tak.
+5	9	18	Neither am I./ I am.
+5	9	18	Ja też nie./ Ja tak.
+5	9	20	So did I./ I didn’t.
+5	9	20	Ja też./ Ja nie.
+5	9	22	Neither would I./ I would.
+5	9	22	Ja też nie./ Ja tak.
+5	9	24	So was I./ I wasn’t.
+5	9	24	Ja też./ Ja nie.
+5	9	26	Neither have I./ I have.
+5	9	26	Ja też nie./ Ja tak.
+5	9	28	Neither am I./ I am.
+5	9	28	Ja też nie./ Ja tak.
+5	13	23	As for/when it comes to the quality of our products, we need to improve it.
+5	14	30	I like being given presents. It’s great/awesome.
+5	16	4	I’m into different kinds of music, like/such as funk, pop and rock.
+5	16	6	He works for the same company as me/as I do.
+5	16	15	We have to work on several matters like/such as health problems, pollution, etc.
+5	19	24	You were supposed to have signed that/it before.
+5	20	29	I don’t feel like eating anything. I’m not in the least bit hungry./ I’m not hungry at all.
+5	20	30	It’s by no means certain./ It’s not certain by any means that the show will take place.
+5	23	1	You can do whatever you want/like.
+5	23	20	Stop telling me what to do. I’ll invite whoever I want/like.
+5	23	24	You can leave your coat wherever you wish/please.
+5	23	24	Możesz zostawić płaszcz, gdziekolwiek sobie życzysz/ci odpowiada.
+5	24	17	You’re the person/the one who will decide whose fault it was.
+5	24	24	I’m the person/the one who did it.
+5	24	27	He’s the person/the one I gave money to.
+5	25	13	Judging by/from their concerts, they’re very good musicians.
+5	25	28	Judging by/from his response, he didn’t like it.
+5	26	9	They work 24/7 (twenty four seven).
+5	26	10	Let’s get down to work/business.
+5	26	18	Maria zaczęła płakać bez powodu, ni z tego, ni z owego/nagle.
+5	27	5	Here you are./There you are./Here you go./There you go.
+5	28	23	You can buy whatever you like/want.
+5	28	40	Ten projekt musi zostać odrzucony z powodu braku środków/funduszy.
+6	1	5	Ferrari nigdy nie wyprodukował samochodu, który jeździłby szybciej niż 500km/h.
+6	2	4	There are lots of means/modes of transport, but my favourite is definitely the bicycle.
+6	3	15	This restaurant needs redecorating/ to be redecorated. Only then will we be able to get clients.
+6	3	16	These walls need painting/to be painted.
+6	6	30	They have just announced that the train will be arriving ten minutes late/will be delayed by ten minutes.
+6	12	5	However/Yet, they don’t want the public to know about it due to the fact that it’s a delicate issue.
+6	12	6	Nevertheless/Nonetheless, I think they should arrest him before he tries to escape again.
+6	12	10	However/Yet, I find him arrogant and what’s more, he’s a complete egoist.
+6	12	17	I’ll lend you the money on condition that/provided that you give it back within three months.
+6	12	18	He retired when he was 55 on account of/because of/due to his poor health.
+6	12	25	We’ll buy everything at theirs provided that/on condition that they give us a discount.
+6	12	26	You can go on condition that/provided that you’re back home at ten.
+6	13	1	3/5 of the population have trouble with it. (three fifths)
+6	13	1	3/5 ludności ma z tym trudność.
+6	13	16	3/4 (three quarters) of those polled make use of a computer at work and a third wouldn’t be able to do without it.
+6	14	3	Nie wiem, co dziś w nią wstąpiło. Jest taka złośliwa/wredna.
+6	15	3	All of them passed/They all passed.
+6	15	6	They are both fast/Both of them are fast.
+6	15	13	I haven’t seen either of them/I have seen neither of them.
+6	15	14	I like neither of them/I don’t like either of them.
+6	15	25	All of us are men/We’re all men.
+6	18	3	He bent over/down to pick up a coin.
+6	27	9	I screwed it up./I blew it again. I’ll do better next time.
+6	27	14	Ale z niego fajny gość/koleś!
+6	28	4	The information (that/which) you sent me is useless. I need some more reliable data.
+7	2	6	Kto opiekuje/zajmuje się twoim ogrodem? Wygląda niesamowicie. Rozejrzyj się. Jest tak wiele pięknych kwiatów i krzewów.
+7	2	9	You should always look over/through a contract before signing it.
+7	2	9	Zawsze powinno się sprawdzić/przejrzeć umowę przed jej podpisaniem.
+7	2	12	Jeśli nie znasz tego zespołu, wyszukaj go/ich w Google.
+7	2	18	Musimy prześledzić/zbadać ten problem tak szybko, jak to możliwe.
+7	3	1	Take off your shoes. / Take your shoes off, please. I’ve just cleaned the floor.
+7	3	2	Put on your coat. / Put your coat on. It’s quite cold.
+7	3	3	Put it on right now/immediately!
+7	3	4	Can you please take out your phone/take your phone out?
+7	3	15	Take them off. Put them into the case. / Put them back into the case.
+7	3	15	Zdejmij je. Włóż je do etui. / Włóż je z powrotem do etui.
+7	4	9	Take down/Write down my phone number just in case.
+7	4	13	The elections are next month. We’ll see if the opposition is/are going to take over.
+7	4	15	Możesz to zwrócić/odnieść z powrotem w ciągu 30 dni, jeśli rozmiar jest zły.
+7	4	26	Masz to po swojej mamie. / Jesteś podobny do swojej mamy. Po kim ona to ma? / A do kogo ona jest podobna?
+7	5	13	Przedstawił propozycję, ale nikt nie był za (tą propozycją)/ nikt jej nie poparł.
+7	5	15	The wedding can’t be celebrated on the 5th. Would you prefer to put it back/off or forward?
+7	5	17	The implementation of the new system has been put back/put off until next year.
+7	5	28	Chwileczkę/Proszę zaczekać. Łączę.
+7	6	10	Coming/Going back to what I said before…
+7	6	15	You can come/go in.
+7	6	16	Do you feel like/fancy going out tonight?
+7	7	15	To co mówisz jest całkiem interesujące. Kontynuuj/Mów dalej.
+7	8	2	Czasem spotykam/napotykam osoby, które, mam wrażenie, spotkałem wcześniej.
+7	8	4	Maybe we should invite them to come round/over/by?
+7	8	19	Jak do tego doszło/jak to się stało, że spotkałeś swoją żonę?
+7	9	15	Czy możesz podzielić/rozłożyć sprzedaż według regionów?
+7	10	9	Jego wyraz twarzy zdradził/wydał go.
+7	10	10	Obiecuję, że nie zdradzę/wydam twojego sekretu.
+7	10	11	I’ll never guess the answer. I give up/in.
+7	10	13	Trudno było się oprzeć pokusie/nie ulec pokusie.
+7	10	30	Szkoda, że / Żałuję, że porzuciłem grę na pianinie.
+7	11	3	Gdy dotarłem z powrotem/wróciłem do domu, była już 7.30.
+7	11	13	Nigdy tak naprawdę nie dogadywaliśmy się z naszymi sąsiadami. Tak naprawdę, nie tolerujemy/nie znosimy ich.
+7	11	27	Ciężko mu przychodzi wytłumaczenie/przekazanie tego, co ma na myśli. (swoich pomysłów)
+7	12	4	On nie dostał tego, czego się spodziewał, ale przeboleje to/zapomni o tym.
+7	12	6	Ona boi się mówić publicznie/przemawiać, ale miejmy nadzieję, że przezwycięży to wcześniej czy później.
+7	12	9	We’ve finally worked/figured out how it works.
+7	12	11	We are trying to work/figure out how much money we will need for the trip.
+7	12	12	First of all we have to work/figure out where we are.
+7	12	13	I couldn’t work/figure out what they meant.
+7	12	14	We’ll work/figure it out together.
+7	12	25	I can’t figure/work him out.
+7	12	26	It will take us some time to figure/work out the best way to do it.
+7	12	28	But don’t worry, we’ll sort it out/work out a solution.
+7	12	29	It might take us some time to work/figure out the answer.
+7	12	30	Have you worked/figured out yet what happened there?
+7	13	22	Teraz przejdźmy do drugiego punktu programu/porządku dnia.
+7	14	6	Fill the car up / Fill up the car on your way home.
+7	15	3	I slowed down to 50km/hour at the turn.
+7	15	3	Zwolniłem do 50 km/godzinę na zakręcie.
+7	15	14	Warm up/Heat up some milk.
+7	15	16	Wait for the cake to cool down. / Wait until the cake cools down.
+7	16	15	Plakala, bo jej chlopak zerwal z nia, a ona nie wiedziala, jak do tego doszlo/jak to sie stalo.
+8	2	18	Czy możesz odczytać, co mówi tamta notatka/co jest w niej napisane?
+8	2	29	Tak twierdzi/podaje prasa.
+8	3	25	Te dialekty są tak wyraźne/charakterystyczne, że mogę je łatwo rozróżnić.
+8	3	28	He got/was told off for telling lies.
+8	4	9	Sprzedaż zwykle poprawia się/nabiera rozpędu w kwietniu.
+8	5	4	Czy coś było widać/pojawiło się na zdjęciu rentgenowskim?
+8	6	11	I can’t just sit back/around and watch them ruin the whole plan.
+8	6	11	Nie mogę tak siedzieć wygodnie/bezczynnie i patrzeć, jak psują cały plan.
+8	6	12	Zawsze będę wspierać/stać po stronie/przy/blisko mojej rodziny.
+8	6	23	Musisz bronić siebie/swoich interesów, bo nikt inny się za tobą nie wstawi.
+8	6	26	On nigdy nie potrafił stawić czoła/przeciwstawić się swojemu ojcu i powiedzieć mu nie.
+8	7	20	You left your handbag at mine. You can drop in/by and pick it up tomorrow.
+8	7	21	Why don’t you drop by/in and have a word with him?
+8	7	26	He had been engaged/involved in politics for five years, but dropped out in the middle of the elections.
+8	7	30	Do you feel like dropping in/by for a cup of tea?
+8	8	11	Powinieneś przestać się z nimi spotykać/spędzać z nimi czas. Mają na ciebie zły wpływ.
+8	8	29	Czy pozostaniesz na uniwersytecie, żeby zrobić/uzyskać tytuł magistra?
+8	9	22	If we are/get cut off, call me on the landline.
+8	9	24	Can you help her cut the meat up/cut up the meat?
+8	10	1	Możesz spłacić/oddać te 2000 euro w 20 miesięcznych ratach po 100 euro.
+8	10	6	He paid off/back his debts with all the interest.
+8	10	28	Hold down Ctrl and tap/press P.
+8	11	7	Think through/over all the aspects of this project.
+8	11	7	Pomyśl/Zastanów się nad wszystkimi aspektami tego projektu.
+8	11	10	He used to think/make up an excuse every time he wanted to wriggle out of doing what he was supposed to do.
+8	13	3	At 6 they started letting/to let people in.
+8	13	22	It’s cold outside. Do your jacket up. / Do up your jacket.
+8	13	24	Your fly is undone. Do/Zip it up.
+8	14	7	Don’t throw tea or coffee dregs into the drain/sink or it’ll block up.
+8	14	7	Nie wrzucaj fusów z herbaty czy kawy do zlewu, bo się zablokuje/zatka.
+8	14	11	Trudno mi trzymać się/przestrzegać diety.
+8	14	13	His house in London was burned/burnt down in the fire of 1666.
+8	14	14	Their factory burned/burnt down in 1902. It was never rebuilt.
+8	14	16	Dlaczego zamknęli/zlikwidowali (swoją firmę)?
+8	14	17	Wiele małych firm zamyka/likwiduje się ze względu na kryzys.
+8	14	18	Cross out all the French words. / Cross all the French words out.
+8	14	24	You should cross this sentence out/cross out this sentence.
+8	15	12	I don’t have anyone/I have no one to rely on.
+8	16	18	One day he ran into his friend from school. They started hanging around/out a lot together and they fell for each other.
+9	2	8	Can anybody call out/for the fire brigade?
+9	2	9	I won’t be able to fix it myself. We need to call out/in/ for a plumber.
+9	2	26	They called out/in/for a doctor, but he never arrived.
+9	3	10	They set out/off early in the morning.
+9	3	17	Odłóż trochę nadzienia na wierzch/na przybranie.
+9	3	23	Ktoś musiał nasłać na nich tych bandytów/łobuzów.
+9	3	25	Może minąć trochę czasu, zanim sprawy się ustabilizują / unormują.
+9	3	30	Myślę, żeby gdzieś osiąść/ustatkować się i założyć swój własny biznes.
+9	4	30	Pokażę te zdjęcia, żeby poprzeć/potwierdzić to, co znalazłem/odkryłem.
+9	5	1	Powinniśmy zostawić na boku/pominąć kwestię pieniędzy.
+9	5	4	Zaczniemy tam, gdzie skończyliśmy/zaprzestaliśmy ostatnim razem.
+9	5	6	Dlaczego nie porzucisz/zostawisz za sobą starych zwyczajów oraz tradycji i nie spróbujesz czegoś nowego?
+9	5	22	Na razie zostawimy na boku/pominiemy wydatki.
+9	6	5	I feel sick. Pull over/in.
+9	6	6	The police signalled for him to pull over/in.
+9	6	10	Try to pull over/in if possible.
+9	6	24	Czy mógłby pan trochę potrącić/zejść z ceny?
+9	7	23	Musisz złożyć/oddać tę pracę zaliczeniową do środy.
+9	8	2	Wielu ludzi żyje/utrzymuje się z roli.
+9	10	22	Ona próbowała zagadać do/poderwać kelnera.
+9	11	28	Be careful when you plug in the kettle/plug the kettle in.
+9	12	8	Such rude waiters can scare customers away/off.
+9	12	9	If you carry on calling her, you’ll scare her off/away.
+9	12	26	I don’t want to scare him off/away.
+9	13	22	We had no choice but to wind our business up/wind up our business.
+9	14	2	We can’t let this tradition die out/fade away. That’s why we pass it on to our children.
+9	14	2	Nie możemy pozwolić, żeby ta tradycja wymarła/zanikła. Dlatego przekazujemy ją naszym dzieciom.
+9	14	3	Takie tradycje zaczynają zanikać/zacierać się.
+9	15	28	Nie zawal/nie schrzań tego tym razem.
+9	16	17	The waiter told us to dig in/tuck in.
+9	16	29	Nic jej nie powiedziałem, ponieważ prawdopodobnie oszalałaby/wściekłaby się, gdyby się dowiedziała.
+10	2	2	Our office hours are from nine a.m. to six p.m./Our office is open from 9 a.m. to 6 p.m.
+10	2	2	Godziny otwarcia naszego biura to od 9:00 do 18:00./ Nasze biuro otwarte jest od 9:00 do 18:00.
+10	4	6	I can’t go to/attend the meeting.
+10	4	6	Nie mogę iść na spotkanie/uczestniczyć w spotkaniu.
+10	4	21	Czy zdołaliście/udało wam się rozwiązać wszystkie problemy?
+10	4	22	We had too many points on the agenda. We didn’t have enough time to discuss/cover all of them.
+10	4	22	Mieliśmy zbyt wiele punktów w programie. Nie mieliśmy wystarczająco dużo czasu, żeby je wszystkie przedyskutować/omówić.
+10	5	9	I have no change./I don’t have any change. I only have banknotes.
+10	5	19	Does the price include postage/shipping costs?
+10	7	1	Who’s calling?/Who’s speaking?
+10	7	14	Jak mogę ci pomóc? / W czym mogę pomóc?
+10	7	16	Czy mógłbyś, proszę, powtórzyć swoje imię?/ Czy mógłby Pan powtórzyć swoje imię?
+10	7	17	Czy możesz przeliterować swoje nazwisko?/ Czy mógłby Pan przeliterować swoje nazwisko?
+10	7	22	Czy mogę użyć/skorzystać z twojego telefonu?
+10	7	24	The line is busy/engaged.
+10	8	20	To urządzenie ma wiele przydatnych cech/funkcji.
+10	9	3	Where did you go? / Where were you?
+10	9	3	Gdzie pojechałeś? / Gdzie byłeś?
+10	11	1	Our clients/customers are happy with our services.
+10	11	22	Dostarczamy/Zapewniamy najlepsze usługi w okolicy.
+10	11	23	We analyse our clients’ opinions and satisfy/meet their needs.
+10	12	2	My computer, keyboard and mouse are broken/are not working.
+10	12	2	Mój komputer, klawiatura i myszka są zepsute/nie działają.
+10	12	18	Powinieneś zaktualizować swój profil. Umieściłeś/ zawarłeś tylko swoje dane osobowe.
+10	12	23	Do you know how to run/start this application?
+10	14	9	Mamy przekroczony budżet/Przekroczyliśmy budżet i musimy gdzieś obciąć koszty.
+10	14	17	Chciałbyś otworzyć/rozpocząć swój własny biznes?
+10	15	4	Musimy zaaranżować/umówić spotkanie z prezesem, żeby przedyskutować ten pomysł.
+10	17	10	Of course/Sure.
+10	17	10	Oczywiście/Pewnie.
+10	18	13	Once a quarter./Quarterly.
+10	21	4	Całe szczęście!/ Dzięki Bogu!
+10	22	13	For the first six months, people who start their companies don’t have to pay national insurance/social security.
+10	23	8	Popatrzmy na cyfry/dane liczbowe z tego roku.
+10	24	3	Jaki macie plan?/Jaki jest wasz plan?
+10	24	13	Czy myślisz, że będziesz w stanie trzymać się harmonogramu/planu pracy?
+10	24	24	Wszystkie wyniki/liczby/dane liczbowe możesz znaleźć w tabelce.
+10	26	3	We introduced/launched this product in the middle of last year.
+10	26	7	Co dwa tygodnie przeglądamy wszystkie konta/rachunki.
+10	27	11	Ile kosztuje reklama na okładce lub na stronie głównej/na pierwszej stronie?
+10	27	13	You can read the news, check your e-mail, watch movies/films, listen to music and much more.
+10	28	5	There will be a highway near our offices/our office building.
+10	28	5	Będzie autostrada blisko naszych biur/naszego biurowca.
+10	29	10	You can call him on/at 68 678 425.
+10	30	20	Is everything OK/alright?
+10	31	1	The instructions/tips that you gave me were very useful.
+10	31	14	Bądź ostrożny. / Uważaj!
+10	32	5	Dear Sir/Madam,
+10	32	10	You can find the sales report for last year in the attachment. / I’m attaching the sales report for last year.
+10	32	12	Here it is. / Here is the file.
+10	32	12	Oto on. / Oto ten plik.
+10	32	13	Zignoruj tego e-maila, jeśli nie masz żadnych zaległych/niezapłaconych faktur.
+10	32	24	Best/Kind regards.
+10	34	5	I would change the logo a little bit. In my opinion the colour should be more intense/powerful.
+10	34	6	The whole team agree/are in favour.
+10	34	6	Cały zespół się zgadza/jest za.
+10	34	22	I have an idea. Let’s do it like this/that.
+10	35	4	I understand/I see.
+11	2	2	Wszystkie oczekujące/bieżące dokumenty, które musimy wprowadzić do systemu, są na półce na bieżące sprawy lub w teczkach.
+11	2	19	We do business all around the world. That’s why, our office works 24/7. There are day and night shifts.
+11	2	19	Robimy interesy na całym świecie. Dlatego też, nasze biuro pracuje non-stop/24 godziny na dobę. Mamy zmiany dzienne i nocne.
+11	3	21	It was very productive/fruitful.
+11	5	2	I don’t think that you can be fired/that they can fire you just before you retire. Check the Labour code.
+11	5	9	When you register your company, you have to specify what form it will have, e.g. Inc, LLC/Ltd.
+11	7	7	We’ve applied to/turned to the government for financial aid to fund the building of new warehouses.
+11	7	9	Rok podatkowy/obrotowy w Polsce pokrywa się z rokiem kalendarzowym, podczas gdy w Wielkiej Brytanii zaczyna się 6 kwietnia, a w Stanach 1 października.
+11	9	7	Musisz pokryć wszystkie koszty początkowe i stałe/ogólne, takie jak wynajem, rachunki, itp.
+11	9	23	Our company is up and running/is prospering.
+11	10	17	Jaki styl zarządzania jest teraz powszechnie/głównie stosowany?
+11	10	19	Niektórzy ludzie myślą, że Steve Jobs miał/przejawiał wybitne cechy przywództwa.
+11	11	7	I couldn’t do it because my computer stopped working/crashed.
+11	11	7	Nie mogłem tego zrobić, ponieważ mój komputer przestał działać/padł.
+11	11	19	Our website generated 10 million page views last year thanks to updating our online shop/store.
+11	11	21	Can a PDF file be turned into/converted into a word file?
+11	14	4	Odprawa zależy od stażu pracy i równa się pensji za 30 dni za każdy rok pracy/przepracowany rok.
+11	14	18	Musimy znaleźć sposób na obniżenie kosztów. Jeśli tego nie zrobimy, będziemy zmuszeni obciąć/zredukować liczbę zatrudnionych i zwolnić ludzi.
+11	15	7	What factors did you take into consideration/account?
+11	15	11	Czy możesz rozbić/podzielić wyniki na kategorie według wykształcenia, płci i zarobków?
+11	16	13	I don’t receive a statement by mail/post, anymore.
+11	16	19	Wypisał mi czek, ale kiedy chciałem go zrealizować, nie przyjęło go/był bez pokrycia.
+11	17	13	After heated negotiations, we managed to conclude a deal/an agreement.
+11	17	17	Przeczytałem warunki umowy/kontraktu.
+11	24	16	It was caused by long-term sickness/illness.
+11	24	21	Ostatnio było dużo skarg/reklamacji na obsługę klienta. Musimy coś z tym zrobić.
+11	26	13	Czy mógłbyś mi wysłać wycenę/kosztorys przed końcem tygodnia?
+11	27	24	Statystycznie nie jest to znaczące/nie ma to znaczenia dla sprzedaży ogółem.
+11	29	8	I believe/think that you’ve dialled the wrong number.
+11	31	15	Przerobiliśmy/Omówiliśmy już wszystkie części.
+11	32	13	That solution was far too expensive/costly, so we ruled it out.
+11	34	12	I appreciate it. There’s no cause for concern, trust me/believe me.
+11	35	9	Jestem pewien, że wynikło jakieś zamieszanie/nieporozumienie.
+12	1	15	We’ve received a buy-out offer/bid and we’re considering accepting it.
+12	2	7	Jedyna rzecz, której brakuje nam w tym biurze, to sprzęt do kopiowania/urządzenie kopiujące.
+12	3	4	My job description stipulates general tasks, functions and responsibilities/duties.
+12	3	12	Jak możemy promować/wspierać inicjatywę i odpowiedzialność w miejscu pracy?
+12	4	3	Wszyscy przedstawiciele handlowi przychodzą dziś na instruktaż/odprawę. Chciałbyś do nas dołączyć?
+12	4	19	As the deadline was coming up/approaching, we had to bring the meeting forward.
+12	5	20	Ze względu na powtarzającą się działalność przemytniczą, został wprowadzony/nałożony zakaz eksportu między tymi dwoma krajami.
+12	9	13	Obowiązki menedżera sklepu obejmują, między innymi, zajmowanie się reklamacjami/skargami od klientów.
+12	11	19	Darmowe gadżety zachęcą ludzi do rozgłaszania i szerzenia wieści (o firmie/produkcie). To jest typowy chwyt reklamowy.
+12	13	4	We can’t afford to have so many people on the payroll. I’m afraid that mass layoffs/redundancies are inevitable.
+12	13	5	Ilu kandydatów jest zwykle umieszczanych na liście najlepszych/najpoważniejszych kandydatów?
+12	15	13	The use of modern technologies is core/fundamental to this project.
+12	15	13	Użycie nowoczesnych technologii jest kluczowe/fundamentalne dla tego projektu.
+12	16	22	We managed to win the contract/tender despite fierce competition.
+12	18	12	Po ile stoi euro? / Jaki jest kurs wymiany euro?
+12	18	22	How much is the premium for all-risk/fully comprehensive insurance?
+12	20	19	Z powodu nadprodukcji, rynek jest przesycony/zalany tym towarem.
+12	20	20	Trudno powiedzieć, dlaczego model ten został przyjęty jako sprawdzone/najlepsze rozwiązanie.
+12	20	21	Firma podniosła swoje standardy efektywności i w ten sposób udało im się wypracować/osiągnąć najlepsze rozwiązanie.
+12	26	10	My assistant is empowered/authorized to sign contracts on my behalf.
+12	27	3	Pay increases/rises and greater purchasing power are in line with the rise in inflation.
+12	29	18	Zastanawiałem się, czy nie chcielibyście ponownie rozważyć/przemyśleć naszą propozycję.
+12	30	9	The advertising agency laid out/put forward a proposal, which is aimed at boosting our sales.
+12	31	5	Już traciliśmy impet/energię, gdy wpadliśmy na świetny pomysł.
+12	32	10	Certain issues need to be looked at/considered again.
+12	33	5	That’s all I have to say about the first point. Now let’s turn to/move on to the savings plan.
+12	35	3	How are you getting on?/ How is it going?
+12	35	6	I’ve been trying to work out/figure out what went wrong, but I have no clue.
+12	35	21	Niech będzie. / Może być.
+
+MAX:
+max: 184
+max: In the hotel room, when we wanted to turn on the tap, it turned out that the heating had broken down and there was no hot water and the air conditioning was giving off a strange smell.
