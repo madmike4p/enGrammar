@@ -2,9 +2,7 @@
   display: none;
 }
 
-
 .pl {
-  margin-top: 10px;
   background:url(../img/pl16.png); 
   border-radius: 15px 15px 0 0; 
 }
@@ -32,10 +30,17 @@
   margin: 0;
 }
 
-.pl div {
+.pl div.cell {
   display: table-cell; vertical-align: middle;
 }
 
-.gb div {
+.gb div.cell {
   display: table-cell; vertical-align: middle;
+}
+
+.cardTitle {
+  display: inline;
+  background-color: white;
+  color: black;
+
 }
