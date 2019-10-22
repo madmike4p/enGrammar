@@ -102,13 +102,15 @@ var app = {
       }
       
       var footerMsg = (app._exercise + 1) + '/' + books[app._book][app._chapter].length;
-      document.getElementById('divMsg').innerHTML = footerMsg;
+      document.getElementById('chapterTitle').innerHTML = footerMsg;
 
+      /*
       var title = books[app._book][app._chapter].title.split('|');
       document.getElementById('chapterTitle').innerHTML = title[0];
       
       var subTitle = (!title[1] ? '&nbsp;' : title[1]);
       document.getElementById('chapterSubTitle').innerHTML = subTitle;
+      */
     },
 
     cardClick: function(event) {
