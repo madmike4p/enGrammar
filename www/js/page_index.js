@@ -133,8 +133,11 @@ var app = {
           pl.innerHTML = books[app._book][app._chapter][app._exercise].pl;
           gb.innerHTML = books[app._book][app._chapter][app._exercise].en;
           
+
+          
           if (app._exercise == 0) {
             app.config['last'] = app._book + '_' + app._chapter;
+            alert('config-last');
           }
 
           break;
