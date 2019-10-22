@@ -27,8 +27,6 @@ var app = {
         return false;
       });
 
-
-
     }, // onDeviceReady
 
     prepareBook: function (event) {
@@ -71,14 +69,14 @@ var app = {
     prevChapter: function() {
       if(--app._chapter < 0) app._chapter = books[app._book].length - 1;
       app._exercise = 0;
-      document.getElementById('button').setAttribute('data-click', '0');
+      document.getElementById('pl').setAttribute('data-click', '0');
       app.showCard('show');
     },
 
     nextChapter: function() {
       if(++app._chapter >= books[app._book].length) app._chapter = 0;
       app._exercise = 0;
-      document.getElementById('button').setAttribute('data-click', '0');
+      document.getElementById('pl').setAttribute('data-click', '0');
       app.showCard('show');
     },
 
@@ -86,7 +84,7 @@ var app = {
       var pl = document.querySelector('#pl p');
       var gb = document.querySelector('#gb p');
 
-      var btn = document.getElementById('button');
+      var cardPl = document.getElementById('pl');
 
       switch (state) {
         case 'showEn':
@@ -97,7 +95,7 @@ var app = {
           if (app._exercise >= books[app._book][app._chapter].length) app._exercise = 0;
         case 'show':
           gb.style.display = 'none';
-          button.setAttribute('data-click', '0');
+          cardPl.setAttribute('data-click', '0');
           pl.innerHTML = books[app._book][app._chapter][app._exercise].pl;
           gb.innerHTML = books[app._book][app._chapter][app._exercise].en;
           break;
@@ -123,53 +121,32 @@ var app = {
         app.showCard('next');
         cardPl.setAttribute('data-click', '0');
       }
-
-
-      /*
-      if (this.getAttribute('data-click') == '0') {
-        app.showCard('showEn');
-        this.setAttribute('data-click', '1');
-      } else {
-        app.showCard('next');
-        this.setAttribute('data-click', '0');
-      }
-      */
     },
     
     createChapter: function(event) {
         $("#slider-1").on("change", app.confCardHeight);
         $("#slider-2").on("change", app.confFontSize);
-        $("#slider-3").on("change", app.confPanelWidth);
-      
-        var cardLeftPanelWidth = document.getElementById('leftPanel');
-        var cardRightPanelWidth = document.getElementById('rightPanel');
+        var cardPl = document.getElementById('pl');
+        var cardGb = document.getElementById('gb');
         
         var cardTextPl = document.querySelector('#pl p');
         var cardTextEn = document.querySelector('#gb p');
       
         
-        if (typeof app.config['panelHeight'] !== 'undefined') {
-          alert('defined');
+        if (typeof app.config['cardHeight'] !== 'undefined') {
+          var value = app.config['cardHeight'];
+          cardPl.style.height = value + 'px';
+          cardGb.style.height = value + 'px';
         } 
-        
-        if (typeof app.config['leftPanelWidth'] !== 'undefined') {
-          var value = parseInt(app.config['leftPanelWidth']);
-          cardLeftPanelWidth.style.width = value + '%';
-          cardRightPanelWidth.style.width = 99 - value + '%';
-          $('#slider-3').val(value);
-          $('#slider-3').slider('refresh');
-        } 
-          
+
         if (typeof app.config['fontSize'] !== 'undefined') {
           var value = app.config['fontSize'];
           cardTextPl.style.fontSize = value + 'px';
           cardTextEn.style.fontSize = value + 'px';  
         }
-     
     },
     
     prepareChapter: function(event) {
-      // ---------------------------------------
        app.showCard('show'); 
     },
     
@@ -185,16 +162,7 @@ var app = {
       }
     },
     
-    confPanelWidth: function(event) {
-      var cardLeftPanelWidth = document.getElementById('leftPanel');
-      var cardRightPanelWidth = document.getElementById('rightPanel');
-      var value = parseInt(this.value);
-   
-      cardLeftPanelWidth.style.width = value + '%';
-      cardRightPanelWidth.style.width = 99 - value + '%';      
-      
-      app.config['leftPanelWidth'] = value;
-    },
+    
     
     confFontSize: function(event) {
       var cardTextPl = document.querySelector('#pl p');
@@ -209,11 +177,9 @@ var app = {
     confCardHeight: function(event) {
       var cardPl = document.getElementById('pl');
       var cardGb = document.getElementById('gb');
-      var button = document.getElementById('button');
       
       cardPl.style.height = this.value + 'px';
       cardGb.style.height = this.value + 'px';
-      button.style.height = this.value + 'px';
 
       app.config['cardHeight'] = this.value;
     },

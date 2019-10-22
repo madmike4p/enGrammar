@@ -23,8 +23,17 @@
   background-position: 10px 10px; 
   height: 50px;
   text-align: center;
+ display: table; width:100%; 
 }
 
 .pl p, .gb p {
   margin: 0;
+}
+
+.pl div {
+  display: table-cell; vertical-align: middle;
+}
+
+.gb div {
+  display: table-cell; vertical-align: middle;
 }
