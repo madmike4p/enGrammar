@@ -1,9 +1,13 @@
 const fs = require('fs');
-var books = require('./books_01').books;
+var books = require('./books_02').books;
 
-var lastString = "'`?.!)…’";
 
-var errBook = {};
+var book = -1;
+var chapter = -1;
+var exercise = -1;
+var max = 0;
+var maxStr = '';
+var count = 0;
 
 for (var x = 0; x < books.length; x++) {
   for (var y = 0; y < books[x].length; y++) {
@@ -12,36 +16,27 @@ for (var x = 0; x < books.length; x++) {
       var en = books[x][y][z].en.trim();
       var pl = books[x][y][z].pl.trim();
 
-      //if (en.indexOf('|') > -1) vertical.push((x + 1) + '\t' + (y + 1) + '\t' + (z + 1) + '\t' + en);
-      //if (pl.indexOf('|') > -1) vertical.push((x + 1) + '\t' + (y + 1) + '\t' + (z + 1) + '\t' + pl);
 
-      var state = false;
-
-      if (en[0] != en[0].toUpperCase()) state = true; 
-      if (lastString.indexOf(en[en.length - 1]) < 0) state = true; 
-
-      if (pl[0] != pl[0].toUpperCase()) state = true;
-      if (lastString.indexOf(pl[pl.length - 1]) < 0) state = true; 
-
-      if (state) {
-        if (typeof errBook[x] === 'undefined')
-          errBook[x] = {};
-
-        if (typeof errBook[x][y] === 'undefined')
-          errBook[x][y] = {};
-
-
-        if (typeof errBook[x][y][z] === 'undefined')
-          errBook[x][y][z] = {};
-
-        errBook[x][y][z].en = en;
-        errBook[x][y][z].pl = pl;
-
-        }
-      
-
+      if (en.length > max) {
+        max = en.length;
+        maxStr = en;
+        book = x;
+        chapter = y;
+        exercise = z;
       }
+
+      if (pl.length > max) {
+        max = pl.length;
+        maxStr = pl;
+        book = x;
+        chapter = y;
+        exercise = z;
+      }
+
     }
   }
-
-fs.writeFileSync('_firsLast.js', 'exports.firstLast = ' + JSON.stringify(errBook, null, 2) + ';');
+}
+console.log(maxStr);
+console.log(book);
+console.log(chapter);
+console.log(exercise);
