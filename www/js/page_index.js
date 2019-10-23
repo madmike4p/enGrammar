@@ -23,10 +23,48 @@ var app = {
         for (var x = 0; x < booksItems.length; x++) {
           booksItems[x] .addEventListener('click', this.selectBook, false);
         }
+        
+        $(document).keydown(this.keyboardAction);
+
     }, // bindEvents
     
     onDeviceReady: function() {
     }, // onDeviceReady
+
+    keyboardAction: function(e) {
+      var activePage = $.mobile.pageContainer.pagecontainer('getActivePage').attr('id'); 
+      if (activePage == 'exercisePage') {
+        if (e.keyCode == 32) app.cardClick();
+        if (e.keyCode == 37) app.prevChapter();
+        if (e.keyCode == 39) app.nextChapter();
+        if (e.keyCode ==  8) $.mobile.changePage('#chapterPage');
+      }
+
+      if (activePage == 'chapterPage') {
+        if (e.keyCode ==  8) $.mobile.changePage('#bookPage');
+        if (e.keyCode == 39) {
+
+          /*
+          if(document.activeElement.nodeName != 'A') {
+            document.querySelector('ul > li > a').focus();
+          }
+          */
+          var el = document.querySelector('div#chapterPage ul li a');
+          console.log(el.nodeName);
+          //el.style.backgroundColor = 'red';
+          el.focus();
+
+          var sel = document.activeElement;
+          alert(sel.nodeName);
+          //alert(el);
+        }
+
+      }
+
+
+
+      return false;
+    },
 
     beforeShowBooks: function() {
       var badges = document.querySelectorAll('span.ui-li-count');
@@ -147,12 +185,11 @@ var app = {
 
           if (cardState == '2') {
             app._pass++;
-            var msg = '<span class="inBookTitle">';
+            var msg = '<span class="inChapterTitle">';
+            msg += books[app._book][app._chapter].title.split('|').join('<br />');
+            msg += '</span><br/><span class="inChapterNumber">"';
             msg += books[app._book].title;
-            msg += '</span><br/><span class="inChapterTitle">';
-            msg += books[app._book][app._chapter].title.split('|').join('<br/>');
-            msg += '</span><br/><span class="inChapterNumber">';
-            msg += 'chapter ' + (app._chapter + 1) + ' of ' + books[app._book].length;
+            msg += '", chapter ' + (app._chapter + 1) + ' of ' + books[app._book].length;
             msg += '</span>';
             pl.innerHTML = msg; 
             gb.style.display = 'none';
@@ -277,6 +314,19 @@ var app = {
     
     config: window.localStorage,
     
+    _colorScheme: {
+      '0':
+      {
+        progressBar: 'background-color: red;',
+        progressBarBackground: 'background-color: white;',
+      },
+      '1':
+      {
+        progressBar: 'background-color: green;',
+        progressBarBackground: 'background-color: black;',
+      }
+    },
+
     _book: 0,
     _chapter: 0,
     _exercise: 0,
