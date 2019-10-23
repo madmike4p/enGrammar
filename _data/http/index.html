@@ -1,98 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" />
+<script src="mobile/jquery-2.2.4.min.js"></script>
+<link rel="stylesheet" href="mobile/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<script src="mobile/jquery.mobile-1.4.5.min.js"></script>
+<title></title>
+</head>
+<body>
 
-  
-<div data-role="page" id="bookPage" data-theme="b">
-  <div role="main" style="ui-content">
-    <div class="ui-grid-a">
-      <div class="ui-block-a">
-        <div class="ui-bar" style="">
-          <ul data-role="listview" data-inset="true" id="books" data-count-theme="a"> <!-- moze byc mini -->
-            <li><a href="#" data-id="0"><img src="img/gb16.png" class="ui-li-icon ui-corner-none">Gramatyka 1 <span class="ui-li-count">*</span></a></li>
-            <li><a href="#" data-id="1"><img src="img/gb16.png" class="ui-li-icon ui-corner-none">Gramatyka 2 <span class="ui-li-count">*</span></a></li>
-            <li><a href="#" data-id="2"><img src="img/gb16.png" class="ui-li-icon ui-corner-none">Gramatyka 3 <span class="ui-li-count">*</span></a></li>
-            <li><a href="#" data-id="3"><img src="img/gb16.png" class="ui-li-icon ui-corner-none">Gramatyka 4 <span class="ui-li-count">*</span></a></li>
-            <li><a href="#" data-id="4"><img src="img/gb16.png" class="ui-li-icon ui-corner-none">Gramatyka 5 <span class="ui-li-count">*</span></a></li>
-            <li><a href="#" data-id="5"><img src="img/gb16.png" class="ui-li-icon ui-corner-none">Gramatyka 6 <span class="ui-li-count">*</span></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="ui-block-b">
-        <div class="ui-bar" style="">
-          <ul data-role="listview" data-inset="true" id="books" data-count-theme="a"> <!-- moze byc mini -->
-            <li><a href="#" data-id="6"><img src="img/phrase16.png" class="ui-li-icon ui-corner-none">Phrasal Verbs 1 <span class="ui-li-count">*</span></a></li>
-            <li><a href="#" data-id="7"><img src="img/phrase16.png" class="ui-li-icon ui-corner-none">Phrasal Verbs 2 <span class="ui-li-count">*</span></a></li>
-            <li><a href="#" data-id="8"><img src="img/phrase16.png" class="ui-li-icon ui-corner-none">Phrasal Verbs 3 <span class="ui-li-count">*</span></a></li>
-            <li><a href="#" data-id="9"><img src="img/business16.png" class="ui-li-icon ui-corner-none">Business 4 <span class="ui-li-count">*</span></a></li>
-            <li><a href="#" data-id="10"><img src="img/business16.png" class="ui-li-icon ui-corner-none">Business 5 <span class="ui-li-count">*</span></a></li>
-            <li><a href="#" data-id="11"><img src="img/business16.png" class="ui-li-icon ui-corner-none">Business 6<span class="ui-li-count">*</span></a></li>
-          </ul>
-        </div>
-      </div>
-    </div><!-- .ui-grid-a -->
-  </div><!-- main -->
-  <div data-role="footer" data-position="fixed" data-fullscreen="true" data-theme="b">
-    <h4>&nbsp;</h4>
-  </div>    
-</div> <!-- page -->
 
-<div data-role="page" id="chapterPage" data-theme="b">
-  <div data-role="header">
-    <a href="#bookPage" data-icon="bars">Books</a>
-    <h1 id="bookTitle">&nbsp;</h1>
-  </div><!-- header -->
-  <div role="main" style="ui-content">
-    <ul data-role="listview" data-inset="true" id="chapters" class="ui-mini"  data-theme="b" data-count-theme="a"></ul>
-  </div> <!-- main -->
-</div><!-- page -->
 
-<div data-role="page" id="exercisePage" data-theme="b">
-  <div data-role="header">
-    <div data-role="controllgroup" data-type="horizontal" class="ui-mini ui-btn-left">
-      <a href="#chapterPage" class="ui-btn ui-btn-icon-left ui-icon-grid" data-icon="home">Chapters</a>
-    </div>
-    <h1 id="chapterTitle">&nbsp;</h1>
-    <div data-role="controllgroup" data-type="horizontal" class="ui-mini ui-btn-right">
-      <a href="#" id="configBtn" class="ui-btn ui-btn-icon-left ui-icon-gear">Config</a>
-      <!--
-      <a href="#" id="noteBtn" class="ui-btn ui-btn-icon-left ui-icon-gear">Note</a>
-      -->
-      <a href="#" id="prevChapter" class="ui-btn ui-btn-icon-left ui-icon-carat-l">Prev</a>
-      <a href="#" id="nextChapter" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Next</a>
-    </div>
-  </div><!-- header -->
-  <div role="main" style="ui-content">
-    <div class="ui-bar" id="cardContainer">
-      <div id="pl" class="pl" data-click="2">
-        <div class="cell">
-          <p>&nbsp;</p>
-        </div>
-      </div>
 
-      <div id="progressBarBackground" style="background-color: white;">
-        <div id="progressBar" style="height: 3px; background-color: red; width: 0%">
-          &nbsp;
-        </div> 
-      </div>
 
-      <div id="gb" class="gb">
-        <div class="cell">
-          <p>&nbsp;</p>
-        </div>
-      </div>
-    </div> 
-    <div class="ui-bar" id="configPanel">
-      <form>
-        <label for="slider-1">Card Height:</label>
-        <input type="range" name="slider-1" id="slider-1" min="35" max="300" value="50">
-        <label for="slider-2">Font Size:</label>
-        <input type="range" name="slider-2" id="slider-2" min="15" max="40" value="15">
-        <label for="slider-3">Right Margin:</label>
-        <input type="range" name="slider-3" id="slider-3" min="0" max="35" value="0">
-        <select name="selectScheme" id="selectScheme" data-mini="true">
-          <option value="0">Light Scheme</option>
-          <option value="1">Dark Scheme</option>
-        </select>
-      </form>
-    </div>
-  </div><!-- main -->
-</div><!-- page -->
-
+</body>
+</html>
