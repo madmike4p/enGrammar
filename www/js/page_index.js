@@ -97,7 +97,7 @@ var app = {
         
         document.getElementById('pl').setAttribute('data-click', '2');
         app._exercise = 0;
-        
+        app._pass = 1;
         $.mobile.changePage('#exercisePage');
         return false;
       });
@@ -106,6 +106,7 @@ var app = {
     prevChapter: function() {
       if(--app._chapter < 0) app._chapter = books[app._book].length - 1;
       app._exercise = 0;
+      app._pass = 0;
       document.getElementById('pl').setAttribute('data-click', '2');
       app.showCard('show');
     }, // prevChapter
@@ -113,6 +114,7 @@ var app = {
     nextChapter: function() {
       if(++app._chapter >= books[app._book].length) app._chapter = 0;
       app._exercise = 0;
+      app._pass = 0;
       document.getElementById('pl').setAttribute('data-click', '2');
       app.showCard('show');
     }, //nextChapter
@@ -131,15 +133,28 @@ var app = {
           break;
         case 'next':
           app._exercise++;
+
+
           if (app._exercise >= books[app._book][app._chapter].length) {
-            alert('here');
             app._exercise = 0;
             cardPl.setAttribute('data-click', '2');
             cardState = 2;
           }
         case 'show':
+
+          var width = Math.floor((100 / books[app._book][app._chapter].length) * app._exercise);
+          document.getElementById('progressBar').style.width = width + '%';
+
           if (cardState == '2') {
-            pl.innerHTML = 'START'
+            app._pass++;
+            var msg = '<span class="inBookTitle">';
+            msg += books[app._book].title;
+            msg += '</span><br/><span class="inChapterTitle">';
+            msg += books[app._book][app._chapter].title.split('|').join('<br/>');
+            msg += '</span><br/><span class="inChapterNumber">';
+            msg += 'chapter ' + (app._chapter + 1) + ' of ' + books[app._book].length;
+            msg += '</span>';
+            pl.innerHTML = msg; 
             gb.style.display = 'none';
             app.config['last'] = app._book + '_' + app._chapter;
             
@@ -153,7 +168,8 @@ var app = {
           break;
       }
       
-      var footerMsg = (app._exercise + 1) + '/' + books[app._book][app._chapter].length;
+      var footerMsg ='sentence ' + (app._exercise + 1) + ' of ';
+      footerMsg += books[app._book][app._chapter].length + ', pass ' + app._pass;
       document.getElementById('chapterTitle').innerHTML = footerMsg;
     }, // showCards
 
@@ -226,6 +242,8 @@ var app = {
 
       if (configPanel.style.display == '') {
         configPanel.style.display = 'block';
+        var scrollTo = document.getElementById('slider-3');
+        scrollTo.scrollIntoView();
       } else {
         configPanel.style.display = '';
       }

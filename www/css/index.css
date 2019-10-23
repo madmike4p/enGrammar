@@ -5,10 +5,12 @@
 .pl {
   background:url(../img/pl16.png); 
   border-radius: 15px 15px 0 0; 
+  border-bottom: 1px solid lightgray;
 }
 
 
 .gb {
+  border-top: 1px solid lightgray;
   background:url(../img/gb16.png); 
   border-radius: 0 0 15px 15px; 
 }
@@ -18,7 +20,7 @@
   color: black;   
   padding: 8px; 
   padding-left: 30px;
-  border-bottom: 1px solid lightgray;
+  padding-right: 30px;
   background-repeat: no-repeat;
   background-position: 10px 10px; 
   height: 50px;
@@ -28,6 +30,10 @@
 
 .pl p, .gb p {
   margin: 0;
+}
+
+.pl > *, .gb > * {
+  text-shadow: 0px 0px;
 }
 
 .pl div.cell {
@@ -43,4 +49,22 @@
   background-color: white;
   color: black;
 
+}
+
+.inBookTitle {
+  color: red;
+}
+
+.inChapterTitle {
+  line-height: 10%; 
+  font-size: 70%;
+  color: green;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.inChapterNumber {
+  font-size: 50%;
 }
