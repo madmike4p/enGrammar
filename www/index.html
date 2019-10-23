@@ -54,7 +54,7 @@
     <h1 id="bookTitle">&nbsp;</h1>
   </div><!-- header -->
   <div role="main" style="ui-content">
-    <ul data-role="listview" data-inset="true" id="chapters" class="ui-mini"  data-count-theme="a"></ul>
+    <ul data-role="listview" data-inset="true" id="chapters" class="ui-mini"  data-theme="b" data-count-theme="a"></ul>
   </div> <!-- main -->
 </div><!-- page -->
 
@@ -63,12 +63,15 @@
     <div data-role="controllgroup" data-type="horizontal" class="ui-mini ui-btn-left">
       <a href="#chapterPage" class="ui-btn ui-btn-icon-left ui-icon-grid" data-icon="home">Chapters</a>
     </div>
+    <h1 id="chapterTitle">&nbsp;</h1>
     <div data-role="controllgroup" data-type="horizontal" class="ui-mini ui-btn-right">
       <a href="#" id="configBtn" class="ui-btn ui-btn-icon-left ui-icon-gear">Config</a>
+      <!--
+      <a href="#" id="noteBtn" class="ui-btn ui-btn-icon-left ui-icon-gear">Note</a>
+      -->
       <a href="#" id="prevChapter" class="ui-btn ui-btn-icon-left ui-icon-carat-l">Prev</a>
       <a href="#" id="nextChapter" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Next</a>
     </div>
-    <h1 id="chapterTitle">&nbsp;</h1>
   </div><!-- header -->
   <div role="main" style="ui-content">
     <div class="ui-bar" id="cardContainer">
@@ -98,6 +101,10 @@
         <input type="range" name="slider-2" id="slider-2" min="15" max="40" value="15">
         <label for="slider-3">Right Margin:</label>
         <input type="range" name="slider-3" id="slider-3" min="0" max="35" value="0">
+        <select name="selectScheme" id="selectScheme" data-mini="true">
+          <option value="0">Light Scheme</option>
+          <option value="1">Dark Scheme</option>
+        </select>
       </form>
     </div>
   </div><!-- main -->

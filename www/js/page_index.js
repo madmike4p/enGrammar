@@ -18,6 +18,8 @@ var app = {
         document.getElementById('nextChapter').addEventListener('click', this.nextChapter, false);
         document.getElementById('prevChapter').addEventListener('click', this.prevChapter, false);
         document.getElementById('configBtn').addEventListener('click', this.configuration, false);
+        
+        document.getElementById('selectScheme').addEventListener('change', this.applyScheme, false);
 
         var booksItems = document.querySelectorAll('ul#books a');
         for (var x = 0; x < booksItems.length; x++) {
@@ -42,27 +44,7 @@ var app = {
 
       if (activePage == 'chapterPage') {
         if (e.keyCode ==  8) $.mobile.changePage('#bookPage');
-        if (e.keyCode == 39) {
-
-          /*
-          if(document.activeElement.nodeName != 'A') {
-            document.querySelector('ul > li > a').focus();
-          }
-          */
-          var el = document.querySelector('div#chapterPage ul li a');
-          console.log(el.nodeName);
-          //el.style.backgroundColor = 'red';
-          el.focus();
-
-          var sel = document.activeElement;
-          alert(sel.nodeName);
-          //alert(el);
-        }
-
       }
-
-
-
       return false;
     },
 
@@ -72,9 +54,9 @@ var app = {
         badges[x].style.display = 'none';
       }
 
-      if (typeof app.config['last'] !== 'undefined') {
-        var last = app.config['last'];
-        var selector = 'a[data-id="' + last.split('_')[0] + '"] span';
+      if (typeof app.config['last_book'] !== 'undefined') {
+        var last = app.config['last_book'];
+        var selector = 'a[data-id="' + last + '"] span';
         var badge = document.querySelector(selector);
         badge.style.display = 'block';
       }
@@ -97,9 +79,9 @@ var app = {
       var last_book = -1;
       var last_chapter = -1;
       
-      if (typeof app.config['last'] !== 'undefined') {
-          var last_book = parseInt(app.config['last'].split('_')[0]);
-          var last_chapter = parseInt(app.config['last'].split('_')[1]);
+      if (typeof app.config['last_book'] !== 'undefined') {
+          var last_book = parseInt(app.config['last_book']);
+          var last_chapter = parseInt(app.config['last_chapter']);
         }
      
       for (var x = 0; x < books[bookId].length; x++) {
@@ -193,7 +175,9 @@ var app = {
             msg += '</span>';
             pl.innerHTML = msg; 
             gb.style.display = 'none';
-            app.config['last'] = app._book + '_' + app._chapter;
+            
+            app.config['last_book'] = app._book;
+            app.config['last_chapter'] = app._chapter;
             
           } else {
             gb.style.display = 'none';
@@ -312,16 +296,52 @@ var app = {
       app.config['cardRightMargin'] = this.value;   
     }, // confCardRightMargin
     
+    applyScheme: function(scheme) {
+      var value = scheme;
+      
+      if (typeof scheme !== 'number') {
+        value = this.value;
+      } 
+      
+      var schemeList = Object.getOwnPropertyNames(app._colorScheme[value]);
+      
+      
+      for (var x = 0; x < schemeList.length; x++) {
+        //if (schemeList[x] == '_name') continue;
+        var cssList = app._colorScheme[value][schemeList[x]];
+        
+        console.log(cssList);
+        //var objList = document.querySelectorAll(app._colorScheme[x]);
+        //var cssList = app._colorScheme[x][schemeList[x]]
+        //for (var y = 0; y < objList.length; y++) {
+
+        
+        
+        
+        
+        
+      }
+      
+      
+      
+      
+      
+      
+
+    },
+    
     config: window.localStorage,
     
     _colorScheme: {
-      '0':
+      0:
       {
-        progressBar: 'background-color: red;',
-        progressBarBackground: 'background-color: white;',
+        _name: 'Light scheme',
+        '#progressBar': 'background-color: red;',
+        '#progressBarBackground': 'background-color: white;',
       },
-      '1':
+      1:
       {
+        _name: 'Dark scheme',
         progressBar: 'background-color: green;',
         progressBarBackground: 'background-color: black;',
       }
