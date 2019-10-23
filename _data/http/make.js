@@ -5,6 +5,9 @@ var footer = fs.readFileSync('footer.html', 'utf-8');
 var content = fs.readFileSync('Info.txt', 'utf-8');
 
 var chapters = content.split('-----');
+var newChapters = [];
+
+var notes = {};
 
 function makeTable(tab) {
   var chapter = tab.split('\n');
@@ -37,13 +40,15 @@ function makeTable(tab) {
 }
 
 for (var x = 0; x < chapters.length; x++) {
-  if (x != 2) continue;
+  //if (x != 2) continue;
 
   var chapter = chapters[x];
 
   //pobieram numer
-  chapter = chapter.split('\n');
+  chapter = chapter.trim().split('\n');
   var nr = chapter.shift();
+  var nr = nr.split('.');
+    
 
   chapter = chapter.join('\n').trim().split('\n');
   for (var y = 0; y < chapter.length; y++) {
@@ -52,12 +57,17 @@ for (var x = 0; x < chapters.length; x++) {
   chapter = chapter.join('\n').split('***\n');
   for (var y = 0; y < chapter.length; y++) {
     chapter[y] = chapter[y].trim();
-    chapter[y] = makeTable(chapter[y]);
-    //makeTable(chapter[y]);
+    chapter[y] = '<div class="cloud">' + makeTable(chapter[y]) + '</div>';
+    console.log(chapter[y]);
   }
 
-  // tutaj mam wszysko podzielone na chmurki
-  console.log(chapter);
+
+  if (typeof notes[nr[0]] === 'undefined') {
+    notes[nr[0] - 1] = {};
+  }
+  notes[nr[0] -1][nr[1] - 1] = chapter.join('\n');
+
+  newChapters.push(chapter.join('\n'));
 }
 
 
@@ -67,4 +77,6 @@ for (var x = 0; x < chapters.length; x++) {
 
 header = header + '\n\n\n';
 footer = '\n\n\n' + footer;
-// fs.writeFileSync('index.html', header + html.join('\n') + footer);
+fs.writeFileSync('index.html', header + newChapters.join('\n') + footer);
+
+fs.writeFileSync('notes.js', JSON.stringify(notes));
