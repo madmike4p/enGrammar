@@ -94,7 +94,10 @@ var app = {
       
       $(".navChapter").on('click', function () {
         app._chapter = parseInt(this.getAttribute("data-id"));
-        app._sentence = 0;
+        
+        document.getElementById('pl').setAttribute('data-click', '2');
+        app._exercise = 0;
+        
         $.mobile.changePage('#exercisePage');
         return false;
       });
@@ -103,14 +106,14 @@ var app = {
     prevChapter: function() {
       if(--app._chapter < 0) app._chapter = books[app._book].length - 1;
       app._exercise = 0;
-      document.getElementById('pl').setAttribute('data-click', '0');
+      document.getElementById('pl').setAttribute('data-click', '2');
       app.showCard('show');
     }, // prevChapter
 
     nextChapter: function() {
       if(++app._chapter >= books[app._book].length) app._chapter = 0;
       app._exercise = 0;
-      document.getElementById('pl').setAttribute('data-click', '0');
+      document.getElementById('pl').setAttribute('data-click', '2');
       app.showCard('show');
     }, //nextChapter
 
@@ -119,29 +122,34 @@ var app = {
       var gb = document.querySelector('#gb p');
 
       var cardPl = document.getElementById('pl');
+      var cardState = cardPl.getAttribute('data-click');
 
       switch (state) {
         case 'showEn':
           gb.style.display = 'block';
+          cardPl.setAttribute('data-click', '1');
           break;
         case 'next':
           app._exercise++;
-          if (app._exercise >= books[app._book][app._chapter].length) app._exercise = 0;
-        case 'show':
-          gb.style.display = 'none';
-          cardPl.setAttribute('data-click', '0');
-
-          pl.innerHTML = books[app._book][app._chapter][app._exercise].pl.replace(/\|/g, '<br/>');
-          gb.innerHTML = books[app._book][app._chapter][app._exercise].en.replace(/\|/g, '<br/>');
-          
-          if (app._exercise == 0) {
-            app.config['last'] = app._book + '_' + app._chapter;
-
-
-
-            alert('config-last');
+          if (app._exercise >= books[app._book][app._chapter].length) {
+            alert('here');
+            app._exercise = 0;
+            cardPl.setAttribute('data-click', '2');
+            cardState = 2;
           }
-
+        case 'show':
+          if (cardState == '2') {
+            pl.innerHTML = 'START'
+            gb.style.display = 'none';
+            app.config['last'] = app._book + '_' + app._chapter;
+            
+          } else {
+            gb.style.display = 'none';
+            cardPl.setAttribute('data-click', '0');
+            
+            pl.innerHTML = books[app._book][app._chapter][app._exercise].pl.replace(/\|/g, '<br/>');
+            gb.innerHTML = books[app._book][app._chapter][app._exercise].en.replace(/\|/g, '<br/>');
+          }
           break;
       }
       
@@ -152,15 +160,18 @@ var app = {
     cardClick: function(event) {
       var cardPl = document.getElementById('pl');
       var cardState = cardPl.getAttribute('data-click');
+     
 
-      switch (cardState) {
+     switch (cardState) {
         case '0':
           app.showCard('showEn');
-          cardPl.setAttribute('data-click', '1');
           break;
         case '1':
           app.showCard('next');
-          cardPl.setAttribute('data-click', '0');
+          break;
+        case '2':
+          cardPl.setAttribute('data-click', '1');
+          app.showCard('show');
           break;
       }
     }, //cardClick
