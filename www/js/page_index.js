@@ -9,32 +9,32 @@ var app = {
         $(document).on('pagebeforeshow', '#chapterPage',  app.prepareBook);
         $(document).on('pagebeforeshow', '#exercisePage',  app.prepareChapter);
         $(document).on('pagebeforeshow', '#bookPage', app.beforeShowBooks);
-        
+
         $(document).on('pagecreate','#exercisePage',  app.createChapter);
-        
+
         document.getElementById('pl').addEventListener('click', this.cardClick, false);
         document.getElementById('gb').addEventListener('click', this.cardClick, false);
 
         document.getElementById('nextChapter').addEventListener('click', this.nextChapter, false);
         document.getElementById('prevChapter').addEventListener('click', this.prevChapter, false);
         document.getElementById('configBtn').addEventListener('click', this.configuration, false);
-        
+
         document.getElementById('selectScheme').addEventListener('change', this.applyScheme, false);
 
         var booksItems = document.querySelectorAll('ul#books a');
         for (var x = 0; x < booksItems.length; x++) {
           booksItems[x] .addEventListener('click', this.selectBook, false);
         }
-        
+
         $(document).keydown(this.keyboardAction);
 
     }, // bindEvents
-    
+
     onDeviceReady: function() {
     }, // onDeviceReady
 
     keyboardAction: function(e) {
-      var activePage = $.mobile.pageContainer.pagecontainer('getActivePage').attr('id'); 
+      var activePage = $.mobile.pageContainer.pagecontainer('getActivePage').attr('id');
       if (activePage == 'exercisePage') {
         if (e.keyCode == 32) app.cardClick();
         if (e.keyCode == 37) app.prevChapter();
@@ -71,58 +71,58 @@ var app = {
     prepareBook: function (event) {
       var bookId = app._book ;
       document.getElementById("bookTitle").innerHTML = books[bookId].title;
-      
+
       var chapters = document.getElementById('chapters');
-      
+
       while (chapters.firstChild) chapters.removeChild(chapters.firstChild);
-     
+
       var last_book = -1;
       var last_chapter = -1;
-      
+
       if (typeof app.config['last_book'] !== 'undefined') {
           var last_book = parseInt(app.config['last_book']);
           var last_chapter = parseInt(app.config['last_chapter']);
         }
-     
+
       for (var x = 0; x < books[bookId].length; x++) {
         var li = document.createElement('li');
         var a = document.createElement('a');
         a.setAttribute('data-id', x);
         a.className = 'navChapter'
-         
+
         var title = (x < 9) ? '0' + (x + 1) : (x + 1);
         title = title + '. ' + books[bookId][x].title;
-        
+
         var txt = document.createTextNode(title);
-        
+
         a.appendChild(txt);
 
         if (last_book == app._book && last_chapter == x) {
           var badge = document.createElement('span');
           badge.className = 'ui-li-count';
-          
+
           var asterisk = document.createTextNode('*');
           badge.appendChild(asterisk);
           a.appendChild(badge);
         }
-        
+
         li.appendChild(a);
         chapters.appendChild(li);
       }
 
       $('#chapters').listview('refresh');
-      
+
       $(".navChapter").on('click', function () {
         app._chapter = parseInt(this.getAttribute("data-id"));
-        
+
         document.getElementById('pl').setAttribute('data-click', '2');
         app._exercise = 0;
         app._pass = 1;
         $.mobile.changePage('#exercisePage');
         return false;
       });
-    },
-    
+    }, //prepareBook
+
     prevChapter: function() {
       if(--app._chapter < 0) app._chapter = books[app._book].length - 1;
       app._exercise = 0;
@@ -173,31 +173,31 @@ var app = {
             msg += books[app._book].title;
             msg += '", chapter ' + (app._chapter + 1) + ' of ' + books[app._book].length;
             msg += '</span>';
-            pl.innerHTML = msg; 
+            pl.innerHTML = msg;
             gb.style.display = 'none';
-            
+
             app.config['last_book'] = app._book;
             app.config['last_chapter'] = app._chapter;
-            
+
           } else {
             gb.style.display = 'none';
             cardPl.setAttribute('data-click', '0');
-            
+
             pl.innerHTML = books[app._book][app._chapter][app._exercise].pl.replace(/\|/g, '<br/>');
             gb.innerHTML = books[app._book][app._chapter][app._exercise].en.replace(/\|/g, '<br/>');
           }
           break;
       }
-      
+
       var footerMsg ='sentence ' + (app._exercise + 1) + ' of ';
       footerMsg += books[app._book][app._chapter].length + ', pass ' + app._pass;
       document.getElementById('chapterTitle').innerHTML = footerMsg;
-    }, // showCards
+    }, // showCard
 
     cardClick: function(event) {
       var cardPl = document.getElementById('pl');
       var cardState = cardPl.getAttribute('data-click');
-     
+
 
      switch (cardState) {
         case '0':
@@ -212,50 +212,54 @@ var app = {
           break;
       }
     }, //cardClick
-    
+
     createChapter: function(event) {
         $("#slider-1").on("change", app.confCardHeight);
         $("#slider-2").on("change", app.confFontSize);
         $("#slider-3").on("change", app.confCardRightMargin);
-        
+
         var cardPl = document.getElementById('pl');
         var cardGb = document.getElementById('gb');
-        
+
         var cardTextPl = document.querySelector('#pl p');
         var cardTextEn = document.querySelector('#gb p');
-        
+
         var cardContainer = document.getElementById('cardContainer');
-      
-        
+
+
         if (typeof app.config['cardHeight'] !== 'undefined') {
           var value = app.config['cardHeight'];
           $("#slider-1").val(value);
           cardPl.style.height = value + 'px';
           cardGb.style.height = value + 'px';
-        } 
+        }
 
         if (typeof app.config['fontSize'] !== 'undefined') {
           var value = app.config['fontSize'];
           $("#slider-2").val(value);
           cardTextPl.style.fontSize = value + 'px';
-          cardTextEn.style.fontSize = value + 'px';  
+          cardTextEn.style.fontSize = value + 'px';
         }
-        
+
         if (typeof app.config['cardRightMargin'] !== 'undefined') {
           var value = app.config['cardRightMargin'];
           $("#slider-3").val(value);
           cardContainer.style.marginRight = value + 'px';
         }
-        
+
         $("#slider-1").slider('refresh');
         $("#slider-2").slider('refresh');
         $("#slider-3").slider('refresh');
-    },
-    
+        
+        if (typeof app.config['scheme'] !== 'undefined') {
+          app.applyScheme(app.config['scheme']);
+        }
+    }, // createChapter
+
     prepareChapter: function(event) {
-       app.showCard('show'); 
+       app.showCard('show');
     }, // prepareChapter
-    
+
     configuration: function(event) {
       var configPanel = document.getElementById('configPanel');
 
@@ -269,81 +273,76 @@ var app = {
         configPanel.style.display = '';
       }
     }, // configuration
-    
+
     confFontSize: function(event) {
       var cardTextPl = document.querySelector('#pl p');
       var cardTextEn = document.querySelector('#gb p');
-      
+
       cardTextPl.style.fontSize = this.value + 'px';
       cardTextEn.style.fontSize = this.value + 'px';
-      
+
       app.config['fontSize'] = this.value;
     }, // confCardFondSize
 
     confCardHeight: function(event) {
       var cardPl = document.getElementById('pl');
       var cardGb = document.getElementById('gb');
-      
+
       cardPl.style.height = this.value + 'px';
       cardGb.style.height = this.value + 'px';
 
       app.config['cardHeight'] = this.value;
     }, // confCardHeight
-    
+
     confCardRightMargin: function(event) {
       var cardContainer = document.getElementById('cardContainer');
       cardContainer.style.marginRight = this.value + 'px';
-      app.config['cardRightMargin'] = this.value;   
+      app.config['cardRightMargin'] = this.value;
     }, // confCardRightMargin
-    
+
     applyScheme: function(scheme) {
-      var value = scheme;
-      
-      if (typeof scheme !== 'number') {
-        value = this.value;
-      } 
-      
-      var schemeList = Object.getOwnPropertyNames(app._colorScheme[value]);
-      
-      
-      for (var x = 0; x < schemeList.length; x++) {
-        //if (schemeList[x] == '_name') continue;
-        var cssList = app._colorScheme[value][schemeList[x]];
-        
-        console.log(cssList);
-        //var objList = document.querySelectorAll(app._colorScheme[x]);
-        //var cssList = app._colorScheme[x][schemeList[x]]
-        //for (var y = 0; y < objList.length; y++) {
-
-        
-        
-        
-        
-        
+      if (typeof scheme === 'object') {
+        scheme = parseInt(this.value);
       }
-      
-      
-      
-      
-      
-      
 
-    },
-    
+      console.log('scheme: ' + scheme);
+      console.log('typeof: ' + typeof scheme);
+      
+      app.config['scheme'] = scheme;
+            
+      var schemeList = Object.getOwnPropertyNames(app._colorScheme[scheme]);
+
+      for (var x = 0; x < schemeList.length; x++) {
+        if (schemeList[x] == '_name') continue;
+
+        var cssList = app._colorScheme[scheme][schemeList[x]].replace(/;\s*$/, "").split(';');
+        var objList = document.querySelectorAll(schemeList[x])
+        
+        for (var y = 0; y < objList.length; y++) {
+          var obj = objList[y];
+          
+          for (var z = 0; z < cssList.length; z++) {
+            var style = cssList[z].split(':');
+            obj.style[style[0].trim()] = style[1].trim();
+          }
+        }
+      }
+    }, // applyScheme
+
     config: window.localStorage,
-    
+
     _colorScheme: {
       0:
       {
         _name: 'Light scheme',
         '#progressBar': 'background-color: red;',
-        '#progressBarBackground': 'background-color: white;',
+        '#progressBarBackground': 'background-color: white; color: blue;',
       },
       1:
       {
         _name: 'Dark scheme',
-        progressBar: 'background-color: green;',
-        progressBarBackground: 'background-color: black;',
+        '#progressBar': 'background-color: green;',
+        '#progressBarBackground': 'background-color: black; color: blue;',
       }
     },
 
