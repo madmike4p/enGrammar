@@ -7,13 +7,11 @@ Określniki czasu (now, today, at the moment) i miejsca (here, there, at home) s
 Spójnik ‘and’ tłumaczymy na polskie ‘i’ lub ‘a’, jak w przykładzie 28.
 
 Jeśli używamy określników miejsca i czasu w tym samym zdaniu, najpierw powiemy ‘gdzie’ (at home), a potem ‘kiedy’ (now).
-drugie zdanie
 
 -----
 1.2
 
 ‘This’ używamy do określenia czegoś, co jest blisko (ten, ta, to), a ‘that’ (tamten, tamta, tamto) – daleko.
-
 
 Zwykle używamy tych zaimków, kiedy pytamy lub mówimy o czymś po raz pierwszy, w odpowiedzi natomiast zamiast nich używamy ‘it’, tak jak w dialogu 2 i 3 oraz 5 i 6. Nie ma potrzeby powtarzania: What’s this?
 This It is a phone.
@@ -253,3 +251,168 @@ Pamiętamy, że w pytaniach i przeczeniach nie używamy już końcówki ‘-s’
 He doesn’t comes.
 
 Z czasownikiem ‘call’ nie używamy żadnego przyimka. Nie mówimy ‘to call to me’.
+
+-----
+1.11
+
+Czasownik ‘to have’ - ‘mieć’, używamy tak samo, jak każdego innego czasownika w czasie Present Simple.
+Niemniej jednak z osobami ‘He, She, It’ w zdaniach twierdzących ma on formę ‘has’.
+
+W pytaniach i przeczeniach, z rzeczownikami w l. mnogiej i niepoliczalnymi używamy ‘any’. W zdaniach twierdzących używamy ‘some’, np.
+Do you have any money?
+I don’t have any money.
+I have some money.
+W przypadku rzeczowników w liczbie pojedynczej używamy rodzajnika ‘a’ lub ‘an’, jak w przykładzie 4 i 5.
+
+W krótkich odpowiedziach używamy czasownika auxiliary (w tym przypadku ‘does’), a nie czasownika głównego w zdaniu (w tym przypadku nie można powiedzieć: probably, she has).
+
+Gdy pytamy o typ lub rodzaj rzeczy, używamy pytania: What kind of...?
+
+W pytaniach zawierających negację struktura jest taka sama, czyli Auxiliary + Subject + Verb, z tym że czasownik ‘AUX’ ma formę przeczącą.
+
+Czasownik ‘to like’ oznacza ‘lubić’.
+Używamy go z rzeczownikiem (I like sports) lub z czasownikiem w formie ‘gerund’, czyli z końcówką -ing, np. I like dancing.
+
+drugiej części zdania nie ma potrzeby powtarzania czasownika, gdyż jest on taki sam dla całego zdania, stąd wystarczy użyć czasownik ‘auxiliary’ jak w przykładzie: ‘but they don’t’.
+
+Czasownik ‘to want’ oznacza ‘chcieć’.
+Używany jest z rzeczownikiem, np. I want a coffee lub z czasownikiem w formie bezokolicznika (to do), np. I want to go.
+Pytania i przeczenia tworzymy tak, jak w czasie Present Simple, przy użyciu: do, does, don’t, doesn’t’ (szczegóły w rozdziale 10).
+
+Pamiętaj o użyciu rodzajników nieokreślonych ‘a’ z rzeczownikami policzalnymi w liczbie pojedynczej, ‘a house’, ‘a garden’.
+
+-----
+1.12
+
+‘Object pronouns’ to zaimki dopełnieniowe:
+me           |   zaimki pochodzące od ‘ja’, np. mnie
+you          |      zaimki pochodzące od ‘ty’, np. ciebie
+him          |    zaimki pochodzące od ‘on’, np. jego 
+her           |       zaimki pochodzące od ‘ona’, np. jej
+it            |   zaimki pochodzące od ‘to’, np. to, tego
+us            |   zaimki pochodzące od ‘my’, np. nas
+you          |    zaimki pochodzące od ‘wy’, np. was
+them          |    zaimki pochodzące od ‘oni’, np. ich
+
+Pamiętaj o użyciu ‘to’ z czasownikiem ‘want’. Nie możemy powiedzieć: Do you want come with us?
+
+Czasownik ‘dzwonić’ w języku angielskim nie jest używany z żadnym przyimkiem. Mówimy ‘to call somebody’, np. ‘call me - zadzwoń do mnie’, nie: call to me.
+
+‘Them’ może odnosić się zarówno do osób jak i rzeczy.
+
+Przysłówek ‘always’ nie występuje na początku zdania, tylko po podmiocie.
+Nie mówi się: Always I ask...
+
+-----
+1.13
+
+‘Frequency adverbs’ to przysłówki, które mówią o częstotliwości.
+always| zawsze
+usually | zwykle
+often | często
+sometimes|  czasami
+rarely/seldom | rzadko
+hardly ever | prawie nigdy
+never|  nigdy
+
+Jeśli używamy tych przysłówków z czasownikiem ‘być’, stawiamy je po czasowniku, np. We are always...; they are often..., etc.
+
+Jeśli używamy ich z każdym innym czasownikiem, stawiamy je przed nim, 
+np. We always have...; I always wait; they rarely have..., etc.
+
+W angielskim nigdy nie używamy podwójnego przeczenia. Nie można powiedzieć: He doesn’t never go out.
+
+Pytanie o częstotliwość to: ‘How often’ i zwykle używamy z nim czasu Present Simple, jako że określa czynność powtarzającą się, mówi o czynnościach generalnych i o zwyczajach.
+
+Inną formą mówienia o częstotliwości jest użycie słowa ’every’ – każdy, każdego, co, np. every day (codziennie), every week (co tydzień).
+W liczbie mnogiej przetłumaczymy je następująco: ‘every 3 days’ – co trzy dni; ‘every four months’ – co cztery miesiące.
+Pamiętajmy, że tych określeń czasu używamy na końcu zdania.
+
+Możemy też zadać bardziej szczegółowe pytanie niż ‘how often’ używając: How many times a week/month/day? 
+- Ile razy w tygodniu/miesiącu/w ciągu dnia ...?
+
+-----
+1.14
+
+Rozkazy w języku angielskim mają formę czasownika w bezokoliczniku, tak samo dla ‘Ty’ jak i ‘Wy’.
+Zakazy tworzymy przy użyciu: Don’t + czasownik w bezokoliczniku.
+Jeżeli kierujemy rozkaz do nas samych, np. Zróbmy, Chodźmy, używamy formy ‘Let’s’ wraz z czasownikiem w formie bezokolicznika: Let’s do it, Let’s go.
+
+‘Turn on’ to przykład czasownika złożonego ‘Phrasal verb’. Sam czasownik ‘turn’ oznacza ‘skręcać’.
+Niemniej jednak, gdy dodamy do tego czasownika przyimek ‘on’, zmienia się zupełnie jego znaczenie i oznacza wtedy ‘włączać, zapalać’.
+
+Tak jak wspomnieliśmy w rozdziale drugim, ‘one’ zastępuje rzeczownik.
+Tym sposobem wskazujemy na konkretną rzecz spośród dwóch lub więcej.
+Gdybyśmy powiedzieli ‘Let’s buy this’, oznaczałoby to ‘Kupmy to’, a nie ‘Kupmy ten’.
+
+Litera ‘s’ to w tym przypadku skrót od ‘us’ (Let us go...).
+Jedynie skrócona forma jest używana do wyrażania sugestii, np. zróbmy to - let’s do it.
+
+Pamiętajmy, że czasownik ‘call’ nie posiada przyimka ‘to’ w języku angielskim.
+Nie mówimy let’s call to him.
+
+Znów mamy tutaj przykład ‘Phrasal Verb’. Tym razem ‘turn’ z przyimkiem ‘off’ oznacza ‘gasić, wyłączać’.
+
+‘Imperatives’ są bardzo często używane w różnego rodzaju wyrażeniach dnia codziennego.
+Tutaj mamy kilka przykładów.
+
+-----
+1.15
+
+‘Saxon Genitive’ używany jest do określania przynależności. Tworzymy go poprzez dodanie apostrofu i literki ‘s’ na końcu imienia lub rzeczownika.
+
+W poprzednim rozdziale poznaliśmy dwa Phrasal Verbs: ‘turn on’ – włączyć i ‘turn off’ – wyłączyć. Od nich pochodzą przymiotniki ‘on’, który oznacza włączony, i ‘off’ – wyłączony.
+
+Gdy rzeczownik w liczbie pojedynczej lub imię kończą się na literę –s, w większości przypadków możemy użyć Saxon Genitive normalnie, czyli poprzez dodanie apostrofu oraz ‘–s’.
+
+Można też użyć podwójnego Saxon Genitive.
+
+Do rzeczowników w liczbie mnogiej, które kończą się na ‘–s’, dodajemy tylko apostrof na końcu (np. kids’). Natomiast w liczbie mnogiej nieregularnej, która nie kończy się na ‘–s’, dodajemy, tak jak w liczbie pojedynczej, apostrof i ‘s’ (np. men’s).
+
+Saxon Genitive może też być używany przy określaniu czasu, dni, tygodni, np. today’s, tomorrow’s, yesterday’s... czyli dzisiejszy, jutrzejszy, wczorajszy, etc.
+
+Czasami jedynie w pisowni możemy odróżnić znaczenie zdań. W tych dwóch przypadkach wymowa jest identyczna, ale pisownia wskazuje nam, o co konkretnie chodzi, czy o liczbę pojedynczą czy mnogą.
+
+-----
+1.16
+
+Czas Present Continuous określa czynność, która odbywa się w tym momencie, właśnie teraz. Struktura czasu to:
+Podmiot + to be + czasownik w formie gerund, np.
+He is sleeping now.
+‘Auxiliary verb’ dla tego czasu to czasownik ‘to be’ w odpowiedniej formie dla odpowiedniej osoby (am/is/are).
+Pytania tworzymy według struktury Aux + Subject + Verb-ing (czasownik z końcówką ‘-ing’), np. Is he sleeping?
+Przeczenia tworzymy poprzez dodanie ‘not’ do czasownika ‘Auxiliary’, np. He isn’t sleeping.
+
+Czasownik ‘słuchać’ zawsze łączy się z przyimkiem ‘to’ - to listen to sb/sth.
+
+Pytania zawierające negację tworzymy tak samo jak zwykłe pytania, tylko czasownik Auxiliary ma formę przeczącą.
+
+Czas ten może być też stosowany do określania bardzo bliskiej przyszłości, z takimi określnikami czasu jak: today, this afternoon, this evening, tomorrow (dziś, dziś po południu, dziś wieczorem, jutro).
+
+Kolejne przykłady ‘Phrasal Verbs’:
+to look at – patrzeć na; to look for – szukać.
+
+-----
+1.17
+
+Rzeczowniki policzalne to takie, które łatwo policzyć i które można użyć w liczbie mnogiej, np. books, tables, pens, pictures, cameras, etc.
+Rzeczowniki niepoliczalne to takie, które trudno policzyć tzn. woda, płyny, substancje sypkie oraz rzeczowniki takie jak: silence (cisza), space (przestrzeń), freedom (wolność), itp.
+’A lot of’, ’many’ i ’much’ oznaczają ‘dużo’.
+’A lot of’ zwykle używa się w zdaniach oznajmujących, natomiast ‘much’ oraz ‘many’ w zdaniach przeczących i pytaniach.
+’A lot of’ używamy zarówno z rzeczownikami policzalnymi jak i niepoliczalnymi.
+’Many’ używamy tylko z rzeczownikami policzalnymi.
+’Much’ używamy tylko z rzeczownikami niepoliczalnymi.
+’Some’ użyty przy rzeczowniku policzalnym oznacza ‘kilka, parę’ a przy rzeczowniku niepoliczalnym ‘trochę’.
+
+How much?’ (ile?) to pytanie odnoszące się do rzeczowników niepoliczalnych.
+
+Gdy po ‘a lot of’ nie ma rzeczownika, używamy tylko ‘a lot’.
+
+Rzeczowniki takie jak ‘time’ - czas, ‘money’ - pieniądze, ‘hair’ - włosy, są w języku angielskim niepoliczalne. Więcej na ten temat w książce 2, rozdział 3.
+
+Gdy chcemy powiedzieć np. ‘ja też’, powiemy ‘me too’.
+Gdy natomiast chcemy powiedzieć ‘ja też nie’, użyjemy ‘me either’ lub ‘me neither’.
+Skoro to zdanie jest przeczące, użyjemy ‘either’. 
+Nie można powiedzieć: She doesn’t have much time too, ani She doesn’t have much time neither, gdyż wtedy pojawia się podwójne przeczenie (doesn’t, neither).
+
+How many? (ile?) – używamy, w odróżnieniu od ‘how much?’, z rzeczownikami policzalnymi.

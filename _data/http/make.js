@@ -8,6 +8,17 @@ var chapters = content.split('-----');
 var newChapters = [];
 
 var notes = {};
+notes[0] = {};
+notes[2] = {};
+notes[3] = {};
+notes[4] = {};
+notes[5] = {};
+notes[6] = {};
+notes[7] = {};
+notes[8] = {};
+notes[9] = {};
+notes[10] = {};
+notes[11] = {};
 
 function makeTable(tab) {
   var chapter = tab.split('\n');
@@ -58,14 +69,12 @@ for (var x = 0; x < chapters.length; x++) {
   for (var y = 0; y < chapter.length; y++) {
     chapter[y] = chapter[y].trim();
     chapter[y] = '<div class="cloud">' + makeTable(chapter[y]) + '</div>';
-    console.log(chapter[y]);
+    //console.log(chapter[y]);
   }
 
 
-  if (typeof notes[nr[0]] === 'undefined') {
-    notes[nr[0] - 1] = {};
-  }
   notes[nr[0] -1][nr[1] - 1] = chapter.join('\n');
+  //console.log(notes);
 
   newChapters.push(chapter.join('\n'));
 }
@@ -80,3 +89,4 @@ footer = '\n\n\n' + footer;
 fs.writeFileSync('index.html', header + newChapters.join('\n') + footer);
 
 fs.writeFileSync('notes.js', JSON.stringify(notes));
+fs.writeFileSync('notes_pretty.js', JSON.stringify(notes, null, 2));
