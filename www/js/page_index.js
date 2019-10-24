@@ -265,12 +265,14 @@ var app = {
           cardGb.style.height = value + 'px';
         }
 
+        /*
         if (typeof app.config['fontSize'] !== 'undefined') {
           var value = app.config['fontSize'];
           $("#slider-2").val(value);
           cardTextPl.style.fontSize = value + 'px';
           cardTextEn.style.fontSize = value + 'px';
         }
+        */
 
         if (typeof app.config['cardRightMargin'] !== 'undefined') {
           var value = app.config['cardRightMargin'];
@@ -323,6 +325,25 @@ var app = {
       cardGb.style.height = this.value + 'px';
 
       app.config['cardHeight'] = this.value;
+      
+      // tu probuje ustawic fonty zaleznie od wysokosci
+
+      var elementsPl = document.querySelectorAll('#pl p, #pl span');
+      var elementsGb = document.querySelectorAll('#gb p, #gb span');
+      for (var x = 0; x < elementsPl.length; x++) {
+        var lineHeight = Math.floor(this.value / 4) + 'px'; 
+        var fontSize = Math.floor((this.value / 4) * 0.7) + 'px';
+
+        elementsPl[x].style.lineHeight = lineHeight;
+        elementsPl[x].style.fontSize = fontSize; 
+
+        elementsGb[x].style.lineHeight = lineHeight;
+        elementsGb[x].style.fontSize = fontSize; 
+
+      }
+
+
+
     }, // confCardHeight
 
     confCardRightMargin: function(event) {
