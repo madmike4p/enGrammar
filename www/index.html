@@ -66,11 +66,9 @@
     <h1 id="chapterTitle">&nbsp;</h1>
     <div data-role="controllgroup" data-type="horizontal" class="ui-mini ui-btn-right">
       <a href="#" id="configBtn" class="ui-btn ui-btn-icon-left ui-icon-gear">Config</a>
-      <!--
-      <a href="#" id="noteBtn" class="ui-btn ui-btn-icon-left ui-icon-gear">Note</a>
-      -->
       <a href="#" id="prevChapter" class="ui-btn ui-btn-icon-left ui-icon-carat-l">Prev</a>
       <a href="#" id="nextChapter" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Next</a>
+      <a href="#" id="noteBtn" class="ui-btn ui-btn-icon-left ui-icon-gear">Note</a>
     </div>
   </div><!-- header -->
   <div role="main" style="ui-content">
@@ -93,6 +91,10 @@
         </div>
       </div>
     </div> 
+
+    <div class="ui-bar" id="forNotes">
+    </div>
+
     <div class="ui-bar" id="configPanel">
       <form>
         <label for="slider-1">Card Height:</label>
@@ -102,8 +104,10 @@
         <label for="slider-3">Right Margin:</label>
         <input type="range" name="slider-3" id="slider-3" min="0" max="35" value="0">
         <select name="selectScheme" id="selectScheme" data-mini="true">
-          <option value="0">Light Scheme</option>
-          <option value="1">Dark Scheme</option>
+          <!--
+          <option value="Light Scheme">Light Scheme</option>
+          <option value="Dark Scheme">Dark Scheme</option>
+          -->
         </select>
       </form>
     </div>
@@ -112,6 +116,7 @@
 
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/page_db.js"></script>
+<script type="text/javascript" src="js/notes.js"></script>
 <script type="text/javascript" src="js/page_index.js"></script>
 <script type="text/javascript">
 app.initialize();

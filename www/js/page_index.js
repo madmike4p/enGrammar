@@ -118,6 +118,9 @@ var app = {
         document.getElementById('pl').setAttribute('data-click', '2');
         app._exercise = 0;
         app._pass = 1;
+
+        document.getElementById('forNotes').innerHTML = notes[app._book][app._chapter];
+
         $.mobile.changePage('#exercisePage');
         return false;
       });
@@ -189,7 +192,7 @@ var app = {
           break;
       }
 
-      var footerMsg ='sentence ' + (app._exercise + 1) + ' of ';
+      var footerMsg =(app._exercise + 1) + '/';
       footerMsg += books[app._book][app._chapter].length + ', pass ' + app._pass;
       document.getElementById('chapterTitle').innerHTML = footerMsg;
     }, // showCard
@@ -218,6 +221,35 @@ var app = {
         $("#slider-2").on("change", app.confFontSize);
         $("#slider-3").on("change", app.confCardRightMargin);
 
+        
+        var select = document.getElementById('selectScheme');
+        var schemeList = Object.getOwnPropertyNames(app._colorScheme);
+        var currentScheme = '';
+
+        if (typeof app.config['scheme'] !== 'undefined') {
+          app.applyScheme(app.config['scheme']);
+          currentScheme = app.config['scheme'];
+        } else {
+          currentScheme = schemeList[0];
+          //app.config['scheme'] = currentScheme;
+        }
+
+        for (var x = 0; x < schemeList.length; x++) {
+          var option = document.createElement('option');
+          option.setAttribute('value', schemeList[x]);
+          if (schemeList[x] == currentScheme) {
+            console.log('default: ' + currentScheme);
+            option.setAttribute('selected', 'true');
+          }
+          
+          var text = document.createTextNode(schemeList[x]);
+
+          option.appendChild(text);
+          select.appendChild(option);
+        }
+
+        $(select).selectmenu('refresh');
+
         var cardPl = document.getElementById('pl');
         var cardGb = document.getElementById('gb');
 
@@ -225,7 +257,6 @@ var app = {
         var cardTextEn = document.querySelector('#gb p');
 
         var cardContainer = document.getElementById('cardContainer');
-
 
         if (typeof app.config['cardHeight'] !== 'undefined') {
           var value = app.config['cardHeight'];
@@ -251,9 +282,9 @@ var app = {
         $("#slider-2").slider('refresh');
         $("#slider-3").slider('refresh');
         
-        if (typeof app.config['scheme'] !== 'undefined') {
-          app.applyScheme(app.config['scheme']);
-        }
+        //if (typeof app.config['scheme'] !== 'undefined') {
+        //  app.applyScheme(app.config['scheme']);
+        //}
     }, // createChapter
 
     prepareChapter: function(event) {
@@ -302,7 +333,7 @@ var app = {
 
     applyScheme: function(scheme) {
       if (typeof scheme === 'object') {
-        scheme = parseInt(this.value);
+        scheme = this.value;
       }
 
       console.log('scheme: ' + scheme);
@@ -313,7 +344,6 @@ var app = {
       var schemeList = Object.getOwnPropertyNames(app._colorScheme[scheme]);
 
       for (var x = 0; x < schemeList.length; x++) {
-        if (schemeList[x] == '_name') continue;
 
         var cssList = app._colorScheme[scheme][schemeList[x]].replace(/;\s*$/, "").split(';');
         var objList = document.querySelectorAll(schemeList[x])
@@ -332,15 +362,13 @@ var app = {
     config: window.localStorage,
 
     _colorScheme: {
-      0:
+      'Light Scheme':
       {
-        _name: 'Light scheme',
         '#progressBar': 'background-color: red;',
         '#progressBarBackground': 'background-color: white; color: blue;',
       },
-      1:
+      'Dark Scheme':
       {
-        _name: 'Dark scheme',
         '#progressBar': 'background-color: green;',
         '#progressBarBackground': 'background-color: black; color: blue;',
       }

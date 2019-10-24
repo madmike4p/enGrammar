@@ -64,3 +64,21 @@
 .inChapterNumber {
   font-size: 50%;
 }
+
+
+
+.cloud {
+  border-top: 1px solid gray;
+  border-radius: 15px 15px 15px 15px; 
+  background-color: lightgray;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 40%;
+
+}
+
+.cloud  p {
+  text-shadow: 0px 0px;
+  text-align: center;
+  color: black;
+}
