@@ -416,3 +416,223 @@ Skoro to zdanie jest przeczące, użyjemy ‘either’.
 Nie można powiedzieć: She doesn’t have much time too, ani She doesn’t have much time neither, gdyż wtedy pojawia się podwójne przeczenie (doesn’t, neither).
 
 How many? (ile?) – używamy, w odróżnieniu od ‘how much?’, z rzeczownikami policzalnymi.
+
+-----
+1,18
+
+Czasownik modalny ‘can’ oznacza: móc, potrafić, umieć.
+Jest on taki sam dla wszystkich osób
+liczby pojedynczej i mnogiej, np.
+I can swim - Umiem pływać;
+She can dance - Ona umie tańczyć;
+They can cook - Oni potrafią gotować. Czasownikiem ‘Auxiliary’ jest ‘can’, więc pytania i przeczenia będziemy tworzyć przy jego użyciu.
+Pytania: AUX + Subject + Verb:
+Can you swim? - Umiesz pływać?
+Przeczenie: do czasownika ‘auxiliary’ dodajemy ‘not’: cannot = can’t, które dla wszystkich osób jest takie samo, np.
+He can’t swim - On nie umie pływać.
+I can’t sleep - Nie mogę spać.
+
+Pytania zawierające negację tworzymy tak samo, jak zwykłe pytania, tyle że czasownik ‘Auxiliary’ ma formę przeczącą ‘can’t’.
+
+Krótka odpowiedź to:
+Yes, I can / No, I can’t – z odpowiednim do zdania podmiotem.
+
+W języku angielskim nie ma specjalnej formy dla Pan/Pani. Zawsze używamy ‘you’. Na końcu zdania możemy dodać ‘Sir/Madam’ (odpowiednio Pan/Pani), co sprawi, że pytanie będzie bardziej grzecznościowe.
+
+W języku angielskim ‘can’ używamy z czasownikami określającymi zmysły, np.
+I can hear - Słyszę. 
+I can see - Widzę.
+
+-----
+1.19
+
+‘Must’ i ‘Have to’ są to dwie formy, które oznaczają ‘musieć’.
+‘Must’ ma znaczenie bardziej osobiste, osobiście uważam, że coś musi się stać, np. You must read this book - Musisz przeczytać tę książkę. Ja ci ją polecam.
+’Have to’ to coś, do czego jesteśmy zobligowani przez kogoś, niezależnie od naszej woli, np. You have to read this book - Musisz przeczytać tę książkę, bo np. jest to twoja lektura obowiązkowa.
+Użycie ich będzie w dużej mierze zależeć od kontekstu i tego, jaki typ obowiązku mamy na myśli.
+Pytania zwykle tworzymy przy pomocy ‘have to’ i struktury: AUX + Subject + Verb
+W czasie Present Simple, Auxiliary to ‘do/does’, np.
+Do you have to go now? - Czy musisz teraz iść? Does he have to sign it? - Czy on musi to podpisać?
+Teoretycznie można też użyć ‘must’ w pytaniach, np. Must you go now?, ale jest to forma rzadziej używana.
+
+W przeczeniu obie formy mają różne znaczenie.
+‘Mustn’t’ oznacza ‘nie wolno’ i jest takie samo dla wszystkich osób.
+Przecząca forma ‘have to’ tworzona jest poprzez czasownik Auxiliary: do/does + NOT = ‘Don’t have to/Doesn’t have to’ i oznacza ‘nie musieć’.
+
+Przyjść do’ zwykle tłumaczy się na ‘come to’, ale przed słówkiem ‘home’ nie używamy ‘to’.
+
+W większości zdań oznajmujących możemy użyć obu form w zależności od znaczenia, jakie chcemy przekazać, chyba że jest podany konkretny kontekst, który wymaga jednej formy lub drugiej. W tym przypadku (must), osoba mówiąca uważa, że ktoś musi coś zrobić.
+Możemy użyć tego samego zdania z ‘have to’ i wtedy będzie ono oznaczać ‘obowiązek nałożony odgórnie’.
+
+Użycie ‘must’ oznacza, że ‘musi tak być, gdyż ja tak uważam’; 
+Używając ‘have to’ oznaczałoby to, że ktoś mi każe to zrobić, że jest to odgórny rozkaz’.
+
+W tym przypadku ‘have to’ jest formą odpowiednią, gdyż mowa jest o obowiązku nałożonym na nas przez regulamin.
+
+-----
+1,20
+
+‘The comparative’ to stopień wyższy przymiotnika.
+Tworzymy go na dwa sposoby:
+• do krótkich przymiotników dodajemy końcówkę ‘–er’, np. cheap – cheaper  (tani-tańszy);
+• do dłuższych dodajemy ‘more’, np. more interesting (bardziej interesujący);
+Przy porównaniu używamy ‘than’ – niż.
+
+Jeżeli przymiotnik kończy się na ‘y’, to zamieniamy ‘y’ na ‘i’, np. easy - easier.
+
+Przymiotniki ‘dobry’ i ‘zły’ są nieregularne w stopniu wyższym.
+good – better dobry – lepszy
+bad – worse zły - gorszy
+
+Gdy przymiotnik ma jedną sylabę, podwajamy ostatnią literę, np. big-bigger.
+
+W tego rodzaju porównaniach, użycie czasownika ‘Auxiliary’ ‘are’ na końcu zdania, gramatycznie jest wymagane, ale w języku potocznym często słyszy się formę bez tego czasownika.
+
+Słowo ‘hair’ jest rzeczownikiem niepoliczalnym, więc używane jest jako liczba pojedyncza. Zawsze mówimy ‘my hair is’ nigdy ‘my hair are’.
+
+Znów podwajamy ostatnią spółgłoskę, gdyż przymiotnik jest jednosylabowy: hot - hotter.
+
+‘y’ zamienia się na ‘i’: heavy - heavier.
+
+-----
+1.21
+
+‘Adverbs’ to ‘przysłówki’. Odnoszą się one do czasownika i odpowiadają na pytanie ‘jak?’. 
+Tworzymy je poprzez dodanie do przymiotnika końcówki ‘–ly’, np. ‘serious’ - poważny, ‘seriously’ - poważnie.
+W zdaniu znajdują się one zwykle po czasowniku.
+
+Przysłówek od przymiotnika ‘good’ – ‘dobry’ ma formę nieregularną ‘well’ – dobrze.
+ 
+Gdy przymiotnik kończy się na ‘y’, przy dodaniu końcówki ‘–ly’, zamieniamy samogłoskę ‘y’ na ‘i’, np. angry - angrily.
+
+Żeby powiedzieć ‘jest mi przykro’, użyjemy określenia ‘I’m sorry’.
+
+Przysłówek ‘easily’ pochodzi od przymiotnika ‘easy’ i oznacza ‘z łatwością, bez trudu’.
+
+Stopień wyższy przysłówka ‘well’ jest taki sam jak przymiotnika ‘good’, czyli ‘better’ (lepszy, lepiej).
+
+Stopień wyższy innych przysłówków tworzymy przy użyciu ‘more’.
+
+W przypadku ‘fast’, przysłówek ten ma taką samą formę jak przymiotnik.
+Stopień wyższy utworzymy dodając ‘-er’.
+
+Reflexive Pronouns to zaimki zwrotne, tłumaczone jako: się, siebie, sobie, sam, samo, samemu itp. Każda osoba ma swój zaimek:
+I |myself
+you |yourself
+he| himself
+she| herself
+it |itself
+we |ourselves
+you |yourselves
+they |themselves
+
+Zaimków zwrotnych używamy też, gdy chcemy powiedzieć, że coś robimy lub coś dzieje się samo, bez niczyjej pomocy.
+Często używamy wtedy przyimka ‘by’ przed zaimkiem.
+
+Przysłówek ‘constantly’ - ‘ciągle’, znajduje się przed czasownikiem, a nie jak większość przysłówków po czasowniku.
+
+Kolejny przykład użycia Reflexive Pronouns do określania czynności, które wykonujemy sami, bez niczyjej pomocy.
+
+-----
+1.22
+
+Gdy mówimy o czymś, co robimy wzajemnie, używamy ‘each other’. Gdybyśmy w zdaniu 17 powiedzieli ‘They are looking at themselves’, oznaczałoby to, że każdy z nich patrzy na samego siebie, a nie jedna osoba na drugą.
+
+Czasownik ‘robić’ w języku angielskim przyjmuje dwie formy ‘do’ i ‘make’, w zależności od tego, co robimy. Jest to dokładnie omówione w książce 3, rozdział 18 oraz w książce 4, rozdział 7.
+
+‘Reflexive pronouns’ często też używane są w wyrażeniach dnia codziennego.
+
+-----
+1.23
+
+stosowane, gdy mówimy o przyszłości, o jakimś planie lub zamiarze. 
+I’m going to go to London – Zamierzam (I’m going) jechać (to go) do Londynu (to London).
+W pytaniach i przeczeniach jak zwykle używamy czasownika Auxiliary. W tym przypadku jest to czasownik ‘to be’ (am/is/are).
+AUX + Subject + Verb: Are you going to go to London?
+Przeczenia tworzymy przez dodanie ‘not’ do czasownika auxiliary ‘to be’: I’m not going to go to London.
+
+W zdaniu 2 i 3 porównane jest użycie czasu Present Continuous: ‘I’m going to the kitchen’ z określeniem zamiaru ‘going to’: ‘I’m going to make a coffee.’
+
+W zdaniu 4 i 6 krótkie odpowiedzi zawsze zgodne są z Czasownikiem Auxiliary zadawanego pytania. W zdaniu 4 - ‘to be’, w zdaniu 6 - ‘can’.
+
+‘Więc’ tłumaczymy na ‘so’, jeśli znajduje się na początku zdania, lub ‘then’, jeśli znajduje się na końcu zdania.
+
+-----
+1.24
+
+‘Negative questions’ to pytania, które zawierają w sobie negację. Są one tworzone tak samo jak zwykłe pytania, z tym że czasownik Auxiliary jest zawsze negatywny i zazwyczaj ma formę skróconą. 
+Powtórzmy wszystkie czasowniki Auxiliary, które służą do zadawania pytań i tworzenia przeczeń. Oto lista czasowników Auxiliary do tej pory poznanych według formy stosowanej do pytań: Auxiliary + Subject (podmiot) + Verb (czasownik).
+W przypadku czasownika ‘być’ lub ‘there’: Aux + Subject + Adjective or Noun (przymiotnik lub rzeczownik).
+
+
+-----
+1.25
+
+Istnieją dwie formy czasownika w języku angielskim: Infinitive: forma czasownika z ‘to’, np. to go, to sleep.
+Gerund: forma czasownika z końcówką –ing, np. going, sleeping. 
+Formy infinitive używamy:
+• z czasownikiem ‘chcieć’ - ‘want to’ (przykład 1,2,3);
+• z czasownikiem ‘musieć’ - ‘have to’ (przykład 7,14);
+• w celu określenia celu: ’żeby’ (przykład 4,5,6).
+Formy gerund używamy:
+• z czasownikami lubić, kochać, nienawidzić: ‘like’, ‘love’, ‘hate’ (przykład 8,9,13,17);
+• jako podmiotu zdania: jedzenie, palenie itp. (przykład 11, 12).
+
+1.26
+
+
+Oto lista najczęściej używanych przyimków:
+about| o
+after| po
+before |przed
+with| z
+for |dla
+in |w
+at| w (w przypadku specyficznych miejsc, np. at work, at school, at home etc.)
+
+Czasowniki/Przymiotniki + prepositions:
+to talk to (lub: with) |rozmawiać z to talk about |rozmawiać o
+to go to|iść/jechać do (wyjątek: go home, go there)
+to be worried|być zmartwionym
+about|o
+
+Z dniami tygodnia zawsze używamy przyimka ‘on’ (nie jak po polsku ‘w’ (in).
+
+Z miesiącami zawsze używamy ‘in’. 
+Określniki czasu (np. in May, on Sunday) znajdują się zwykle na końcu zdania.
+
+Jeżeli po przyimku użyjemy czasownika, musi on mieć formę ‘gerund’, dlatego też w zdaniu jest: before signing (przyimek + gerund). Nie można powiedzieć: before to sign.
+
+Przyimki miejsca:
+in front of |przed
+behind |za
+next to| obok
+under |pod
+opposite |naprzeciwko
+
+Pamiętajmy, że zamiar jest określany przy użyciu formy ‘going to’.
+
+Pamiętajmy, że po przyimku ‘before’ używamy formy ‘gerund’.
+
+Częstym błędem jest użycie przyimka ‘on’. Nie mówimy: on the picture.
+
+-----
+1.27
+
+ 
+W tym rozdziale prezentujemy pierwszą listę często słyszanych i używanych wyrażeń. W następnych częściach książek z tej serii pojawią się kolejne wyrażenia.
+
+Formą bardziej grzecznościową mogłoby być:
+‘Be quiet, please’ – bądź cicho, proszę.
+
+Bless you! – przy kichnięciu (dosł. błogosławić), Cheers! - przy wznoszeniu toastu.
+
+W tym przypadku nie możemy użyć ‘too’, gdyż jest to odpowiedź do zdania przeczącego. ‘Too’ jest tylko i wyłącznie używane jako odpowiedź do zdań twierdzących.
+
+Czasownik ‘to mean’ – ma dwa znaczenia: 
+Pierwsze to ‘znaczyć’, np. What does this word mean? – Co znaczy to słowo?
+Drugie to właśnie ‘mieć na myśli’.
+
+Można też powiedzieć: ‘Can you repeat?’, ale w rzeczywistości ‘Can you say that again?’ jest o wiele bardziej naturalne.
+
+-----

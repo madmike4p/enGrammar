@@ -218,8 +218,8 @@ var app = {
 
     createChapter: function(event) {
         $("#slider-1").on("change", app.confCardHeight);
-        $("#slider-2").on("change", app.confFontSize);
-        $("#slider-3").on("change", app.confCardRightMargin);
+        /*$("#slider-2").on("change", app.confFontSize);*/
+        /*$("#slider-3").on("change", app.confCardRightMargin);*/
 
         
         var select = document.getElementById('selectScheme');
@@ -238,7 +238,6 @@ var app = {
           var option = document.createElement('option');
           option.setAttribute('value', schemeList[x]);
           if (schemeList[x] == currentScheme) {
-            console.log('default: ' + currentScheme);
             option.setAttribute('selected', 'true');
           }
           
@@ -261,8 +260,9 @@ var app = {
         if (typeof app.config['cardHeight'] !== 'undefined') {
           var value = app.config['cardHeight'];
           $("#slider-1").val(value);
-          cardPl.style.height = value + 'px';
-          cardGb.style.height = value + 'px';
+          app.confCardHeight(value);
+          //cardPl.style.height = value + 'px';
+          //cardGb.style.height = value + 'px';
         }
 
         /*
@@ -307,6 +307,7 @@ var app = {
       }
     }, // configuration
 
+    /*
     confFontSize: function(event) {
       var cardTextPl = document.querySelector('#pl p');
       var cardTextEn = document.querySelector('#gb p');
@@ -316,23 +317,30 @@ var app = {
 
       app.config['fontSize'] = this.value;
     }, // confCardFondSize
-
+    */
+    
     confCardHeight: function(event) {
+      var value = event;
+      if (typeof value === 'object') {
+        value = this.value;
+      }
+      console.log('---> value: ' + value);
+      
       var cardPl = document.getElementById('pl');
       var cardGb = document.getElementById('gb');
 
-      cardPl.style.height = this.value + 'px';
-      cardGb.style.height = this.value + 'px';
+      cardPl.style.height = value + 'px';
+      cardGb.style.height = value + 'px';
 
-      app.config['cardHeight'] = this.value;
+      app.config['cardHeight'] = value;
       
       // tu probuje ustawic fonty zaleznie od wysokosci
 
-      var elementsPl = document.querySelectorAll('#pl p, #pl span');
-      var elementsGb = document.querySelectorAll('#gb p, #gb span');
+      var elementsPl = document.querySelectorAll('#pl p');
+      var elementsGb = document.querySelectorAll('#gb p');
       for (var x = 0; x < elementsPl.length; x++) {
-        var lineHeight = Math.floor(this.value / 4) + 'px'; 
-        var fontSize = Math.floor((this.value / 4) * 0.7) + 'px';
+        var lineHeight = Math.floor(value / 4) + 'px'; 
+        var fontSize = Math.floor((value / 4) * 0.7) + 'px';
 
         elementsPl[x].style.lineHeight = lineHeight;
         elementsPl[x].style.fontSize = fontSize; 
@@ -345,20 +353,19 @@ var app = {
 
 
     }, // confCardHeight
-
+    
+    /*
     confCardRightMargin: function(event) {
       var cardContainer = document.getElementById('cardContainer');
       cardContainer.style.marginRight = this.value + 'px';
       app.config['cardRightMargin'] = this.value;
     }, // confCardRightMargin
-
+    */
+    
     applyScheme: function(scheme) {
       if (typeof scheme === 'object') {
         scheme = this.value;
       }
-
-      console.log('scheme: ' + scheme);
-      console.log('typeof: ' + typeof scheme);
       
       app.config['scheme'] = scheme;
             
