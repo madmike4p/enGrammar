@@ -47,9 +47,6 @@
   <a href="test.html" data-ajax="false" class="ui-btn ui-btn-b">Test</a>
 
   </div><!-- main -->
-  <div data-role="footer" data-position="fixed" data-fullscreen="true" data-theme="b">
-    <h4>&nbsp;</h4>
-  </div>    
 </div> <!-- page -->
 
 <div data-role="page" id="chapterPage" data-theme="b">
@@ -71,18 +68,15 @@
 
     <div data-role="controllgroup" data-type="horizontal" class="ui-mini ui-btn-right">
       <a href="#" id="configBtn" class="ui-btn ui-btn-icon-left ui-icon-gear">Config</a>
-      <a href="#" id="prevChapter" class="ui-btn ui-btn-icon-left ui-icon-carat-l">Prev</a>
-      <a href="#" id="nextChapter" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Next</a>
-      <a href="#" id="noteBtn" class="ui-btn ui-btn-icon-left ui-icon-gear">Note</a>
+      <a href="#" id="prevChapter" class="ui-btn ui-btn-icon-left ui-icon-carat-l">&nbsp;</a>
+      <a href="#" id="nextChapter" class="ui-btn ui-btn-icon-right ui-icon-carat-r">&nbsp;</a>
     </div>
 
   </div><!-- header -->
   <div role="main" style="ui-content">
     <div class="ui-bar" id="cardContainer" style="">
       <div id="pl" class="pl" data-click="2">
-        <div class="cell">
-          <p>&nbsp;</p>
-        </div>
+        <p>&nbsp;</p>
       </div>
 
       <div id="progressBarBackground" style="background-color: white;">
@@ -92,9 +86,7 @@
       </div>
 
       <div id="gb" class="gb">
-        <div class="cell">
-          <p>&nbsp;</p>
-        </div>
+        <p>&nbsp;</p>
       </div>
     </div> 
 
@@ -104,7 +96,7 @@
     <div class="ui-bar" id="configPanel">
       <form>
         <label for="slider-1">Card Height:</label>
-        <input type="range" name="slider-1" id="slider-1" min="35" max="300" value="50">
+        <input type="range" name="ardHeightSlider" id="ardHeightSlider" min="35" max="300" value="50">
         <!--
         <label for="slider-2">Font Size:</label>
         <input type="range" name="slider-2" id="slider-2" min="15" max="40" value="15">
@@ -124,7 +116,6 @@
 
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/page_db.js"></script>
-<script type="text/javascript" src="js/notes.js"></script>
 <script type="text/javascript" src="js/page_index.js"></script>
 <script type="text/javascript">
 app.initialize();

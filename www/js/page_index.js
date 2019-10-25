@@ -119,8 +119,7 @@ var app = {
         app._exercise = 0;
         app._pass = 1;
 
-        document.getElementById('forNotes').innerHTML = notes[app._book][app._chapter];
-
+        
         $.mobile.changePage('#exercisePage');
         return false;
       });
@@ -175,6 +174,7 @@ var app = {
             msg += '</span><br/><span class="inChapterNumber">"';
             msg += books[app._book].title;
             msg += '", chapter ' + (app._chapter + 1) + ' of ' + books[app._book].length;
+            msg += ', pass' + app._pass;
             msg += '</span>';
             pl.innerHTML = msg;
             gb.style.display = 'none';
@@ -217,7 +217,7 @@ var app = {
     }, //cardClick
 
     createChapter: function(event) {
-        $("#slider-1").on("change", app.confCardHeight);
+        $("#cardHeightSlider").on("change", app.confCardHeight);
         /*$("#slider-2").on("change", app.confFontSize);*/
         /*$("#slider-3").on("change", app.confCardRightMargin);*/
 
@@ -259,7 +259,7 @@ var app = {
 
         if (typeof app.config['cardHeight'] !== 'undefined') {
           var value = app.config['cardHeight'];
-          $("#slider-1").val(value);
+          $("#ardHeightSlider").val(value);
           app.confCardHeight(value);
           //cardPl.style.height = value + 'px';
           //cardGb.style.height = value + 'px';
@@ -272,17 +272,17 @@ var app = {
           cardTextPl.style.fontSize = value + 'px';
           cardTextEn.style.fontSize = value + 'px';
         }
-        */
+        
 
         if (typeof app.config['cardRightMargin'] !== 'undefined') {
           var value = app.config['cardRightMargin'];
           $("#slider-3").val(value);
           cardContainer.style.marginRight = value + 'px';
         }
+        */
+        
+        $("#cardHeightSlider").slider('refresh');
 
-        $("#slider-1").slider('refresh');
-        $("#slider-2").slider('refresh');
-        $("#slider-3").slider('refresh');
         
         //if (typeof app.config['scheme'] !== 'undefined') {
         //  app.applyScheme(app.config['scheme']);
@@ -300,8 +300,8 @@ var app = {
 
       if (configPanel.style.display == '') {
         configPanel.style.display = 'block';
-        var scrollTo = document.getElementById('slider-3');
-        scrollTo.scrollIntoView();
+        //var scrollTo = document.getElementById('cardHeightSlider');
+        //scrollTo.scrollIntoView();
       } else {
         configPanel.style.display = '';
       }

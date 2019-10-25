@@ -31,8 +31,6 @@
   background-position: 10px 10px; 
   height: 50px;
   text-align: center;
- /*display: table; width:100%;
- width: 90%; */
 }
 
 .pl p, .gb p {
@@ -47,13 +45,6 @@
   line-height: 200%;
 }
 
-.pl div.cell {
-  display: table-cell; vertical-align: middle;
-}
-
-.gb div.cell {
-  display: table-cell; vertical-align: middle;
-}
 
 .cardTitle {
   display: inline;
@@ -77,18 +68,6 @@
 
 
 
-.cloud {
-  border-top: 1px solid gray;
-  border-radius: 15px 15px 15px 15px; 
-  background-color: lightgray;
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 40%;
-
-}
-
-.cloud  p {
-  text-shadow: 0px 0px;
-  text-align: center;
-  color: black;
+#configPanel {
+  background-color: white;
 }
