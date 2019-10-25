@@ -6445,7 +6445,7 @@ var books = {
         "pl": "Istotne jest to, abyśmy dziś skończyli.",
         "en": "It’s essential to finish today."
       },
-      "title": "It’s Necessary/Important to ... | Trzeba, Ważne jest....",
+      "title": "It’s Necessary|Important to ... | Trzeba, Ważne jest....",
       "length": 30
     },
     "23": {
@@ -10515,7 +10515,7 @@ var books = {
       },
       "24": {
         "pl": "Mam dość tej pracy.",
-        "en": "I’m sick and tired of this job./I’m fed up with this job."
+        "en": "I’m sick and tired of this job.|I’m fed up with this job."
       },
       "25": {
         "pl": "Jestem spłukany.",
