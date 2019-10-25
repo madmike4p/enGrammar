@@ -62,7 +62,7 @@
     </div>
     <h1 id="chapterTitle">&nbsp;</h1>
     <div data-role="controllgroup" data-type="horizontal" class="ui-mini ui-btn-right">
-      <a href="#" id="configBtn" class="ui-btn ui-btn-icon-left ui-icon-gear">&nbsp;</a>
+      <a href="#" id="configBtn" class="ui-btn ui-btn-icon-left ui-icon-gear">Config</a>
       <a href="#" id="prevChapter" class="ui-btn ui-btn-icon-left ui-icon-carat-l">&nbsp;</a>
       <a href="#" id="nextChapter" class="ui-btn ui-btn-icon-right ui-icon-carat-r">&nbsp;</a>
     </div>
@@ -86,13 +86,22 @@
       <div id="configPanel" class="pl">
       <form>
         <label for="slider-1">Card Height:</label>
-        <input type="range" name="cardHeightSlider" id="cardHeightSlider" min="35" max="300" value="50">
+        <input type="range" name="cardHeightSlider" id="cardHeightSlider" min="80" max="300" value="80">
         <select name="selectScheme" id="selectScheme" data-mini="true">
         </select>
       </form>
       </div>
+      
+      <div class="progressBarBackground">
+        <div id="configProgressBar" class="progressBar">
+          &nbsp;
+        </div> 
+      </div>
+      
       <div class="gb">
-        In the hotel room, when we wanted to turn on the tap, it turned out that the heating had broken down and there was no hot water and the air conditioning was giving off a strange smell.
+        <p>
+          In the hotel room, when we wanted to turn on the tap, it turned out that the heating had broken down and there was no hot water and the air conditioning was giving off a strange smell.
+        </p>
       </div>
     </div>
   </div><!-- main -->

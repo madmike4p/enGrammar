@@ -192,7 +192,7 @@ var app = {
           break;
       }
 
-      var footerMsg =(app._exercise + 1) + '/';
+      var footerMsg = (app._exercise + 1) + '/';
       footerMsg += books[app._book][app._chapter].length + ', pass ' + app._pass;
       document.getElementById('chapterTitle').innerHTML = footerMsg;
     }, // showCard
@@ -202,7 +202,7 @@ var app = {
       var cardState = cardPl.getAttribute('data-click');
 
 
-     switch (cardState) {
+      switch (cardState) {
         case '0':
           app.showCard('showEn');
           break;
@@ -217,22 +217,35 @@ var app = {
     }, //cardClick
 
     createChapter: function(event) {
+        //addEventListener tu nie dziala, trzeba uzyc jquery
         $("#cardHeightSlider").on("change", app.confCardHeight);
-        /*$("#slider-2").on("change", app.confFontSize);*/
-        /*$("#slider-3").on("change", app.confCardRightMargin);*/
-
         
         var select = document.getElementById('selectScheme');
+        var slider = document.getElementById('cardHeightSlider');
         var schemeList = Object.getOwnPropertyNames(app._colorScheme);
         var currentScheme = '';
-
+        var currentHeight = 0;
+        
+        // odczyt ustawien i ich aplikacja, jesli brak, to domyslne
         if (typeof app.config['scheme'] !== 'undefined') {
-          app.applyScheme(app.config['scheme']);
           currentScheme = app.config['scheme'];
         } else {
           currentScheme = schemeList[0];
-          //app.config['scheme'] = currentScheme;
+          app.config['scheme'] = currentScheme;
         }
+        
+        app.applyScheme(currentScheme);
+        
+        if (typeof app.config['cardHeight'] !== 'undefined') {
+          currentHeight = app.config['cardHeight'];
+          slider.value = currentHeight;
+          //$("#cardHeightSlider").val(currentHeight);
+        } else {
+            currentHeight = slider.value;
+            app.config['cardHeight'] = currentHeight;
+        }
+        
+        app.confCardHeight(currentHeight);
 
         for (var x = 0; x < schemeList.length; x++) {
           var option = document.createElement('option');
@@ -257,18 +270,12 @@ var app = {
 
         var cardContainer = document.getElementById('cardContainer');
 
-        if (typeof app.config['cardHeight'] !== 'undefined') {
-          var value = app.config['cardHeight'];
-          $("#cardHeightSlider").val(value);
-          app.confCardHeight(value);
-        }
+        
 
         $("#cardHeightSlider").slider('refresh');
 
         
-        if (typeof app.config['scheme'] !== 'undefined') {
-        //  app.applyScheme(app.config['scheme']);
-        }
+
     }, // createChapter
 
     prepareChapter: function(event) {
@@ -276,7 +283,6 @@ var app = {
     }, // prepareChapter
 
     configuration: function(event) {
-      console.log('in configuration');
       var configContainer = document.getElementById('configContainer');
       var cardContainer = document.getElementById('cardContainer');
 
@@ -290,7 +296,6 @@ var app = {
     }, // configuration
 
     confCardHeight: function(event) {
-       console.log('confCardHeight');     
       var value = event;
       if (typeof value === 'object') {
         value = this.value;
@@ -313,34 +318,25 @@ var app = {
       app.config['cardHeight'] = value;
       
       // tu probuje ustawic fonty zaleznie od wysokosci
-
-      var elementsPl = document.querySelectorAll('#pl p');
-      var elementsGb = document.querySelectorAll('#gb p');
+      var lineHeight = Math.floor(value / 4) * 0.8 + 'px'; 
+      var fontSize = Math.floor((value / 4) * 0.7) + 'px';
       
-      
-      for (var x = 0; x < elementsPl.length; x++) {
-        var lineHeight = Math.floor(value / 4) + 'px'; 
-        var fontSize = Math.floor((value / 4) * 0.7) + 'px';
-
+      var elementsPl = document.querySelectorAll('.pl p');
+       for (var x = 0; x < elementsPl.length; x++) {
         elementsPl[x].style.lineHeight = lineHeight;
         elementsPl[x].style.fontSize = fontSize; 
-
+      }     
+      
+      
+      var elementsGb = document.querySelectorAll('.gb p');
+      for (var x = 0; x < elementsGb.length; x++) {
         elementsGb[x].style.lineHeight = lineHeight;
         elementsGb[x].style.fontSize = fontSize; 
-
       }
 
 
 
     }, // confCardHeight
-    
-    /*
-    confCardRightMargin: function(event) {
-      var cardContainer = document.getElementById('cardContainer');
-      cardContainer.style.marginRight = this.value + 'px';
-      app.config['cardRightMargin'] = this.value;
-    }, // confCardRightMargin
-    */
     
     applyScheme: function(scheme) {
       if (typeof scheme === 'object') {
@@ -372,13 +368,21 @@ var app = {
     _colorScheme: {
       'Light Scheme':
       {
-        '#progressBar': 'background-color: red;',
-        '#progressBarBackground': 'background-color: white; color: blue;',
+        '.progressBar': 'background-color: red;',
+        '.progressBarBackground': 'background-color: white; color: blue;',
+        '.pl, .gb': 'background-color: white; color: black;',
+        '.pl': 'border-bottom: 1px solid #A7A7A7',
+        '.progressBarBackground': 'background-color: white;',
+        '.progressBar': 'background-color: #333333;'
       },
       'Dark Scheme':
       {
-        '#progressBar': 'background-color: green;',
-        '#progressBarBackground': 'background-color: black; color: blue;',
+        '.progressBar': 'background-color: green;',
+        '.progressBarBackground': 'background-color: black; color: blue;',
+        '.pl, .gb': 'background-color: #333333; color: white',
+        '.pl': 'border-bottom: 1px solid #252525',
+        '.progressBarBackground': 'background-color: #333333;',
+        '.progressBar': 'background-color: #ffffff;'
       }
     },
 
