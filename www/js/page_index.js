@@ -259,34 +259,16 @@ var app = {
 
         if (typeof app.config['cardHeight'] !== 'undefined') {
           var value = app.config['cardHeight'];
-          $("#ardHeightSlider").val(value);
+          $("#cardHeightSlider").val(value);
           app.confCardHeight(value);
-          //cardPl.style.height = value + 'px';
-          //cardGb.style.height = value + 'px';
         }
 
-        /*
-        if (typeof app.config['fontSize'] !== 'undefined') {
-          var value = app.config['fontSize'];
-          $("#slider-2").val(value);
-          cardTextPl.style.fontSize = value + 'px';
-          cardTextEn.style.fontSize = value + 'px';
-        }
-        
-
-        if (typeof app.config['cardRightMargin'] !== 'undefined') {
-          var value = app.config['cardRightMargin'];
-          $("#slider-3").val(value);
-          cardContainer.style.marginRight = value + 'px';
-        }
-        */
-        
         $("#cardHeightSlider").slider('refresh');
 
         
-        //if (typeof app.config['scheme'] !== 'undefined') {
+        if (typeof app.config['scheme'] !== 'undefined') {
         //  app.applyScheme(app.config['scheme']);
-        //}
+        }
     }, // createChapter
 
     prepareChapter: function(event) {
@@ -294,55 +276,39 @@ var app = {
     }, // prepareChapter
 
     configuration: function(event) {
-      var configPanel = document.getElementById('configContainer');
-      var cardPanel = document.getElementById('cardContainer');
-      console.log('-----');
+      console.log('in configuration');
+      var configContainer = document.getElementById('configContainer');
+      var cardContainer = document.getElementById('cardContainer');
 
-      var tmp = document.querySelector('div#pl');
-
-      if (configPanel.style.display == '' || configPanel.style.display == 'none') {
-        configPanel.style.display = 'block';
-        cardPanel.style.display = 'none';
-        console.log('here');
-        console.log(cardPanel);
-        console.log(configPanel.style.display);
-        console.log(cardPanel.style.display);
-        //var scrollTo = document.getElementById('cardHeightSlider');
-        //scrollTo.scrollIntoView();
+      if (configContainer.style.display == '' || configContainer.style.display == 'none') {
+        configContainer.style.display = 'block';
+        cardContainer.style.display = 'none';
       } else {
-        configPanel.style.display = 'none';
-        cardPanel.style.display = 'block'
-        console.log('there');
-        console.log(cardPanel);
-        console.log(configPanel.style.display);
-        console.log(cardPanel.style.display);
+        configContainer.style.display = 'none';
+        cardContainer.style.display = 'block'
       }
     }, // configuration
 
-    /*
-    confFontSize: function(event) {
-      var cardTextPl = document.querySelector('#pl p');
-      var cardTextEn = document.querySelector('#gb p');
-
-      cardTextPl.style.fontSize = this.value + 'px';
-      cardTextEn.style.fontSize = this.value + 'px';
-
-      app.config['fontSize'] = this.value;
-    }, // confCardFondSize
-    */
-    
     confCardHeight: function(event) {
+       console.log('confCardHeight');     
       var value = event;
       if (typeof value === 'object') {
         value = this.value;
       }
-      console.log('---> value: ' + value);
       
-      var cardPl = document.getElementById('pl');
-      var cardGb = document.getElementById('gb');
 
-      cardPl.style.height = value + 'px';
-      cardGb.style.height = value + 'px';
+      var cardPl = document.querySelectorAll('.pl');
+      for (var x = 0; x < cardPl.length; x++) {
+        cardPl[x].style.height = value + 'px';
+      }
+      
+
+      var cardEn = document.querySelectorAll('.gb');
+      for (var x = 0; x < cardEn.length; x++) {
+        cardEn[x].style.height = value + 'px';
+      }
+      
+      
 
       app.config['cardHeight'] = value;
       
@@ -350,6 +316,8 @@ var app = {
 
       var elementsPl = document.querySelectorAll('#pl p');
       var elementsGb = document.querySelectorAll('#gb p');
+      
+      
       for (var x = 0; x < elementsPl.length; x++) {
         var lineHeight = Math.floor(value / 4) + 'px'; 
         var fontSize = Math.floor((value / 4) * 0.7) + 'px';
