@@ -294,16 +294,28 @@ var app = {
     }, // prepareChapter
 
     configuration: function(event) {
-      var configPanel = document.getElementById('configPanel');
+      var configPanel = document.getElementById('configContainer');
+      var cardPanel = document.getElementById('cardContainer');
+      console.log('-----');
 
       var tmp = document.querySelector('div#pl');
 
-      if (configPanel.style.display == '') {
+      if (configPanel.style.display == '' || configPanel.style.display == 'none') {
         configPanel.style.display = 'block';
+        cardPanel.style.display = 'none';
+        console.log('here');
+        console.log(cardPanel);
+        console.log(configPanel.style.display);
+        console.log(cardPanel.style.display);
         //var scrollTo = document.getElementById('cardHeightSlider');
         //scrollTo.scrollIntoView();
       } else {
-        configPanel.style.display = '';
+        configPanel.style.display = 'none';
+        cardPanel.style.display = 'block'
+        console.log('there');
+        console.log(cardPanel);
+        console.log(configPanel.style.display);
+        console.log(cardPanel.style.display);
       }
     }, // configuration
 
