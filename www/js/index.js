@@ -117,7 +117,7 @@ var app = {
 
         document.getElementById('pl').setAttribute('data-click', '2');
         app._exercise = 0;
-        app._pass = 1;
+        app._pass = 0;
 
         
         $.mobile.changePage('#exercisePage');
@@ -174,7 +174,7 @@ var app = {
             msg += '</span><br/><span class="inChapterNumber">"';
             msg += books[app._book].title;
             msg += '", chapter ' + (app._chapter + 1) + ' of ' + books[app._book].length;
-            msg += ', pass' + app._pass;
+            msg += ', pass ' + app._pass;
             msg += '</span>';
             pl.innerHTML = msg;
             gb.style.display = 'none';
@@ -192,9 +192,8 @@ var app = {
           break;
       }
 
-      var footerMsg = (app._exercise + 1) + '/';
-      footerMsg += books[app._book][app._chapter].length + ', pass ' + app._pass;
-      document.getElementById('chapterTitle').innerHTML = footerMsg;
+      var msg = (app._exercise + 1) + '/' + books[app._book][app._chapter].length + ', pass ' + app._pass;
+      document.getElementById('chapterTitle').innerHTML = msg;
     }, // showCard
 
     cardClick: function(event) {

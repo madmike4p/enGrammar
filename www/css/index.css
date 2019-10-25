@@ -59,16 +59,12 @@
 }
 
 .inChapterTitle {
-  font-size: 70%;
-  color: green;
 }
 
 .inChapterNumber {
-  font-size: 50%;
+    font-style: italic;
+    font-weight: normal;
 }
-
-
-
 
 
 .progressBarBackground {
